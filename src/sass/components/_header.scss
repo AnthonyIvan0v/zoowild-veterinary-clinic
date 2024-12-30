@@ -38,6 +38,35 @@
     fill: currentColor;
 }
 
+.phone {
+    display: none;
+    @media screen and(min-width: 768px) {
+        height: 22px;
+        display: flex;
+        align-items: center;
+        margin-top: 4px;
+        color: var(--primary-white-color);
+        font-family: var(--font-Manrope);
+        font-weight: 600;
+        font-size: 17px;
+        letter-spacing: 0.01em;
+        margin-right: 20px;
+    }
+}
+
+.phone_icon {
+    margin-right: 5px;
+}
+
+.btn.btn_select_phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14px;
+    height: 14px;
+    margin-left: 12px;
+}
+
 .btn_wrapper {
     display: flex;
     margin-top: 4px;
@@ -56,28 +85,51 @@
 
 .btn:not(:last-child) {
     margin-right: 15px;
+    @media screen and(min-width: 768px) {
+        margin-right: 20px;
+    }
 }
 
 .btn_toggle_lang {
-    font-family: var(--font-Cormorant);
+    font-family: var(--font-Manrope);
     font-weight: 400;
     font-size: 13px;
     text-transform: uppercase;
     line-height: 1.14;
-    letter-spacing: 0%;
+    letter-spacing: 0.01em;
 }
 
 .btn_call {
     width: 32px;
     border: 0.67px solid var(--primary-white-color);
-    border-radius: 50%;
+    border-radius: 45.86px;
     display: flex;
     align-items: center;
     justify-content: center;
+    @media screen and (min-width: 768px) {
+        width: 132px;
+        padding-left: 3px;
+        justify-content: flex-start;
+    }
+}
+
+.btn_call_text {
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: block;
+        font-family: var(--font-Manrope);
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 0.98;
+        letter-spacing: 0.05em;
+    }
 }
 
 .call_icon {
     fill: currentColor;
+    @media screen and (min-width: 768px) {
+        margin-right: 6px;
+    }
 }
 
 .btn_burger {
