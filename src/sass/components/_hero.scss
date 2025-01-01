@@ -1,0 +1,119 @@
+.hero {
+    background-image: linear-gradient(
+        rgba(4, 164, 39, 0.4),
+        rgba(4, 164, 39, 0.4)
+    );
+    overflow: hidden;
+}
+
+.cube-wrapper {
+    position: relative;
+}
+
+.cube-slider {
+    position: relative;
+    height: calc(100svh - 67px);
+    @media screen and(min-width: 1200px) {
+        height: calc(100svh - 90px);
+    }
+    @media screen and(min-width: 1400px) {
+        height: calc(100svh - 106px);
+    }
+}
+
+.cube-slider .swiper-slide {
+    position: relative;
+    user-select: none;
+    aspect-ratio: 1 / 1;
+}
+
+.swiper-cube .swiper-cube-shadow {
+    display: none;
+}
+
+.background-image {
+    padding-top: 15px;
+    background-image: linear-gradient(
+            rgba(4, 164, 39, 0.4),
+            rgba(4, 164, 39, 0.4)
+        ),
+        url(../images//backgraund-images/first-slide-hero-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+    @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+        screen and (min-resolution: 192dpi) and (max-width: 767px),
+        screen and (min-resolution: 2dppx) and (max-width: 767px) {
+        background-image: linear-gradient(
+                rgba(4, 164, 39, 0.4),
+                rgba(4, 164, 39, 0.4)
+            )
+            url(../images//backgraund-images/first-slide-hero-mobile@2x.jpg);
+    }
+}
+
+.main-title {
+    display: block;
+    margin: 20% auto 0;
+    opacity: 75%;
+}
+
+.title {
+    color: var(--primary-white-color);
+    font-family: var(--font-Cormorant);
+    font-size: 17px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin: 30px auto 0;
+    text-align: center;
+}
+
+.wrapper-button {
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: flex-end;
+    // row-gap: 240px;
+    // margin-top: auto;
+    width: 100%;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(-20px);
+    flex-direction: column;
+}
+.btn-play-video {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    &:hover,
+    &:focus {
+        background-color: #dadc00;
+    }
+}
+
+.btn-learn-more {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    background-color: #04a427;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover,
+    &:focus {
+        background-color: #dadc00;
+        transform: rotate(-100deg);
+    }
+}
