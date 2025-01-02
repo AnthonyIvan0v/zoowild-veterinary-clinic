@@ -1,8 +1,5 @@
 .hero {
-    background-image: linear-gradient(
-        rgba(4, 164, 39, 0.4),
-        rgba(4, 164, 39, 0.4)
-    );
+    background-image: #224405;
     overflow: hidden;
 }
 
@@ -37,56 +34,158 @@
             rgba(4, 164, 39, 0.4),
             rgba(4, 164, 39, 0.4)
         ),
-        url(../images//backgraund-images/first-slide-hero-mobile.jpg);
+        url(../images/background-images/hero/slider-cube/first-slide/snake_mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
     height: 100%;
-
     @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
         screen and (min-resolution: 192dpi) and (max-width: 767px),
         screen and (min-resolution: 2dppx) and (max-width: 767px) {
         background-image: linear-gradient(
                 rgba(4, 164, 39, 0.4),
                 rgba(4, 164, 39, 0.4)
-            )
-            url(../images//backgraund-images/first-slide-hero-mobile@2x.jpg);
+            ),
+            url(../images/background-images/hero/slider-cube/first-slide/snake_mobile@2x.jpg);
+    }
+
+    @media screen and(min-width: 768px) {
+        background-image: linear-gradient(
+                rgba(4, 164, 39, 0.4),
+                rgba(4, 164, 39, 0.4)
+            ),
+            url(../images/background-images/hero/slider-cube/first-slide/overlay_tablet.png),
+            url(../images/background-images/hero/slider-cube/first-slide/snake_tablet.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+        screen and (min-resolution: 192dpi) and (min-width: 768px),
+        screen and (min-resolution: 2dppx) and (min-width: 768px) {
+        background-image: linear-gradient(
+                rgba(4, 164, 39, 0.4),
+                rgba(4, 164, 39, 0.4)
+            ),
+            url(../images/background-images/hero/slider-cube/first-slide/overlay_tablet@2x.png),
+            url(../images/background-images/hero/slider-cube/first-slide/snake_tablet@2x.jpg);
+    }
+    @media screen and(min-width: 1200px) {
+        background-image: linear-gradient(
+                rgba(4, 164, 39, 0.4),
+                rgba(4, 164, 39, 0.4)
+            ),
+            url(../images/background-images/hero/slider-cube/first-slide/overlay_1200.png),
+            url(../images/background-images/hero/slider-cube/first-slide/snake_1200.jpg);
+    }
+
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+        screen and (min-resolution: 192dpi) and (min-width: 1200px),
+        screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+        background-image: linear-gradient(
+                rgba(4, 164, 39, 0.4),
+                rgba(4, 164, 39, 0.4)
+            ),
+            url(../images/background-images/hero/slider-cube/first-slide/overlay_1200@2x.png),
+            url(../images/background-images/hero/slider-cube/first-slide/snake_1200@2x.jpg);
+    }
+    @media screen and(min-width: 1440px) {
+        background-image: linear-gradient(
+                rgba(4, 164, 39, 0.4),
+                rgba(4, 164, 39, 0.4)
+            ),
+            url(../images/background-images/hero/slider-cube/first-slide/overlay_1440.png),
+            url(../images/background-images/hero/slider-cube/first-slide/snake_1440.jpg);
+    }
+
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+        screen and (min-resolution: 192dpi) and (min-width: 1440px),
+        screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+        background-image: linear-gradient(
+                rgba(4, 164, 39, 0.4),
+                rgba(4, 164, 39, 0.4)
+            ),
+            url(../images/background-images/hero/slider-cube/first-slide/overlay_1440@2x.png),
+            url(../images/background-images/hero/slider-cube/first-slide/snake_1440@2x.jpg);
+    }
+    @media screen and(min-width: 1920px) {
+        background-image: linear-gradient(
+                rgba(4, 164, 39, 0.4),
+                rgba(4, 164, 39, 0.4)
+            ),
+            url(../images/background-images/hero/slider-cube/first-slide/overlay_1920.png),
+            url(../images/background-images/hero/slider-cube/first-slide/snake_1920.jpg);
+    }
+
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1920px),
+        screen and (min-resolution: 192dpi) and (min-width: 1920px),
+        screen and (min-resolution: 2dppx) and (min-width: 1920px) {
+        background-image: linear-gradient(
+                rgba(4, 164, 39, 0.4),
+                rgba(4, 164, 39, 0.4)
+            ),
+            url(../images/background-images/hero/slider-cube/first-slide/overlay_1920@2x.png),
+            url(../images/background-images/hero/slider-cube/first-slide/snake_1920@2x.jpg);
     }
 }
 
-.main-title {
+.main-title-mobile {
     display: block;
     margin: 20% auto 0;
     opacity: 75%;
+    width: 290px;
+    height: 220px;
+    @media screen and(min-width: 768px) {
+        display: none;
+    }
 }
 
 .title {
     color: var(--primary-white-color);
     font-family: var(--font-Cormorant);
-    font-size: 17px;
+    font-size: 16px;
     letter-spacing: 0.02em;
     text-transform: uppercase;
     margin: 30px auto 0;
     text-align: center;
+    @media screen and(min-width: 768px) {
+        max-width: 240px;
+        margin: 0 0 0 8%;
+        position: absolute;
+        bottom: 0;
+        transform: translate(0, -100px);
+        text-align: left;
+    }
+    @media screen and(min-width: 1200px) {
+        font-size: 20px;
+        max-width: 362px;
+        transform: translate(0, -150px);
+    }
+    @media screen and(min-width: 1920px) {
+        transform: translate(0, -200px);
+    }
 }
 
 .wrapper-button {
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
-    // justify-content: flex-end;
-    // row-gap: 240px;
-    // margin-top: auto;
     width: 100%;
     display: flex;
-    // justify-content: center;
     align-items: center;
     position: absolute;
     bottom: 0;
     left: 0;
     transform: translateY(-20px);
     flex-direction: column;
+    @media screen and(min-width: 768px) {
+        flex-direction: row;
+        transform: translate(0);
+    }
+}
+
+.wrapper-btn-play-video {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 .btn-play-video {
     width: 40px;
@@ -96,14 +195,63 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 76px;
     &:hover,
     &:focus {
         background-color: #dadc00;
     }
+    @media screen and(min-width: 768px) {
+        margin: 0 10px 0 50px;
+    }
+    @media screen and(min-width: 1200px) {
+        width: 52px;
+        height: 52px;
+    }
+    @media screen and(min-width: 1440px) {
+        width: 64px;
+        height: 64px;
+    }
+    @media screen and(min-width: 1920px) {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.icon-play-video {
+    width: 8px;
+    height: 12px;
+    @media screen and(min-width:1440px) {
+        width: 12px;
+        height: 16px;
+    }
+    @media screen and(min-width:1920px) {
+        width: 17px;
+        height: 20px;
+    }
+}
+
+.btn-play-video-descr {
+    display: none;
+    @media screen and(min-width: 768px) {
+        display: block;
+        color: var(--primary-white-color);
+        font-family: var(--font-Cormorant);
+        font-size: 14px;
+        letter-spacing: 0.01em;
+        width: 120px;
+    }
+    @media screen and(min-width: 1200px) {
+        font-size: 16px;
+        width: 140px;
+    }
+    @media screen and(min-width: 1440px) {
+        font-size: 18px;
+        width: 150px;
+    }
 }
 
 .btn-learn-more {
+    position: relative;
     width: 66px;
     height: 66px;
     border-radius: 50%;
@@ -115,5 +263,87 @@
     &:focus {
         background-color: #dadc00;
         transform: rotate(-100deg);
+    }
+
+    @media screen and(min-width: 768px) {
+        margin-left: auto;
+        width: 220px;
+        height: 63px;
+        background-color: rgba(9, 81, 25, 0.45);
+        border-radius: 6px 6px 0 0;
+        &:hover,
+        &:focus {
+            background-color: #dadc00;
+            transform: rotate(0deg);
+        }
+    }
+
+    @media screen and(min-width: 1200px) {
+        width: 370px;
+        height: 106px;
+    }
+    @media screen and(min-width: 1440px) {
+        width: 445px;
+        height: 127px;
+    }
+    @media screen and(min-width: 1920px) {
+        width: 550px;
+        height: 158px;
+    }
+}
+
+.btn-learn-more-descr {
+    display: none;
+    @media screen and(min-width: 768px) {
+        display: block;
+        margin-right: 6px;
+
+        color: var(--primary-white-color);
+        font-family: var(--font-Cormorant);
+        font-size: 16px;
+        letter-spacing: 0.01em;
+    }
+    @media screen and(min-width: 1440px) {
+        font-size: 18px;
+    }
+}
+
+.btn-learn-more::after {
+    display: none;
+    @media screen and(min-width: 768px) {
+        display: block;
+        content: '';
+        width: 14px;
+        height: 63px;
+        border-radius: 0 6px 0 0;
+        background-image: linear-gradient(
+            rgba(4, 152, 37, 1),
+            rgba(6, 10, 25, 1)
+        );
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(0, 0);
+    }
+    @media screen and(min-width: 1200px) {
+        width: 24px;
+        height: 106px;
+    }
+    @media screen and(min-width: 1440px) {
+        width: 28px;
+        height: 127px;
+    }
+    @media screen and(min-width: 1920px) {
+        width: 36px;
+        height: 158px;
+    }
+}
+
+.icon-learn-more {
+    width: 14px;
+    height: 17px;
+    @media screen and(min-width:768px) {
+        width: 10px;
+        height: 10px;
     }
 }
