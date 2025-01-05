@@ -5,7 +5,7 @@ const cubeSlider = new Swiper('.cube-slider', {
     grabCursor: true,
     loop: true,
     direction: 'vertical',
-    speed: 3000,
+    speed: 2800,
     cubeEffect: {
         shadow: true,
         slideShadows: false,
@@ -13,12 +13,13 @@ const cubeSlider = new Swiper('.cube-slider', {
         shadowScale: 1,
     },
     autoplay: {
-        delay: 500,
+        delay: 5000,
         pauseOnMouseEnter: true,
     },
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
+        dynamicMainBullets: 4,
     },
 });
 

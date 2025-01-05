@@ -1,0 +1,265 @@
+.background-image-third-slide {
+    width: 100%;
+    height: 100%;
+    padding-top: 15px;
+    background-image: url(../images/background-images/hero/slider-cube/third-slide/cat_in_cap.png),
+        linear-gradient(
+            to right,
+            #081e02 2%,
+            #0c2502 14%,
+            #0d450c 100%,
+            #0b2b04 100%
+        );
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // mix-blend-mode: overlay;
+    mix-blend-mode: color-dodge;
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
+        screen and (min-resolution: 192dpi) and (min-width: 320px),
+        screen and (min-resolution: 2dppx) and (min-width: 320px) {
+        background-image: url(../images/background-images/hero/slider-cube/third-slide/cat_in_cap@2x.png),
+            linear-gradient(
+                to right,
+                #081e02 2%,
+                #0c2502 14%,
+                #0d450c 100%,
+                #0b2b04 100%
+            );
+    }
+    @media screen and (min-width: 768px) {
+        background-image: url(../images/background-images/hero/slider-cube/third-slide/cat_in_cap_768.png),
+            linear-gradient(
+                to right,
+                #081e02 2%,
+                #0c2502 14%,
+                #0d450c 100%,
+                #0b2b04 100%
+            );
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+        screen and (min-resolution: 192dpi) and (min-width: 768px),
+        screen and (min-resolution: 2dppx) and (min-width: 768px) {
+        background-image: url(../images/background-images/hero/slider-cube/third-slide/cat_in_cap_768@2x.png),
+            linear-gradient(
+                to right,
+                #081e02 2%,
+                #0c2502 14%,
+                #0d450c 100%,
+                #0b2b04 100%
+            );
+    }
+    @media screen and (min-width: 1200px) {
+        background-image: url(../images/background-images/hero/slider-cube/third-slide/cat_in_cap_1200.png),
+            linear-gradient(
+                to right,
+                #081e02 2%,
+                #0c2502 14%,
+                #0d450c 100%,
+                #0b2b04 100%
+            );
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+        screen and (min-resolution: 192dpi) and (min-width: 1200px),
+        screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+        background-image: url(../images/background-images/hero/slider-cube/third-slide/cat_in_cap_1200@2x.png),
+            linear-gradient(
+                to right,
+                #081e02 2%,
+                #0c2502 14%,
+                #0d450c 100%,
+                #0b2b04 100%
+            );
+    }
+    @media screen and (min-width: 1440px) {
+        background-image: url(../images/background-images/hero/slider-cube/third-slide/cat_in_cap_1440.png),
+            linear-gradient(
+                to right,
+                #081e02 2%,
+                #0c2502 14%,
+                #0d450c 100%,
+                #0b2b04 100%
+            );
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+        screen and (min-resolution: 192dpi) and (min-width: 1440px),
+        screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+        background-image: url(../images/background-images/hero/slider-cube/third-slide/cat_in_cap_1440@2x.png),
+            linear-gradient(
+                to right,
+                #081e02 2%,
+                #0c2502 14%,
+                #0d450c 100%,
+                #0b2b04 100%
+            );
+    }
+    @media screen and (min-width: 1920px) {
+        background-image: url(../images/background-images/hero/slider-cube/third-slide/cat_in_cap_1920.png),
+            linear-gradient(
+                to right,
+                #081e02 2%,
+                #0c2502 14%,
+                #0d450c 100%,
+                #0b2b04 100%
+            );
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1920px),
+        screen and (min-resolution: 192dpi) and (min-width: 1920px),
+        screen and (min-resolution: 2dppx) and (min-width: 1920px) {
+        background-image: url(../images/background-images/hero/slider-cube/third-slide/cat_in_cap_1920@2x.png),
+            linear-gradient(
+                to right,
+                #081e02 2%,
+                #0c2502 14%,
+                #0d450c 100%,
+                #0b2b04 100%
+            );
+    }
+}
+
+.third-slide-text {
+    width: 100%;
+    color: var(--primary-white-color-text);
+    font-family: var(--font-Cormorant);
+    font-size: 42px;
+    font-weight: 100;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    line-height: 0.7em;
+    margin-top: 4%;
+}
+
+.third-slide_first-block-words {
+    width: 100%;
+    // display: flex;
+    // line-height: 0.8em;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        align-items: baseline;
+        // justify-content: space-between;
+    }
+    @media screen and (min-width: 1200px) {
+        // max-width: 402px;
+        // line-height: 0.9em;
+    }
+    @media screen and (min-width: 1440px) {
+        // max-width: 483px;
+        // line-height: 1.05em;
+    }
+    @media screen and (min-width: 1920px) {
+        // max-width: 635px;
+        // line-height: 1.4em;
+    }
+}
+
+.third-slide_first-block-words span:nth-child(1) {
+    font-size: 42px;
+    font-weight: 100;
+    line-height: 0.9em;
+    letter-spacing: -0.04em;
+    @media screen and (min-width: 768px) {
+        font-size: 64px;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 100px;
+    }
+    @media screen and (min-width: 1440px) {
+        font-size: 120px;
+    }
+    @media screen and (min-width: 1920px) {
+        font-size: 146px;
+    }
+}
+
+.third-slide_first-block-words span:nth-child(2) {
+    font-size: 28px;
+    font-weight: 100;
+    letter-spacing: -0.01em;
+    // line-height: 0.01em;
+    line-height: 0.9em;
+    display: block;
+    margin-left: 90px;
+    @media screen and (min-width: 768px) {
+        margin-left: auto;
+        margin-right: 48px;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 44px;
+        margin-right: 75px;
+    }
+    @media screen and (min-width: 1440px) {
+        font-size: 54px;
+    }
+    @media screen and (min-width: 1920px) {
+        font-size: 66px;
+    }
+}
+
+.third-slide_second-block-words {
+    text-align: center;
+}
+.third-slide_second-block-words span {
+    font-size: 58px;
+    font-weight: 300;
+    letter-spacing: -0.05em;
+    line-height: 0.7em;
+
+    mix-blend-mode: overlay;
+    @media screen and (min-width: 768px) {
+        // mix-blend-mode: color-dodge;
+        font-size: 152px;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 235px;
+    }
+    @media screen and (min-width: 1440px) {
+        font-size: 283px;
+    }
+    @media screen and (min-width: 1920px) {
+        font-size: 348px;
+    }
+}
+
+.third-slide_third-block-words {
+    max-width: 190px;
+    margin-left: auto;
+    text-align: right;
+    @media screen and (min-width: 1200px) {
+        max-width: 350px;
+    }
+    @media screen and (min-width: 1440px) {
+        max-width: 420px;
+    }
+    @media screen and (min-width: 1920px) {
+        max-width: 520px;
+    }
+}
+
+.third-slide_third-block-words span {
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: -0.01em;
+    line-height: 0.96em;
+    @media screen and (min-width: 1200px) {
+        font-size: 33px;
+    }
+    @media screen and (min-width: 1440px) {
+        font-size: 40px;
+    }
+    @media screen and (min-width: 1920px) {
+        font-size: 50px;
+    }
+}
+
+.wrapper_button_third_slide {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(30px, -220%);
+    @media screen and (min-width: 768px) {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        transform: translate(0, -4%);
+    }
+}
