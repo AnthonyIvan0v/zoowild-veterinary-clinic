@@ -1,0 +1,102 @@
+.section_about {
+    background-color: #f3fff6;
+}
+
+.title_about {
+    font-family: var(--font-Manrope);
+    font-size: 15px;
+    color: #04a427;
+    letter-spacing: -0.01rem;
+    line-height: 0.9em;
+    margin-top: 36px;
+}
+
+.about_descr {
+    font-family: var(--font-Manrope);
+    font-size: 19px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.23rem;
+    color: #06631b;
+    letter-spacing: 0em;
+    margin-top: 20px;
+}
+
+.about_descr span {
+    color: #04a427;
+    font-family: var(--font-Cormorant);
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0em;
+}
+
+.list_services_rendered {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.list_services_rendered_item {
+    width: 290px;
+    height: 120px;
+    border-top: 1px solid rgba(4, 164, 39, 0.4);
+    border-bottom: 1px solid rgba(4, 164, 39, 0.4);
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 25px;
+}
+
+.list_services_rendered_item:nth-child(2) {
+    height: 152px;
+}
+
+.positon_content_service_render_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.postion_icon_increase {
+    position: relative;
+}
+
+.total_number {
+    font-family: var(--font-Cormorant);
+    font-weight: 200;
+    font-size: 64px;
+    letter-spacing: 0.02em;
+    color: #04a427;
+    line-height: 1em;
+}
+
+.descr-service {
+    font-family: var(--font-Monrope);
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0em;
+    color: #06631b;
+    text-transform: uppercase;
+    max-width: 250px;
+    text-align: center;
+    margin-top: 10px;
+}
+.wrapper_icon_increase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    background-color: #ffffff;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(5%, 20px);
+    fill: cureentColor;
+}
+.icon_increase {
+    width: 12px;
+    height: 12px;
+}
