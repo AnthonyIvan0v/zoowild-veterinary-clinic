@@ -3,7 +3,8 @@
 @import './base/common';
 @import './base/container';
 @import './base/veriables';
-
+//utils
+@import './utils/mixins';
 //components
 @import './components/header';
 @import './components/hero';
@@ -12,6 +13,5 @@
 @import './components/slider_cube/second_slide';
 @import './components/slider_cube/third_slide';
 @import './components/slider_cube/fourth_slide';
-
 //
 @import './components/about_company';

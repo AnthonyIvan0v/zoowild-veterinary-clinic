@@ -9,10 +9,10 @@
     position: relative;
     height: calc(100svh - 67px);
     @media screen and (min-width: 1200px) {
-        height: calc(100svh - 90px);
+        height: calc(100svh - 74px);
     }
     @media screen and (min-width: 1400px) {
-        height: calc(100svh - 106px);
+        height: calc(100svh - 80px);
     }
 }
 .cube-slider .swiper-slide {
@@ -28,13 +28,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 4px;
+    row-gap: 8px;
 }
 
 .swiper-pagination span {
-    width: 10px;
-    height: 10px;
-    border: 0.57px solid #f3fff6;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #f3fff6;
     background-color: rgba(4, 164, 39, 0.8);
 }
 
@@ -43,8 +43,8 @@
 }
 
 .swiper-pagination .swiper-pagination-bullet-active {
-    width: 18px;
-    height: 18px;
+    width: 24px;
+    height: 24px;
     background-color: transparent;
     border: 0.9px solid #f3fff6;
     position: relative;
@@ -53,23 +53,23 @@
         position: absolute;
         top: 0;
         left: 0;
-        transform: translate(3px, 3px);
+        transform: translate(4px, 4px);
         display: block;
         border-radius: 50%;
         background-color: white;
         content: '';
-        width: 10px;
-        height: 10px;
+        width: 14px;
+        height: 14px;
         @media screen and (min-width: 1920px) {
             transform: translate(4px, 4px);
-            width: 11px;
-            height: 11px;
+            width: 14px;
+            height: 14px;
         }
     }
 
     @media screen and (min-width: 1920px) {
-        width: 21px;
-        height: 21px;
+        width: 24px;
+        height: 24px;
     }
 }
 
@@ -82,12 +82,17 @@
     opacity: 75%;
     top: 0;
     right: 0;
-    transform: translate(-55%, 35svh);
+    transform: translate(-68%, 36svh);
     color: #f3fff6;
 }
 
 .wrapp-bullet {
-    // display: flex;
-    // width: auto;
-    // height: auto;
+    // width: 100px;
+    // height: 100px;
+    // // display: flex;
+    // // width: auto;
+    // // height: auto;
+    // // position: relative;
+    // position: fixed;
+    // z-index: 999;
 }

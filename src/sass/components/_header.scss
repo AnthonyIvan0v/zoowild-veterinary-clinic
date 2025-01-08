@@ -11,14 +11,14 @@
     background-color: var(--header-background-color);
 
     @media screen and (min-width: 1200px) {
-        height: 90px;
+        height: 74px;
         border-bottom-left-radius: 30px;
         border-bottom-right-radius: 30px;
         padding-top: 15px;
         padding-bottom: 15px;
     }
     @media screen and (min-width: 1400px) {
-        height: 106px;
+        height: 80px;
     }
 }
 
@@ -32,6 +32,11 @@
 
 .link_nav {
     display: none;
+    @include animation;
+    &:hover,
+    &:focus {
+        color: #dadc00;
+    }
     @media screen and (min-width: 1200px) {
         display: flex;
         align-items: center;
@@ -39,28 +44,37 @@
         color: var(--primary-white-color);
         font-family: var(--font-Manrope);
         font-weight: 400;
-        font-size: 16px;
-        letter-spacing: 0.05em;
-        line-height: 1.23;
+        font-size: 14px;
+        letter-spacing: 0.01;
+        line-height: 0.81;
+    }
+    @media screen and (min-width: 1920px) {
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 0.01;
+        line-height: 1.07;
     }
 }
 
 .link_nav:not(:first-child) {
-    margin-left: 30px;
+    margin-left: 34px;
 }
 
 .icon_locaction {
-    margin-right: 7px;
-}
-
-.icon_select {
-    margin-left: 4px;
+    margin-right: 4px;
+    fill: none;
+    stroke: currentColor;
 }
 
 .logo {
     display: flex;
     align-items: center;
     color: var(--primary-white-color);
+    @include animation;
+    &:hover,
+    &:focus {
+        color: #dadc00;
+    }
     @media screen and (min-width: 1200px) {
         margin: 0 auto;
     }
@@ -70,14 +84,14 @@
     width: 50px;
     height: 46px;
     fill: currentColor;
-    margin-right: 10px;
+    margin-right: 0px;
     @media screen and (min-width: 1200px) {
-        width: 68px;
-        height: 61px;
+        width: 56px;
+        height: 46px;
     }
     @media screen and (min-width: 1440px) {
-        width: 84px;
-        height: 76px;
+        width: 68px;
+        height: 50px;
     }
 }
 
@@ -103,26 +117,28 @@
         align-items: center;
         color: var(--primary-white-color);
         font-family: var(--font-Manrope);
-        font-weight: 600;
-        font-size: 17px;
-        letter-spacing: 0.01em;
-    }
-    @media screen and (min-width: 1200px) {
-        font-size: 19px;
+        font-weight: 700;
+        font-size: 16px;
+        letter-spacing: 0.01;
+        @include animation;
+        &:hover,
+        &:focus {
+            color: #dadc00;
+        }
     }
     @media screen and (min-width: 1440px) {
-        font-size: 20px;
+        font-size: 18px;
     }
     @media screen and (min-width: 1920px) {
-        font-size: 22px;
-        font-weight: 700;
+        font-size: 20px;
     }
 }
 
 .phone_icon {
-    margin-right: 5px;
+    margin-right: 4px;
     width: 14px;
     height: 14px;
+    fill: currentColor;
     @media screen and (min-width: 1920px) {
         width: 16px;
         height: 16px;
@@ -159,38 +175,42 @@
     width: 14px;
     height: 14px;
     margin-left: 6px;
+    color: var(--primary-white-color);
+    @include animation;
+    &:hover,
+    &:focus {
+        color: #dadc00;
+    }
 }
 
+.chekbox_icon {
+    fill: currentColor;
+}
+
+// .icon_select {
+//     margin-left: 4px;
+//     fill: currentColor;
+// }
+
 .btn_toggle_lang {
-    display: flex;
-    width: 20px;
-    height: 15px;
-    font-family: var(--font-Manrope);
-    font-weight: 400;
-    font-size: 13px;
-    text-transform: uppercase;
-    line-height: 1.14;
-    letter-spacing: 0.01em;
+    display: none;
     @media screen and (min-width: 1200px) {
-        width: 40px;
-    }
-    @media screen and (min-width: 1440px) {
-        font-size: 14px;
-    }
-    @media screen and (min-width: 1920px) {
-        font-size: 13px;
-    }
-}
-
-.btn_toggle_lang {
-    @media screen and (min-width: 768px) {
         margin-right: 22px;
-    }
-    @media screen and (min-width: 1200px) {
+        display: flex;
+        width: 20px;
+        height: 15px;
+        font-family: var(--font-Manrope);
+        font-weight: 400;
+        font-size: 13px;
+        text-transform: uppercase;
+        line-height: 1.27;
+        letter-spacing: 0;
+        width: 40px;
         margin-right: 26px;
     }
     @media screen and (min-width: 1440px) {
-        margin-right: 40px;
+        font-size: 12px;
+        margin-right: 10px;
     }
     @media screen and (min-width: 1920px) {
         margin-right: 22px;
@@ -208,6 +228,8 @@
 }
 
 .btn.btn_call {
+    position: relative;
+    color: white;
     width: 32px;
     border: 0.67px solid var(--primary-white-color);
     border-radius: 45.8px;
@@ -215,21 +237,30 @@
     align-items: center;
     justify-content: center;
     margin: 0 16px;
+    @include animation;
+    transition-property: color, border;
+    &:hover,
+    &:focus {
+        color: #dadc00;
+        border-color: #dadc00;
+    }
     @media screen and (min-width: 768px) {
-        width: 132px;
-        padding-left: 3px;
+        width: 140px;
+        padding-left: 30px;
         justify-content: flex-start;
         margin: 0 22px;
     }
     @media screen and (min-width: 1200px) {
-        margin: 0 0 0 26px;
+        margin: 0 0 0 12px;
     }
     @media screen and (min-width: 1400px) {
-        width: 159px;
+        padding-left: 38px;
+        width: 170px;
         height: 35px;
     }
     @media screen and (min-width: 1920px) {
-        width: 168px;
+        padding-left: 42px;
+        width: 180px;
         height: 44px;
     }
 }
@@ -239,17 +270,37 @@
     @media screen and (min-width: 768px) {
         display: block;
         font-family: var(--font-Manrope);
-        font-weight: 500;
+        font-weight: 600;
         font-size: 15px;
         line-height: 0.98;
-        letter-spacing: 0.05em;
+        letter-spacing: 0.01;
     }
     @media screen and (min-width: 1440px) {
         font-size: 18px;
+        // line-height: 17.8;
+    }
+}
+
+.btn_call:hover .call_icon,
+.btn-call:focus .call_icon {
+    @media screen and (min-width: 768px) {
+        transform: translate(112px, 2px);
+    }
+    @media screen and (min-width: 1440px) {
+        transform: translate(132px, 2px);
+    }
+    @media screen and (min-width: 1440px) {
+        transform: translate(135px, 2px);
     }
 }
 
 .call_icon {
+    @include animation;
+    transition-property: transform;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(2px, 2px);
     fill: currentColor;
     width: 25px;
     height: 25px;
@@ -269,6 +320,7 @@
 
 .btn_burger {
     background-color: var(--primary-white-color);
+    color: #04a427;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -276,4 +328,13 @@
     @media screen and (min-width: 1200px) {
         display: none;
     }
+    @include animation;
+    &:hover,
+    &:focus {
+        color: #dadc00;
+    }
+}
+
+.burger_icon {
+    fill: currentColor;
 }
