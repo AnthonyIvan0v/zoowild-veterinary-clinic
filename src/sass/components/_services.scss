@@ -1,0 +1,1051 @@
+.section_services {
+    background-color: #f3fff6;
+}
+
+.overlay_setion_services {
+    border: 1.25px solid rgba(10, 97, 26, 0.3);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding-top: 36px;
+    padding-bottom: 36px;
+    background-image: url(../images/background-images/services/paws_top_mob_tablet.svg),
+        url(../images/background-images/services/paws_bottom.svg);
+    background-repeat: no-repeat;
+    background-position: top 10px right 20px, bottom 220px left 40px;
+    background-size: auto, 100px;
+    @media screen and (min-width: 768px) {
+        background-image: url(../images/background-images/services/paws_top_mob_tablet.svg),
+            url(../images/background-images/services/paws_bottom_right.svg);
+        background-repeat: no-repeat;
+        background-position: top 20px left 120px, bottom 230px right 40px;
+        background-size: auto, auto;
+    }
+    @media screen and (min-width: 1200px) {
+        padding-top: 50px;
+        background-image: url(../images/background-images/services/paws_top.svg),
+            url(../images/background-images/services/paws_bottom_right.svg),
+            url(../images/background-images/services/paws_bottom_left.svg);
+        background-repeat: no-repeat;
+        background-position: top 20px left 120px, bottom 230px right 40px,
+            bottom 150px left 0px;
+        background-size: auto, auto, auto;
+    }
+    @media screen and (min-width: 1440px) {
+        padding-top: 80px;
+        background-image: url(../images/background-images/services/paws_top.svg),
+            url(../images/background-images/services/paws_bottom_right.svg),
+            url(../images/background-images/services/paws_bottom_left.svg);
+        background-repeat: no-repeat;
+        background-position: top 20px left 120px, bottom 340px right 40px,
+            bottom 300px left 30px;
+        background-size: auto, auto, auto;
+    }
+    @media screen and (min-width: 1920px) {
+        background-image: url(../images/background-images/services/paws_top.svg),
+            url(../images/background-images/services/paws_bottom_right_1920.svg),
+            url(../images/background-images/services/paws_bottom_left.svg);
+        background-repeat: no-repeat;
+        background-position: top 20px left 120px, bottom 380px right 200px,
+            bottom 300px left 30px;
+        background-size: auto, auto, auto;
+    }
+}
+
+.title_services {
+    font-family: var(--font-Manrope);
+    font-size: 15px;
+    font-weight: 400;
+    color: #04a427;
+    letter-spacing: -0.01;
+    line-height: 1.1;
+
+    @media screen and (min-width: 1200px) {
+        font-size: 17px;
+    }
+    @media screen and (min-width: 1440px) {
+        font-size: 20px;
+    }
+}
+
+.services_main_descr {
+    font-family: var(--font-Manrope);
+    font-size: 19px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.23;
+    color: #06631b;
+    letter-spacing: 0.02;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    @media screen and (min-width: 768px) {
+        font-size: 28px;
+        margin-top: 28px;
+        margin-bottom: 22px;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 30px;
+        margin-top: 0px;
+        // max-width: 720px;
+        margin-left: auto;
+    }
+    @media screen and (min-width: 1440px) {
+        font-size: 40px;
+        // max-width: 900px;
+        margin-bottom: 30px;
+    }
+    @media screen and (min-width: 1920px) {
+        font-size: 43px;
+        // max-width: 950px;
+        // margin-right: 10%;
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+}
+
+.services_main_descr span {
+    color: #04a427;
+    font-family: var(--font-Cormorant);
+    font-size: 22px;
+    font-weight: 500;
+    @media screen and (min-width: 768px) {
+        font-size: 31px;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 33px;
+    }
+    @media screen and (min-width: 1440px) {
+        font-size: 45px;
+    }
+    @media screen and (min-width: 1920px) {
+        font-size: 50px;
+    }
+}
+
+.services_sub_descr {
+    font-family: var(--font-Manrope);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: -0.01;
+    color: #06631b;
+    @media screen and (min-width: 768px) {
+        max-width: 460px;
+    }
+    @media screen and (min-width: 1200px) {
+        max-width: 410px;
+    }
+    @media screen and (min-width: 1440px) {
+        font-size: 18px;
+    }
+    @media screen and (min-width: 1920px) {
+        max-width: 619px;
+    }
+}
+
+.services_sub_descr + p {
+    margin-top: 15px;
+    @media screen and (min-width: 768px) {
+        margin-top: 20px;
+    }
+}
+
+.services_thumb_foto {
+    margin: 15px auto 0 auto;
+
+    border-radius: 16px;
+    overflow: hidden;
+    width: 290px;
+    height: 180px;
+    @media screen and (min-width: 768px) {
+        margin-top: 0;
+        width: 260px;
+        height: 200px;
+    }
+    @media screen and (min-width: 1440px) {
+        border-radius: 20px;
+        width: 440px;
+        height: 236px;
+    }
+    @media screen and (min-width: 1920px) {
+        width: 490px;
+        height: 200px;
+    }
+}
+
+.services_thum_foto img {
+    // margin: 0 auto;
+    display: block;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.wrapper_title_descr {
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        align-items: flex-start;
+    }
+}
+
+.wrapper_main_descr_sub_descr {
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        flex-direction: column;
+        max-width: 720px;
+        margin-left: auto;
+        // text-align: left;
+    }
+    @media screen and (min-width: 1440px) {
+        max-width: 907px;
+    }
+    @media screen and (min-width: 19200px) {
+        max-width: 1170px;
+    }
+}
+
+.wrapper_descr_foto {
+    // margin-left: auto;
+    // max-width: 724px;
+    // display: flex;
+    // justify-content: space-between;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+        // align-items: flex-end;
+    }
+}
+
+.services_card_set {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    // flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    column-gap: 10px;
+    @media screen and (min-width: 768px) {
+        // align-items: flex-end;
+        // column-gap: 20px;
+        justify-content: space-between;
+        column-gap: 0;
+    }
+    @media screen and (min-width: 1200px) {
+        // column-gap: 30px;
+        // justify-content: space-around;
+    }
+    @media screen and (min-width: 1440px) {
+        // column-gap: 36px;
+    }
+    @media screen and (min-width: 1920px) {
+        // column-gap: 44px;
+    }
+}
+
+.card_set_item:not(:last-child) {
+    // margin-bottom: 15px;
+}
+
+.surgery {
+    width: 290px;
+    height: 249px;
+    padding: 30px;
+    background-color: #8ed4da;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/background-images/services/surgery/surgery.png);
+    @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+        screen and (min-resolution: 192dpi) and (max-width: 767px),
+        screen and (min-resolution: 2dppx) and (max-width: 767px) {
+        background-image: url(../images/background-images/services/surgery/surgery@2x.png);
+    }
+    @media screen and (min-width: 768px) {
+        width: 460px;
+        background-image: url(../images/background-images/services/surgery/surgery_768.png);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+        screen and (min-resolution: 192dpi) and (min-width: 767px),
+        screen and (min-resolution: 2dppx) and (min-width: 767px) {
+        background-image: url(../images/background-images/services/surgery/surgery_768@2x.png);
+    }
+    @media screen and (min-width: 1200px) {
+        width: 512px;
+        background-image: url(../images/background-images/services/surgery/surgery_1200.png);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+        screen and (min-resolution: 192dpi) and (min-width: 1200px),
+        screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+        background-image: url(../images/background-images/services/surgery/surgery_1200@2x.png);
+    }
+    @media screen and (min-width: 1440px) {
+        width: 614px;
+        height: 300px;
+        background-image: url(../images/background-images/services/surgery/surgery_1440.png);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+        screen and (min-resolution: 192dpi) and (min-width: 1440px),
+        screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+        background-image: url(../images/background-images/services/surgery/surgery_1440@2x.png);
+    }
+    @media screen and (min-width: 1920px) {
+        width: 761px;
+        height: 370px;
+        background-image: url(../images/background-images/services/surgery/surgery_1920.png);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1920px),
+        screen and (min-resolution: 192dpi) and (min-width: 1920px),
+        screen and (min-resolution: 2dppx) and (min-width: 1920px) {
+        background-image: url(../images/background-images/services/surgery/surgery_1920@2x.png);
+    }
+}
+
+.wrapp_card_title_total_services {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card_title {
+    font-family: var(--font-Cormorant);
+    font-size: 31px;
+    letter-spacing: -0.02;
+    line-height: 1;
+    font-weight: 500;
+    color: #06631b;
+    text-transform: uppercase;
+    @media screen and (min-width: 1200px) {
+        font-size: 34px;
+    }
+    @media screen and (min-width: 1440px) {
+        font-size: 40px;
+    }
+    @media screen and (min-width: 1920px) {
+        font-size: 43px;
+    }
+}
+.total_services {
+    width: 128px;
+    height: 30px;
+
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 67px;
+
+    font-family: var(--font-Manrope);
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: -0.02;
+    text-transform: uppercase;
+    color: #06631b;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+
+    @media screen and (min-width: 1440px) {
+        width: 148px;
+        height: 46px;
+        border-radius: 80px;
+        font-size: 18px;
+    }
+    @media screen and (min-width: 1920px) {
+        width: 172px;
+        border-radius: 100px;
+        font-size: 20px;
+    }
+}
+
+.therapy {
+    width: 290px;
+    height: 249px;
+    padding: 30px;
+    background-color: #ffb83e;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/background-images/services/therapy/therapy.png);
+    @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+        screen and (min-resolution: 192dpi) and (max-width: 767px),
+        screen and (min-resolution: 2dppx) and (max-width: 767px) {
+        background-image: url(../images/background-images/services/therapy/therapy@2x.png);
+    }
+    @media screen and (min-width: 768px) {
+        width: 258px;
+        background-image: url(../images/background-images/services/therapy/therapy_768.png);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+        screen and (min-resolution: 192dpi) and (min-width: 767px),
+        screen and (min-resolution: 2dppx) and (min-width: 767px) {
+        background-image: url(../images/background-images/services/therapy/therapy_768@2x.png);
+    }
+    @media screen and (min-width: 1440px) {
+        width: 306px;
+        height: 300px;
+        background-image: url(../images/background-images/services/therapy/therapy_1440.png);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+        screen and (min-resolution: 192dpi) and (min-width: 1440px),
+        screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+        background-image: url(../images/background-images/services/therapy/therapy_1440@2x.png);
+    }
+    @media screen and (min-width: 1920px) {
+        width: 400px;
+        height: 370px;
+        background-image: url(../images/background-images/services/therapy/therapy_1920.png);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1920px),
+        screen and (min-resolution: 192dpi) and (min-width: 1920px),
+        screen and (min-resolution: 2dppx) and (min-width: 1920px) {
+        background-image: url(../images/background-images/services/therapy/therapy_1920@2x.png);
+    }
+}
+
+.text_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 290px;
+    height: 132px;
+    border-radius: 26px;
+    background-color: #f3fff6;
+    border-top: 1.3px solid rgba(4, 164, 39, 0.4);
+    border-bottom: 1.3px solid rgba(4, 164, 39, 0.4);
+
+    @media screen and (min-width: 768px) {
+        width: 221px;
+        height: 250px;
+    }
+    @media screen and (min-width: 1200px) {
+        width: 330px;
+    }
+    @media screen and (min-width: 1440px) {
+        width: 395px;
+        height: 300px;
+        border-radius: 32px;
+    }
+    @media screen and (min-width: 1920px) {
+        width: 489px;
+        height: 370px;
+        border-radius: 40px;
+    }
+}
+
+.text_card_descr {
+    max-width: 270px;
+    font-family: var(--font-Manrope);
+    font-size: 15px;
+    line-height: 1.3;
+    letter-spacing: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    color: #04a427;
+    @media screen and (min-width: 1200px) {
+        font-size: 17px;
+    }
+    @media screen and (min-width: 1440px) {
+        font-size: 18px;
+    }
+    @media screen and (min-width: 1920px) {
+        font-size: 20px;
+    }
+}
+
+.text_card.all_animals {
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        width: 296px;
+    }
+}
+
+.grooming {
+    width: 290px;
+    height: 249px;
+    padding: 30px;
+    // background-color: linear-gradient(#ecd0d7 0%, #f5dee3 100%);
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/background-images/services/grooming/grooming.png),
+        linear-gradient(#ecd0d7 0%, #f5dee3 100%);
+    @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+        screen and (min-resolution: 192dpi) and (max-width: 767px),
+        screen and (min-resolution: 2dppx) and (max-width: 767px) {
+        background-image: url(../images/background-images/services/grooming/grooming@2x.png),
+            linear-gradient(#ecd0d7 0%, #f5dee3 100%);
+    }
+    @media screen and (min-width: 768px) {
+        width: 258px;
+        background-image: url(../images/background-images/services/grooming/grooming_768.png);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+        screen and (min-resolution: 192dpi) and (min-width: 767px),
+        screen and (min-resolution: 2dppx) and (min-width: 767px) {
+        background-image: url(../images/background-images/services/grooming/grooming_768@2x.png);
+    }
+    @media screen and (min-width: 1440px) {
+        width: 306px;
+        height: 300px;
+        background-image: url(../images/background-images/services/grooming/grooming_1440.png);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+        screen and (min-resolution: 192dpi) and (min-width: 1440px),
+        screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+        background-image: url(../images/background-images/services/grooming/grooming_1440@2x.png);
+    }
+    @media screen and (min-width: 1920px) {
+        width: 400px;
+        height: 370px;
+        background-image: url(../images/background-images/services/grooming/grooming_1920.png);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1920px),
+        screen and (min-resolution: 192dpi) and (min-width: 1920px),
+        screen and (min-resolution: 2dppx) and (min-width: 1920px) {
+        background-image: url(../images/background-images/services/grooming/grooming_1920@2x.png);
+    }
+}
+.dentistry {
+    width: 290px;
+    height: 249px;
+    padding: 30px;
+    background-color: #8ed4da;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/background-images/services/dentistry/dentistry.png);
+    @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+        screen and (min-resolution: 192dpi) and (max-width: 767px),
+        screen and (min-resolution: 2dppx) and (max-width: 767px) {
+        background-image: url(../images/background-images/services/dentistry/dentistry@2x.png);
+    }
+    @media screen and (min-width: 768px) {
+        width: 460px;
+        background-image: url(../images/background-images/services/dentistry/dentistry_768.png);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+        screen and (min-resolution: 192dpi) and (min-width: 767px),
+        screen and (min-resolution: 2dppx) and (min-width: 767px) {
+        background-image: url(../images/background-images/services/dentistry/dentistry_768@2x.png);
+    }
+    @media screen and (min-width: 1200px) {
+        width: 512px;
+        background-image: url(../images/background-images/services/dentistry/dentistry_1200.png);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+        screen and (min-resolution: 192dpi) and (min-width: 1200px),
+        screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+        background-image: url(../images/background-images/services/dentistry/dentistry_1200@2x.png);
+    }
+    @media screen and (min-width: 1440px) {
+        width: 614px;
+        height: 300px;
+        background-image: url(../images/background-images/services/dentistry/dentistry_1440.png);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+        screen and (min-resolution: 192dpi) and (min-width: 1440px),
+        screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+        background-image: url(../images/background-images/services/dentistry/dentistry_1440@2x.png);
+    }
+    @media screen and (min-width: 1920px) {
+        width: 761px;
+        height: 370px;
+        background-image: url(../images/background-images/services/dentistry/dentistry_1920.png);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1920px),
+        screen and (min-resolution: 192dpi) and (min-width: 1920px),
+        screen and (min-resolution: 2dppx) and (min-width: 1920px) {
+        background-image: url(../images/background-images/services/dentistry/dentistry_1920@2x.png);
+    }
+}
+
+.dermatology {
+    width: 290px;
+    height: 249px;
+    padding: 30px 16px;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/background-images/services/dermatology/dermatology.png);
+    @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+        screen and (min-resolution: 192dpi) and (max-width: 767px),
+        screen and (min-resolution: 2dppx) and (max-width: 767px) {
+        background-image: url(../images/background-images/services/dermatology/dermatology@2x.png);
+    }
+    @media screen and (min-width: 768px) {
+        padding: 30px 16px;
+        width: 258px;
+        background-image: url(../images/background-images/services/dermatology/dermatology_768.png);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+        screen and (min-resolution: 192dpi) and (min-width: 767px),
+        screen and (min-resolution: 2dppx) and (min-width: 767px) {
+        background-image: url(../images/background-images/services/dermatology/dermatology_768@2x.png);
+    }
+    @media screen and (min-width: 1200px) {
+        padding: 30px;
+        width: 512px;
+        background-image: url(../images/background-images/services/dermatology/dermatology_1200.png);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+        screen and (min-resolution: 192dpi) and (min-width: 1200px),
+        screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+        background-image: url(../images/background-images/services/dermatology/dermatology_1200@2x.png);
+    }
+    @media screen and (min-width: 1440px) {
+        width: 614px;
+        height: 300px;
+        background-image: url(../images/background-images/services/dermatology/dermatology_1440.png);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+        screen and (min-resolution: 192dpi) and (min-width: 1440px),
+        screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+        background-image: url(../images/background-images/services/dermatology/dermatology_1440@2x.png);
+    }
+    @media screen and (min-width: 1920px) {
+        width: 761px;
+        height: 370px;
+        background-image: url(../images/background-images/services/dermatology/dermatology_1920.png);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1920px),
+        screen and (min-resolution: 192dpi) and (min-width: 1920px),
+        screen and (min-resolution: 2dppx) and (min-width: 1920px) {
+        background-image: url(../images/background-images/services/dermatology/dermatology_1920@2x.png);
+    }
+}
+
+.care {
+    width: 290px;
+    height: 249px;
+    padding: 30px;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/background-images/services/care/care.png);
+    @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+        screen and (min-resolution: 192dpi) and (max-width: 767px),
+        screen and (min-resolution: 2dppx) and (max-width: 767px) {
+        background-image: url(../images/background-images/services/care/care@2x.png);
+    }
+    @media screen and (min-width: 768px) {
+        width: 258px;
+        background-image: url(../images/background-images/services/care/care_768.png);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+        screen and (min-resolution: 192dpi) and (min-width: 767px),
+        screen and (min-resolution: 2dppx) and (min-width: 767px) {
+        background-image: url(../images/background-images/services/care/care_768@2x.png);
+    }
+    @media screen and (min-width: 1440px) {
+        width: 306px;
+        height: 300px;
+        background-image: url(../images/background-images/services/care/care_1440.png);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+        screen and (min-resolution: 192dpi) and (min-width: 1440px),
+        screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+        background-image: url(../images/background-images/services/care/care_1440@2x.png);
+    }
+    @media screen and (min-width: 1920px) {
+        width: 400px;
+        height: 370px;
+        background-image: url(../images/background-images/services/care/care_1920.png);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1920px),
+        screen and (min-resolution: 192dpi) and (min-width: 1920px),
+        screen and (min-resolution: 2dppx) and (min-width: 1920px) {
+        background-image: url(../images/background-images/services/care/care_1920@2x.png);
+    }
+}
+
+.secondary_card {
+    display: inline-block;
+    width: 136px;
+    height: 183px;
+    @media screen and (min-width: 768px) {
+        display: block;
+    }
+}
+
+.secondary_card_title {
+    text-align: center;
+    font-family: var(--font-Cormorant);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.02;
+    text-transform: uppercase;
+    color: #06631b;
+}
+
+.secondary_card_title.eye {
+    @media screen and (min-width: 1920px) {
+        font-size: 22px;
+    }
+}
+
+.secondary_card_title.chinese_animal {
+    max-width: 145px;
+    font-size: 14px;
+    @media screen and (min-width: 768px) {
+        // max-width: 145px;
+        font-size: 14px;
+    }
+    @media screen and (min-width: 1440px) {
+        max-width: 173px;
+        font-size: 21px;
+    }
+    @media screen and (min-width: 1920px) {
+        max-width: 215px;
+        font-size: 23px;
+    }
+}
+
+.background_eye {
+    width: 136px;
+    height: 136px;
+    // padding: 30px;
+    // background-color: #ffb83e;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/background-images/services/anaconda_eye/anaconda_eye.jpg);
+    @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+        screen and (min-resolution: 192dpi) and (max-width: 767px),
+        screen and (min-resolution: 2dppx) and (max-width: 767px) {
+        background-image: url(../images/background-images/services/anaconda_eye/anaconda_eye@2x.jpg);
+    }
+    @media screen and (min-width: 768px) {
+        width: 144px;
+        height: 144px;
+        background-image: url(../images/background-images/services/anaconda_eye/anaconda_eye_768.jpg);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+        screen and (min-resolution: 192dpi) and (min-width: 767px),
+        screen and (min-resolution: 2dppx) and (min-width: 767px) {
+        background-image: url(../images/background-images/services/anaconda_eye/anaconda_eye_768@2x.jpg);
+    }
+    @media screen and (min-width: 1440px) {
+        width: 174px;
+        height: 174px;
+        background-image: url(../images/background-images/services/anaconda_eye/anaconda_eye_1440.jpg);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+        screen and (min-resolution: 192dpi) and (min-width: 1440px),
+        screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+        background-image: url(../images/background-images/services/anaconda_eye/anaconda_eye_1440@2x.jpg);
+    }
+    @media screen and (min-width: 1920px) {
+        width: 215px;
+        height: 215px;
+        background-image: url(../images/background-images/services/anaconda_eye/anaconda_eye_1920.jpg);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1920px),
+        screen and (min-resolution: 192dpi) and (min-width: 1920px),
+        screen and (min-resolution: 2dppx) and (min-width: 1920px) {
+        background-image: url(../images/background-images/services/anaconda_eye/anaconda_eye_1920@2x.jpg);
+    }
+}
+
+.secondary_card.bird {
+    @media screen and (min-width: 768px) {
+        position: relative;
+        width: 422px;
+        height: 469px;
+    }
+    @media screen and (min-width: 1440px) {
+        width: 506px;
+        height: 563px;
+    }
+    @media screen and (min-width: 1920px) {
+        width: 627px;
+        height: 694px;
+    }
+}
+
+.secondary_card.bird .secondary_card_title {
+    @media screen and (min-width: 768px) {
+        background-color: rgba(243, 255, 246, 0.7);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 80px;
+        font-size: 32px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        height: 96px;
+        font-size: 40px;
+    }
+    @media screen and (min-width: 1920px) {
+        height: 120px;
+        font-size: 43px;
+    }
+}
+
+.background_bird {
+    width: 136px;
+    height: 136px;
+    // padding: 30px;
+    // background-color: #ffb83e;
+
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/background-images/services/birds/ceo_with_bird.jpg);
+    @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+        screen and (min-resolution: 192dpi) and (max-width: 767px),
+        screen and (min-resolution: 2dppx) and (max-width: 767px) {
+        background-image: url(../images/background-images/services/birds/ceo_with_bird@2x.jpg);
+    }
+    @media screen and (min-width: 768px) {
+        width: 100%;
+        height: 100%;
+        background-image: url(../images/background-images/services/birds/ceo_with_bird_768.jpg);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+        screen and (min-resolution: 192dpi) and (min-width: 767px),
+        screen and (min-resolution: 2dppx) and (min-width: 767px) {
+        background-image: url(../images/background-images/services/birds/ceo_with_bird_768@2x.jpg);
+    }
+    @media screen and (min-width: 1440px) {
+        background-image: url(../images/background-images/services/birds/ceo_with_bird_1440.jpg);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+        screen and (min-resolution: 192dpi) and (min-width: 1440px),
+        screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+        background-image: url(../images/background-images/services/birds/ceo_with_bird_1440@2x.jpg);
+    }
+    @media screen and (min-width: 1920px) {
+        background-image: url(../images/background-images/services/birds/ceo_with_bird_1920.jpg);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1920px),
+        screen and (min-resolution: 192dpi) and (min-width: 1920px),
+        screen and (min-resolution: 2dppx) and (min-width: 1920px) {
+        background-image: url(../images/background-images/services/birds/ceo_with_bird_1920@2x.jpg);
+    }
+}
+
+.options {
+    width: 290px;
+    height: 249px;
+    padding: 30px;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/background-images/services/options/ceo_with_posters.jpg);
+    @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+        screen and (min-resolution: 192dpi) and (max-width: 767px),
+        screen and (min-resolution: 2dppx) and (max-width: 767px) {
+        background-image: url(../images/background-images/services/options/ceo_with_posters@2x.jpg);
+    }
+    @media screen and (min-width: 768px) {
+        width: 255px;
+        background-image: url(../images/background-images/services/options/ceo_with_posters_768.jpg);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+        screen and (min-resolution: 192dpi) and (min-width: 767px),
+        screen and (min-resolution: 2dppx) and (min-width: 767px) {
+        background-image: url(../images/background-images/services/options/ceo_with_posters_768@2x.jpg);
+    }
+    @media screen and (min-width: 1200px) {
+        width: 330px;
+        height: 355px;
+        background-image: url(../images/background-images/services/options/ceo_with_posters_1440.jpg);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+        screen and (min-resolution: 192dpi) and (min-width: 1200px),
+        screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+        background-image: url(../images/background-images/services/options/ceo_with_posters_1440@2x.jpg);
+    }
+    @media screen and (min-width: 1440px) {
+        width: 395px;
+        height: 426px;
+        background-image: url(../images/background-images/services/options/ceo_with_posters_1440.jpg);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+        screen and (min-resolution: 192dpi) and (min-width: 1440px),
+        screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+        background-image: url(../images/background-images/services/options/ceo_with_posters_1440@2x.jpg);
+    }
+    @media screen and (min-width: 1920px) {
+        width: 489px;
+        height: 528px;
+        background-image: url(../images/background-images/services/options/ceo_with_posters_1920.jpg);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1920px),
+        screen and (min-resolution: 192dpi) and (min-width: 1920px),
+        screen and (min-resolution: 2dppx) and (min-width: 1920px) {
+        background-image: url(../images/background-images/services/options/ceo_with_posters_1920@2x.jpg);
+    }
+}
+
+.card_title_snake {
+    font-family: var(--font-Cormorant);
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: -0.02;
+    text-transform: uppercase;
+    color: #06631b;
+    font-weight: 500;
+    @media screen and (min-width: 768px) {
+        font-size: 32px;
+    }
+    @media screen and (min-width: 1440px) {
+        font-size: 40px;
+    }
+    @media screen and (min-width: 1920px) {
+        font-size: 43px;
+    }
+}
+
+.background_snake {
+    width: 136px;
+    height: 136px;
+    padding: 14px;
+    margin-right: 8px;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/background-images/services/snake/ceo_with_snake.jpg);
+    @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+        screen and (min-resolution: 192dpi) and (max-width: 767px),
+        screen and (min-resolution: 2dppx) and (max-width: 767px) {
+        background-image: url(../images/background-images/services/snake/ceo_with_snake@2x.jpg);
+    }
+    @media screen and (min-width: 768px) {
+        width: 255px;
+        height: 213px;
+        margin-right: 18px;
+        background-image: url(../images/background-images/services/snake/ceo_with_snake_768.jpg);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+        screen and (min-resolution: 192dpi) and (min-width: 767px),
+        screen and (min-resolution: 2dppx) and (min-width: 767px) {
+        background-image: url(../images/background-images/services/snake/ceo_with_snake_768@2x.jpg);
+    }
+    @media screen and (min-width: 1440px) {
+        width: 270px;
+        height: 256px;
+        margin-right: 30px;
+        background-image: url(../images/background-images/services/snake/ceo_with_snake_1440.jpg);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+        screen and (min-resolution: 192dpi) and (min-width: 1440px),
+        screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+        background-image: url(../images/background-images/services/snake/ceo_with_snake_1440@2x.jpg);
+    }
+    @media screen and (min-width: 1920px) {
+        padding: 45px;
+        width: 335px;
+        height: 317px;
+        margin-right: 68px;
+        background-image: url(../images/background-images/services/snake/ceo_with_snake_1920.jpg);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1920px),
+        screen and (min-resolution: 192dpi) and (min-width: 1920px),
+        screen and (min-resolution: 2dppx) and (min-width: 1920px) {
+        background-image: url(../images/background-images/services/snake/ceo_with_snake_1920@2x.jpg);
+    }
+}
+
+.wrapper_exotic_animals {
+    display: flex;
+    justify-content: space-between;
+    @media screen and (min-width: 768px) {
+        align-items: flex-end;
+    }
+    // justify-content: space-between;
+}
+.thumb_exotic_animals {
+    width: 144px;
+    height: 144px;
+    border-radius: 16px;
+    overflow: hidden;
+    @media screen and (min-width: 1440px) {
+        width: 174px;
+        height: 174px;
+    }
+    @media screen and (min-width: 1920px) {
+        width: 215px;
+        height: 215px;
+    }
+}
+
+.wrapper_btn_all_services {
+    width: 290px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #04a427;
+    border-bottom: 1px solid #04a427;
+    border-radius: 26px;
+    backdrop-filter: blur(4.71);
+    background-image: url(../images/background-images/services/cat.svg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: auto;
+    @media screen and (min-width: 768px) {
+        height: 213px;
+        width: 297px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 300px;
+        height: 213px;
+    }
+    @media screen and (min-width: 1440px) {
+        width: 395px;
+        height: 256px;
+    }
+    @media screen and (min-width: 1920px) {
+        width: 489px;
+        height: 317px;
+    }
+}
+
+.btn_all_services {
+    width: 120px;
+    height: 120px;
+    border: none;
+    outline: none;
+    background: #dadc00;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #04a427;
+    text-transform: uppercase;
+    transform: rotate(-30deg);
+    font-family: var(--font-Manrope);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1.1;
+    @media screen and (min-width: 768px) {
+        width: 145px;
+        height: 145px;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 18px;
+    }
+}
+
+.btn_all_services span {
+    margin: 10px 0 4px 0;
+}
+
+.btn_all_services svg {
+    fill: currentColor;
+    margin-right: 2px;
+}
