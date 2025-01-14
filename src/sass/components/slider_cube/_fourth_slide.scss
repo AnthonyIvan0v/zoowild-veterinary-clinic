@@ -378,30 +378,6 @@
     }
 }
 
-.btn-open-block-info_ceo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(-4px, 60px);
-    z-index: 21;
-    width: 34px;
-    height: 34px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.75);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    @include animation;
-    transition-property: background-color;
-    &:hover,
-    &:focus {
-        background-color: #dadc00;
-    }
-    @media screen and (min-width: 768px) {
-        display: none;
-    }
-}
-
 .btn-play-video-our-clinic {
     position: absolute;
     z-index: 21;
@@ -619,4 +595,144 @@
         width: 32px;
         height: 32px;
     }
+}
+
+//Стилі блока інформація СЕО моб.версії
+
+.btn-open-block-info_ceo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-4px, 60px);
+    z-index: 21;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include animation;
+    transition-property: background-color;
+    &:hover {
+        background-color: #dadc00;
+    }
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
+
+.btn-open-block-info_ceo svg {
+    width: 12px;
+    height: 12px;
+}
+
+.icon-minus {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    transform: translate(11px, 11px);
+}
+
+.ceo_info_mobile_screen {
+    position: absolute;
+    z-index: 19;
+    top: 0;
+    right: 0;
+    transform: translate(4%, -80%);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 252px;
+    height: 140px;
+    border-radius: 17.37px;
+    border: 0.65px solid rgba(4, 164, 39, 0.4);
+    background-color: rgba(243, 255, 246, 0.95);
+    text-transform: uppercase;
+    @include animation;
+    transition-property: visibility, opacity;
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
+
+.ceo_info_mobile_screen.is-hidden {
+    // position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.is-hidden {
+    // position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.wrapper_text_about_ceo_mobile_screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gap: 4px;
+}
+.ceo_name_mobile_screen {
+    font-family: var(--font-Cormorant);
+    font-weight: 500;
+    max-width: 180px;
+    font-size: 16px;
+    letter-spacing: -0.02;
+    color: #04a427;
+    line-height: 1;
+}
+
+.position_at_work_mobile_screen {
+    font-family: var(--font-Manrope);
+    font-size: 12px;
+    letter-spacing: 0;
+    color: #06631b;
+    max-width: 150px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.position_at_work a {
+    // font-family: var(--font-Cormorant);
+    color: #04a427;
+}
+
+.icon-subscribe_ceo_mobile_screen {
+    width: 68px;
+    height: 68px;
+}
+
+.position_subscribe_mobile_screen {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-30%, 74%);
+}
+
+.social_list_mobile_screen {
+    display: flex;
+    column-gap: 10px;
+}
+
+.social_link_mobile_screen {
+    color: #04a427;
+    &:hover,
+    &:focus {
+        color: #dadc00;
+    }
+}
+
+.social_list_mobile_screen svg {
+    // fill: currentColor;
+    // stroke: currentColor;
+
+    width: 12px;
+    height: 12px;
 }
