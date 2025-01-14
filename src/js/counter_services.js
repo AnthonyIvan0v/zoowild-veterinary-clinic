@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
         observer.observe(el);
     });
     function startCounter(element, target) {
-        const duration = 1000; // Длительность анимации в миллисекундах
+        const duration = 1500; // Длительность анимации в миллисекундах
         const increment = target / (duration / 16); // Обновление каждые 16 мс (приблизительно 60 fps)
         let current = 0;
         function updateCounter() {

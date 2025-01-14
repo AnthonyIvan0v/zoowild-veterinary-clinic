@@ -4,37 +4,35 @@
     padding-top: 15px;
     background-image: url(../images/background-images/hero/slider-cube/third-slide/cat_in_cap.png),
         linear-gradient(
-            to right,
-            #081e02 2%,
-            #0c2502 14%,
-            #0d450c 100%,
-            #0b2b04 100%
+            to top left,
+            #032e15 0%,
+            #0b7916 33%,
+            #106a08 67%,
+            #0c1901 100%
         );
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size: cover;
-    // mix-blend-mode: overlay;
-    mix-blend-mode: color-dodge;
+    background-size: contain;
     @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
         screen and (min-resolution: 192dpi) and (min-width: 320px),
         screen and (min-resolution: 2dppx) and (min-width: 320px) {
         background-image: url(../images/background-images/hero/slider-cube/third-slide/cat_in_cap@2x.png),
             linear-gradient(
-                to right,
-                #081e02 2%,
-                #0c2502 14%,
-                #0d450c 100%,
-                #0b2b04 100%
+                to top left,
+                #032e15 0%,
+                #0b7916 33%,
+                #106a08 67%,
+                #0c1901 100%
             );
     }
     @media screen and (min-width: 768px) {
         background-image: url(../images/background-images/hero/slider-cube/third-slide/cat_in_cap_768.png),
             linear-gradient(
-                to right,
-                #081e02 2%,
-                #0c2502 14%,
-                #0d450c 100%,
-                #0b2b04 100%
+                to top left,
+                #032e15 0%,
+                #0b7916 33%,
+                #106a08 67%,
+                #0c1901 100%
             );
     }
     @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
@@ -42,21 +40,21 @@
         screen and (min-resolution: 2dppx) and (min-width: 768px) {
         background-image: url(../images/background-images/hero/slider-cube/third-slide/cat_in_cap_768@2x.png),
             linear-gradient(
-                to right,
-                #081e02 2%,
-                #0c2502 14%,
-                #0d450c 100%,
-                #0b2b04 100%
+                to top left,
+                #032e15 0%,
+                #0b7916 33%,
+                #106a08 67%,
+                #0c1901 100%
             );
     }
     @media screen and (min-width: 1200px) {
         background-image: url(../images/background-images/hero/slider-cube/third-slide/cat_in_cap_1200.png),
             linear-gradient(
-                to right,
-                #081e02 2%,
-                #0c2502 14%,
-                #0d450c 100%,
-                #0b2b04 100%
+                to top left,
+                #032e15 0%,
+                #0b7916 33%,
+                #106a08 67%,
+                #0c1901 100%
             );
     }
     @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
@@ -64,21 +62,21 @@
         screen and (min-resolution: 2dppx) and (min-width: 1200px) {
         background-image: url(../images/background-images/hero/slider-cube/third-slide/cat_in_cap_1200@2x.png),
             linear-gradient(
-                to right,
-                #081e02 2%,
-                #0c2502 14%,
-                #0d450c 100%,
-                #0b2b04 100%
+                to top left,
+                #032e15 0%,
+                #0b7916 33%,
+                #106a08 67%,
+                #0c1901 100%
             );
     }
     @media screen and (min-width: 1440px) {
         background-image: url(../images/background-images/hero/slider-cube/third-slide/cat_in_cap_1440.png),
             linear-gradient(
-                to right,
-                #081e02 2%,
-                #0c2502 14%,
-                #0d450c 100%,
-                #0b2b04 100%
+                to top left,
+                #032e15 0%,
+                #0b7916 33%,
+                #106a08 67%,
+                #0c1901 100%
             );
     }
     @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
@@ -86,21 +84,21 @@
         screen and (min-resolution: 2dppx) and (min-width: 1440px) {
         background-image: url(../images/background-images/hero/slider-cube/third-slide/cat_in_cap_1440@2x.png),
             linear-gradient(
-                to right,
-                #081e02 2%,
-                #0c2502 14%,
-                #0d450c 100%,
-                #0b2b04 100%
+                to top left,
+                #032e15 0%,
+                #0b7916 33%,
+                #106a08 67%,
+                #0c1901 100%
             );
     }
     @media screen and (min-width: 1920px) {
         background-image: url(../images/background-images/hero/slider-cube/third-slide/cat_in_cap_1920.png),
             linear-gradient(
-                to right,
-                #081e02 2%,
-                #0c2502 14%,
-                #0d450c 100%,
-                #0b2b04 100%
+                to top left,
+                #032e15 0%,
+                #0b7916 33%,
+                #106a08 67%,
+                #0c1901 100%
             );
     }
     @media screen and (min-device-pixel-ratio: 2) and (min-width: 1920px),
@@ -108,13 +106,27 @@
         screen and (min-resolution: 2dppx) and (min-width: 1920px) {
         background-image: url(../images/background-images/hero/slider-cube/third-slide/cat_in_cap_1920@2x.png),
             linear-gradient(
-                to right,
-                #081e02 2%,
-                #0c2502 14%,
-                #0d450c 100%,
-                #0b2b04 100%
+                to top left,
+                #032e15 0%,
+                #0b7916 33%,
+                #106a08 67%,
+                #0c1901 100%
             );
     }
+}
+
+.postion_third_slide_text {
+    margin-top: 20%;
+    @media screen and (min-width: 768px) {
+        margin-top: 5%;
+    }
+    @media screen and (min-width: 1200px) {
+        margin-top: 8%;
+    }
+    // height: 100%;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
 }
 
 .third-slide-text {
@@ -123,10 +135,13 @@
     font-family: var(--font-Cormorant);
     font-size: 42px;
     font-weight: 100;
-    letter-spacing: -0.07em;
+    letter-spacing: -0.07;
     text-transform: uppercase;
-    line-height: 0.7em;
-    margin-top: 4%;
+    line-height: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .third-slide_first-block-words {
@@ -152,11 +167,10 @@
     }
 }
 
-.third-slide_first-block-words span:nth-child(1) {
+.third-slide_first-block-words p:nth-child(1) {
     font-size: 42px;
-    font-weight: 100;
-    line-height: 0.9em;
-    letter-spacing: -0.04em;
+    font-weight: 300;
+    letter-spacing: -0.04;
     @media screen and (min-width: 768px) {
         font-size: 64px;
     }
@@ -171,21 +185,20 @@
     }
 }
 
-.third-slide_first-block-words span:nth-child(2) {
+.third-slide_first-block-words p:nth-child(2) {
     font-size: 28px;
-    font-weight: 100;
-    letter-spacing: -0.01em;
+    font-weight: 300;
+    letter-spacing: 0;
     // line-height: 0.01em;
-    line-height: 0.9em;
     display: block;
-    margin-left: 90px;
+    text-align: center;
     @media screen and (min-width: 768px) {
         margin-left: auto;
-        margin-right: 48px;
+        // margin-right: 48px;
     }
     @media screen and (min-width: 1200px) {
         font-size: 44px;
-        margin-right: 75px;
+        // margin-right: 75px;
     }
     @media screen and (min-width: 1440px) {
         font-size: 54px;
@@ -195,33 +208,34 @@
     }
 }
 
-.third-slide_second-block-words {
-    text-align: center;
-}
-.third-slide_second-block-words span {
-    font-size: 58px;
-    font-weight: 300;
-    letter-spacing: -0.05em;
-    line-height: 0.7em;
+// .third-slide_second-block-words {
+//     text-align: center;
+// }
 
+.third-slide_second-block-words p {
+    font-size: 54px;
+    font-weight: 400;
+    letter-spacing: -0.05;
     mix-blend-mode: overlay;
+    text-align: center;
+    line-height: 0.7;
     @media screen and (min-width: 768px) {
-        // mix-blend-mode: color-dodge;
-        font-size: 152px;
+        font-size: 140px;
     }
     @media screen and (min-width: 1200px) {
-        font-size: 235px;
+        font-size: 220px;
     }
     @media screen and (min-width: 1440px) {
-        font-size: 283px;
+        font-size: 256px;
     }
     @media screen and (min-width: 1920px) {
-        font-size: 348px;
+        font-size: 328px;
     }
 }
 
 .third-slide_third-block-words {
-    max-width: 190px;
+    display: flex;
+    max-width: 226px;
     margin-left: auto;
     text-align: right;
     @media screen and (min-width: 1200px) {
@@ -235,11 +249,11 @@
     }
 }
 
-.third-slide_third-block-words span {
+.third-slide_third-block-words p {
     font-size: 22px;
-    font-weight: 300;
-    letter-spacing: -0.01em;
-    line-height: 0.96em;
+    font-weight: 400;
+    letter-spacing: -0.01;
+    line-height: 0.96;
     @media screen and (min-width: 1200px) {
         font-size: 33px;
     }
@@ -252,14 +266,136 @@
 }
 
 .wrapper_button_third_slide {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transform: translate(30px, -220%);
+    margin-left: 20px;
     @media screen and (min-width: 768px) {
+        position: absolute;
+        bottom: 0;
+        left: 0;
         display: flex;
         width: 100%;
         justify-content: center;
-        transform: translate(0, -4%);
+        transform: translate(0, -12%);
+    }
+}
+
+.button_background {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-image: radial-gradient(
+    //     center at circle,
+    //     #442914 0%,
+    //     #442914 100%
+    // );
+    // backdrop-filter: blur(145);
+}
+
+.btn_make_an_appointment {
+    border: none;
+    position: relative;
+    z-index: 1;
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    background-color: #dadc00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #04a427;
+    font-family: var(--font-Monrope);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0;
+    @include animation;
+    transition-property: color;
+    // transform: rotate(-50deg);
+    &:hover,
+    &:focus {
+        color: var(--primary-white-color);
+        // transform: rotate(-20deg);
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 120px;
+        height: 120px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 145px;
+        height: 145px;
+        font-size: 18px;
+    }
+    @media screen and (min-width: 1440px) {
+        width: 160px;
+        height: 160px;
+    }
+    @media screen and (min-width: 1920px) {
+        width: 192px;
+        height: 192px;
+    }
+}
+
+.descr {
+    max-width: 146px;
+}
+
+.icon-paw {
+    width: 18px;
+    height: 18px;
+
+    @media screen and (min-width: 1440px) {
+        width: 20px;
+        height: 20px;
+    }
+    @media screen and (min-width: 1920px) {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+.icon_arrow_right_turned_45deg {
+    width: 16px;
+    height: 24px;
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
+
+.btn_make_an_appointment svg {
+    fill: currentColor;
+}
+
+.btn_make_an_appointment p {
+    margin: 14px 0 6px 0;
+}
+
+.icon-arrow-to-right {
+    display: none;
+
+    @media screen and (min-width: 768px) {
+        display: block;
+        width: 16px;
+        height: 24px;
+    }
+    @media screen and (min-width: 1200px) {
+        width: 20px;
+        height: 30px;
+    }
+    @media screen and (min-width: 1920px) {
+        width: 24px;
+        height: 44px;
+    }
+}
+
+.btn_make_an_appointment .icon-paw,
+.btn_make_an_appointment .descr {
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: block;
     }
 }
