@@ -124,6 +124,10 @@
 <path fill="#04a427" style="fill: var(--color1, #04a427); stroke: var(--color2, #dadc00)" stroke="#dadc00" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.2982" d="M36.218 18.178l-35.573-0.034 0.004-4.027 37.039 0.036-9.205-9.248 2.852-2.838 14.111 14.176-14.176 14.108-2.841-2.855 9.359-9.316-1.57-0.002z"></path>
 </symbol>
 
+<symbol id="icon-arrow_btn_call_deg45" viewBox="0 0 35 32">
+<path fill="" style="" d="M32.652 19.646l-4.72-0.030-0.018-10.887-22.633 22.589-3.347-3.353 22.571-22.527-10.754-0.067-0.007-4.717 18.878 0.118 0.029 18.876z"></path>
+</symbol>
+
 
 </defs>
 </svg>
