@@ -12,8 +12,29 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    @media screen and (min-width: 768px) {
+        background-repeat: no-repeat;
+        background-image: url(../images//background-images/veterinary_drugs/paws_left_side.svg),
+            url(../images//background-images/veterinary_drugs/paws_right_side_768.svg);
+        background-size: 123px, 105px;
+        background-position: top 385px left 30px, bottom 110px right 40px;
+    }
+    @media screen and (min-width: 1200px) {
+        background-image: url(../images//background-images/veterinary_drugs/paws_left_side.svg),
+            url(../images//background-images/veterinary_drugs/paws_right_side.svg);
+        background-size: 131px, 153px;
+        background-position: center left 130px, center right 100px;
+    }
     @media screen and (min-width: 1440px) {
         padding-top: 74px;
+
+        background-size: 157px, 184px;
+        background-position: center left 170px, center right 140px;
+    }
+
+    @media screen and (min-width: 1920px) {
+        background-size: auto;
+        background-position: center left 250px, center right 250px;
     }
 }
 
@@ -333,9 +354,9 @@
         align-items: center;
     }
     @media screen and (min-width: 1440px) {
-        width: 683px;
+        width: 670px;
         height: 250px;
-        padding: 4px 40px 4px 4px;
+        padding: 4px 30px 4px 4px;
         column-gap: 25px;
         border-radius: 32px;
     }
@@ -432,9 +453,24 @@
     }
 }
 
+.postion_list_cards_btn_order_veterinary_drugs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    @media screen and (min-width: 1200px) {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
 .block_btn_order {
     width: 290px;
     height: 233px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 20px;
     border-top: 1.5px solid rgba(4, 164, 39, 0.4);
     border-bottom: 1.5px solid rgba(4, 164, 39, 0.4);
@@ -449,6 +485,8 @@
         background-image: url(../images/background-images/veterinary_drugs/order_btn_background_320@2x.jpg);
     }
     @media screen and (min-width: 768px) {
+        width: 350px;
+        height: 270px;
         background-image: url(../images/background-images/veterinary_drugs/order_btn_background_768.jpg);
     }
     @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
@@ -457,6 +495,12 @@
         background-image: url(../images/background-images/veterinary_drugs/order_btn_background_768@2x.jpg);
     }
     @media screen and (min-width: 1200px) {
+        // align-items: center;
+        justify-content: flex-start;
+        // align-items: ;
+        margin-top: 0;
+        width: 570px;
+        height: 438px;
         background-image: url(../images/background-images/veterinary_drugs/order_btn_background_1200.jpg);
     }
     @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
@@ -465,6 +509,8 @@
         background-image: url(../images/background-images/veterinary_drugs/order_btn_background_1200@2x.jpg);
     }
     @media screen and (min-width: 1440px) {
+        width: 670px;
+        height: 520;
         background-image: url(../images/background-images/veterinary_drugs/order_btn_background_1440.jpg);
     }
     @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
@@ -473,6 +519,8 @@
         background-image: url(../images/background-images/veterinary_drugs/order_btn_background_1440@2x.jpg);
     }
     @media screen and (min-width: 1920px) {
+        width: 845px;
+        height: 650px;
         background-image: url(../images/background-images/veterinary_drugs/order_btn_background_1920.jpg);
     }
     @media screen and (min-device-pixel-ratio: 2) and (min-width: 1920px),
@@ -495,7 +543,7 @@
     flex-direction: column;
     color: #04a427;
     text-transform: uppercase;
-    transform: rotate(-30deg);
+    // transform: rotate(-30deg);
     font-family: var(--font-Manrope);
     font-size: 13px;
     font-weight: 600;
@@ -508,6 +556,17 @@
     }
     @media screen and (min-width: 1200px) {
         font-size: 18px;
+        margin: auto 0 20px 20px;
+    }
+    @media screen and (min-width: 1440px) {
+        width: 170px;
+        height: 170px;
+        margin: auto 0 52px 32px;
+    }
+    @media screen and (min-width: 1920px) {
+        width: 192px;
+        height: 192px;
+        margin: auto 0 40px 40px;
     }
 }
 
