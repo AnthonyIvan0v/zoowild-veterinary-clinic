@@ -1,13 +1,16 @@
-// .section_veterinary_drugs {
-//     // background-color: #e8ffee;
-// }
+.section_veterinary_drugs {
+    // background-color: #e8ffee;
+}
 
 .overlay_veterinary_drugs {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
     border-top: 1px solid rgba(7, 97, 26, 0.3);
     background-color: #e8ffee;
     padding-top: 45px;
+    padding-bottom: 45px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -27,6 +30,7 @@
     }
     @media screen and (min-width: 1440px) {
         padding-top: 74px;
+        padding-bottom: 74px;
 
         background-size: 157px, 184px;
         background-position: center left 170px, center right 140px;
