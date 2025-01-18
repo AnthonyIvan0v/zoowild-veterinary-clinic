@@ -1,0 +1,215 @@
+.section_pharmacy {
+    background-color: #f3fff6;
+    padding-top: 35px;
+}
+
+.title_pharmacy {
+    color: #04a427;
+    font-family: var(--font-Manrope);
+    letter-spacing: -0.01;
+    font-size: 15px;
+    line-height: 1.1;
+}
+
+.descr_pharmacy {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    text-transform: uppercase;
+    line-height: 1.23;
+    letter-spacing: 0.02;
+    font-family: var(--font-Manrope);
+    color: #06631b;
+    font-size: 19px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.descr_pharmacy span {
+    color: #04a427;
+}
+
+.descr_pharmacy span:nth-child(1) {
+    font-family: var(--font-Cormorant-Unicase);
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.postion_text_img_gradient_pharmacy {
+    display: flex;
+    position: relative;
+}
+
+.pharmacy_thumb_img_cats {
+    width: 45px;
+    height: 45px;
+    border-radius: 7px;
+    overflow: hidden;
+    margin: 0 auto;
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-size: cover;
+    // background-image: url(../images/background-images/pharmacy/cats_320.jpg);
+    // @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
+    //     screen and (min-resolution: 192dpi) and (min-width: 320px),
+    //     screen and (min-resolution: 2dppx) and (min-width: 320px) {
+    //     background-image: url(../images/background-images/pharmacy/cats_320@2x.jpg);
+    // }
+}
+
+.pharmacy_background_img_cats img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.text_pharmacy_license {
+    font-family: var(--font-Cormorant-Unicase);
+    line-height: 110%;
+    color: #06631b;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+}
+
+.text_pharmacy_license span {
+    display: block;
+}
+
+.text_pharmacy_license span:nth-child(1) {
+    font-size: 19px;
+    font-weight: 300;
+    letter-spacing: -0.07;
+}
+
+.text_pharmacy_license span:nth-child(2) {
+    // position: absolute;
+    z-index: 2;
+    font-size: 41px;
+    font-weight: 300;
+    color: #04a427;
+    letter-spacing: 0;
+}
+
+.text_pharmacy_license span:nth-child(3) {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.05;
+}
+
+.pharmacy_thumb_img_dog {
+    width: 45px;
+    height: 45px;
+    border-radius: 7px;
+    overflow: hidden;
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-size: cover;
+    // background-image: url(../images/background-images/pharmacy/dog_320.jpg);
+    // @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
+    //     screen and (min-resolution: 192dpi) and (min-width: 320px),
+    //     screen and (min-resolution: 2dppx) and (min-width: 320px) {
+    //     background-image: url(../images/background-images/pharmacy/dog_320@2x.jpg);
+    // }
+}
+
+.pharmacy_thumb_img_dog img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.pharmacy_thumb_img_seo {
+    width: 160px;
+    height: 174px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.pharmacy_thumb_img_seo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.radial_gradient_pharmacy {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    // z-index: -1;
+    width: 232px;
+    height: 232px;
+    border-radius: 50%;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-image: radial-gradient(
+        circle at center,
+        rgba(20, 114, 12, 0.04),
+        rgba(20, 114, 12, 0.04) 76.5px,
+        rgba(20, 114, 12, 0.03) 76.5px,
+        rgba(20, 114, 12, 0.03) 98px,
+        rgba(20, 114, 12, 0.02) 98px,
+        rgba(20, 114, 12, 0.02) 116px
+    );
+    @media screen and (min-width: 768px) {
+        width: 562px;
+        height: 562px;
+        background-image: radial-gradient(
+            circle at center,
+            rgba(20, 114, 12, 0.04),
+            rgba(20, 114, 12, 0.04) 185px,
+            rgba(20, 114, 12, 0.03) 185px,
+            rgba(20, 114, 12, 0.03) 237px,
+            rgba(20, 114, 12, 0.02) 237px,
+            rgba(20, 114, 12, 0.02) 282px
+        );
+    }
+    @media screen and (min-width: 1200px) {
+        width: 602px;
+        height: 602px;
+        background-image: radial-gradient(
+            circle at center,
+            rgba(20, 114, 12, 0.04),
+            rgba(20, 114, 12, 0.04) 197px,
+            rgba(20, 114, 12, 0.03) 197px,
+            rgba(20, 114, 12, 0.03) 252px,
+            rgba(20, 114, 12, 0.02) 252px,
+            rgba(20, 114, 12, 0.02) 300px
+        );
+    }
+    @media screen and (min-width: 1440px) {
+        width: 722px;
+        height: 722px;
+        background-image: radial-gradient(
+            circle at center,
+            rgba(20, 114, 12, 0.04),
+            rgba(20, 114, 12, 0.04) 237px,
+            rgba(20, 114, 12, 0.03) 237px,
+            rgba(20, 114, 12, 0.03) 303px,
+            rgba(20, 114, 12, 0.02) 303px,
+            rgba(20, 114, 12, 0.02) 360px
+        );
+    }
+
+    @media screen and (min-width: 1920px) {
+        width: 894px;
+        height: 894px;
+        background-image: radial-gradient(
+            circle at center,
+            rgba(20, 114, 12, 0.04),
+            rgba(20, 114, 12, 0.04) 293px,
+            rgba(20, 114, 12, 0.03) 293px,
+            rgba(20, 114, 12, 0.03) 373px,
+            rgba(20, 114, 12, 0.02) 373px,
+            rgba(20, 114, 12, 0.02) 445px
+        );
+    }
+}
+
+.wrapper_text_img_pharmacy {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 132px;
+}
