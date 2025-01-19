@@ -2,7 +2,7 @@ import Swiper from 'swiper/swiper-bundle.min.mjs';
 
 const cubeSlider = new Swiper('.cube-slider', {
     effect: 'cube',
-    // grabCursor: true,
+    grabCursor: true,
     loop: true,
     direction: 'vertical',
     speed: 2800,
