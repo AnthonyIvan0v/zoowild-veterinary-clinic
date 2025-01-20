@@ -1,0 +1,176 @@
+.section_health_problems {
+    background-color: #f2f8f4;
+}
+
+.block_health_problems {
+    border-radius: 25px;
+    border-top: 1px solid rgba(7, 97, 26, 0.3);
+    border-bottom: 1.25px solid rgba(7, 97, 26, 0.3);
+    background-color: rgba(255, 255, 255, 0.75);
+    padding-top: 25px;
+    padding-bottom: 28px;
+    background-image: url(../images/background-images/health_problems/cat_bottom.png),
+        url(../images/background-images/health_problems/paw_top.svg),
+        url(../images/background-images/health_problems/paw_center.svg),
+        url(../images/background-images/health_problems/paws_bottom.svg);
+    background-repeat: no-repeat;
+    background-size: 116px, auto, auto, auto;
+    background-position: bottom left, top 96px right 8px, top 330px left 100px,
+        bottom 200px left 20px;
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
+        screen and (min-resolution: 192dpi) and (min-width: 320px),
+        screen and (min-resolution: 2dppx) and (min-width: 320px) {
+        background-image: url(../images/background-images/health_problems/cat_bottom@2x.png),
+            url(../images/background-images/health_problems/paw_top.svg),
+            url(../images/background-images/health_problems/paw_center.svg),
+            url(../images/background-images/health_problems/paws_bottom.svg);
+    }
+}
+
+.wrapper_title_descr_health_problems {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.title_health_problems {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #04a427;
+    text-align: center;
+}
+
+.descr_health_problems {
+    max-width: 200px;
+    margin-top: 15px;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: -2%;
+    color: #06631b;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.descr_health_problems span {
+    color: #04a427;
+    font-size: 22px;
+    font-family: var(--font-Cormorant-Unicase);
+    text-align: center;
+}
+
+.list_cards_health_problems {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    // justify-content: space-around;
+    // align-items: center;
+    margin-top: 25px;
+    column-gap: 14px;
+    padding: 0 14px 0 14px;
+    // width: 100%;
+}
+
+.list_card_item:not(:last-child) {
+    // background-color: gainsboro;
+    flex-basis: calc((100% - 14px) / 2);
+}
+
+.list_card_item:nth-child(2) {
+    margin-top: 60px;
+}
+
+.list_card_item:nth-child(4) {
+    margin-top: 25px;
+}
+
+.list_card_item:last-child {
+    margin-top: 14px;
+    margin-left: auto;
+    flex-basis: calc((60%));
+}
+
+.list_card_item:last-child img {
+    object-position: top;
+}
+
+.descr_foto_health_problems {
+    font-size: 15px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-bottom: 14px;
+    text-align: center;
+    color: #095119;
+}
+
+.thumb_foto_health_problems img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.thumb_foto_health_problems {
+    overflow: hidden;
+}
+
+.wrapper_dental {
+    width: 115px;
+}
+.dental_problems {
+    width: 100%;
+    height: 140px;
+    border-radius: 12px;
+}
+
+.wrapper_sad_eyes {
+    width: 151px;
+}
+
+.sad_eyes {
+    width: 100%;
+    height: 140px;
+    border-radius: 12px;
+}
+
+.wrapper_pain {
+    width: 110px;
+}
+
+.pain {
+    width: 100%;
+    height: 110px;
+    border-radius: 12px;
+}
+
+.wrapper_not_beautiful_enough {
+    width: 130px;
+}
+
+.not_beautiful_enough {
+    width: 100%;
+    height: 120px;
+    border-radius: 12px;
+}
+
+.wrapper_everyone_welcome {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.everyone_welcome {
+    width: 100%;
+    height: 240px;
+    border-radius: 20px;
+}
+
+.wrapper_everyone_welcome .descr_foto_health_problems {
+    max-width: 140px;
+    margin: 14px 0 0 0;
+}
