@@ -1,0 +1,218 @@
+.section_after_treat {
+    border-radius: 25px;
+    border-top: 2px solid rgba(4, 164, 39, 0.4);
+    border-bottom: 2px solid rgba(4, 164, 39, 0.4);
+    background-color: #e2ffe9;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    background-image: url(../images/background-images/after_treat/paws_top.svg),
+        url(../images/background-images/after_treat/paws_center.svg);
+    background-position: top 50px right 12px, top 275px left 40px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.first_descr_after_treat {
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #095119;
+    text-align: center;
+}
+
+.gallery_after_treat {
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: space-around;
+    column-gap: 10px;
+    row-gap: 20px;
+    margin-top: 20px;
+}
+
+.item_gallery_after_treat {
+    flex-basis: calc((100% - 10px) / 2);
+}
+
+.item_gallery_after_treat:nth-child(1) {
+    flex-grow: 1;
+}
+
+// .item_gallery_after_treat:nth-child(1) img {
+//     object-position: top;
+// }
+
+.item_gallery_after_treat:nth-child(2) {
+    // flex-grow: 0.2;
+    margin-top: auto;
+    min-width: 100px;
+}
+
+.item_gallery_after_treat:nth-child(2) img {
+    object-position: top;
+}
+
+.item_gallery_after_treat:nth-child(3) {
+    min-width: 100px;
+    // flex-grow: 0.2;
+    margin-top: auto;
+}
+
+.item_gallery_after_treat:nth-child(3) img {
+    object-position: top;
+}
+
+.item_gallery_after_treat:nth-child(4) {
+}
+
+.item_gallery_after_treat:last-child {
+    margin: 0 auto;
+    flex-basis: 200px;
+    position: relative;
+}
+
+.after_treat_thumb_foto {
+    overflow: hidden;
+}
+
+.after_treat_thumb_foto img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cat_with_glasses {
+    border-radius: 20px;
+    height: 200px;
+}
+
+.cat_pilot {
+    border-radius: 15px;
+    height: 140px;
+}
+
+.cat_with_ball {
+    border-radius: 15px;
+    height: 140px;
+}
+.cat_basketball_player {
+    height: 200px;
+    border-radius: 15px;
+}
+
+.second_descr_after_treat {
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #095119;
+    text-align: center;
+}
+
+.flying_cat {
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transform: translate(24px, 50px);
+}
+
+.fird_descr_after_treat {
+    margin-bottom: 18px;
+    font-size: 15px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #095119;
+    text-align: center;
+}
+
+.wrapper_block_btn_after_treat {
+    margin-top: 90px;
+    width: 100%;
+    height: 265px;
+    border-radius: 25px;
+    border-top: 2px solid #04a427;
+    border-bottom: 2px solid #04a427;
+    background-color: #f3fff6;
+    backdrop-filter: blur(4.38);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-image: url(../images/background-images/after_treat/paw_block_btn.svg);
+    background-position: bottom 80px right 30px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.text_btn_after_treat {
+    line-height: 120%;
+    letter-spacing: 2%;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 500;
+    color: #06631b;
+    max-width: 260px;
+    text-align: center;
+}
+
+.text_btn_after_treat span {
+    font-family: var(--font-Cormorant-Unicase);
+    font-size: 22px;
+    color: #04a427;
+}
+
+.btn_sign_up_for {
+    width: 120px;
+    height: 120px;
+    border: none;
+    outline: none;
+    background: #dadc00;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #04a427;
+    text-transform: uppercase;
+    // transform: rotate(-30deg);
+    font-family: var(--font-Manrope);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1.1;
+
+    @media screen and (min-width: 768px) {
+        width: 145px;
+        height: 145px;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 18px;
+        margin: auto 0 20px 20px;
+    }
+    @media screen and (min-width: 1440px) {
+        width: 170px;
+        height: 170px;
+        margin: auto 0 52px 32px;
+    }
+    @media screen and (min-width: 1920px) {
+        width: 192px;
+        height: 192px;
+        margin: auto 0 40px 40px;
+    }
+}
+
+.btn_sign_up_for span {
+    margin: 10px 0 4px 0;
+}
+
+.btn_sign_up_for svg {
+    fill: currentColor;
+    margin-right: 2px;
+}
