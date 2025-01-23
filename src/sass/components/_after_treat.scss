@@ -1,5 +1,10 @@
+.background_section_after_treat {
+    background-color: #f3fff6;
+}
+
 .section_after_treat {
-    border-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
     border-top: 2px solid rgba(4, 164, 39, 0.4);
     border-bottom: 2px solid rgba(4, 164, 39, 0.4);
     background-color: #e2ffe9;
@@ -11,6 +16,7 @@
     background-repeat: no-repeat;
     background-size: auto;
     @media screen and (min-width: 768px) {
+        border-radius: 25px;
         padding-top: 40px;
         padding-bottom: 35px;
         background-image: url(../images/background-images/after_treat/paws_top_left_768.svg),

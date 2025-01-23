@@ -347,6 +347,7 @@
 
 .call_icon {
     @include animation;
+    transition-duration: 350ms;
     transition-property: transform;
     position: absolute;
     top: 0;
