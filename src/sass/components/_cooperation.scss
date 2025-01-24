@@ -1,5 +1,6 @@
 .section_cooperation {
     background-color: #f3fff6;
+    padding-bottom: 35px;
 }
 
 .background_bage_mobile {
@@ -84,6 +85,7 @@
 .item_list_job_vacancy {
     width: 100%;
     height: 68px;
+    position: relative;
     background-color: #fff;
     border-radius: 20px;
     border-top: 1px solid rgba(4, 164, 39, 0.4);
@@ -94,7 +96,7 @@
     // justify-content: center;
     padding: 10px 10px 8px 10px;
     @include animation;
-    transition-duration: 250ms;
+    transition-duration: 150ms;
     transition-property: height;
     overflow: hidden;
 }
@@ -102,8 +104,12 @@
 .show_list {
     // height: 100vh;
     // height: auto;
+    // transform: scaleY(100%);
     // height: 100%;
     height: 500px;
+    @include animation;
+    transition-duration: 150ms;
+    transition-property: height;
     // justify-content: flex-start;
 
     // @include animation;
@@ -194,9 +200,9 @@
 
 .icon_minus_btn_view_job {
     position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(6px, 6px);
+    // top: 0;
+    // left: 0;
+    // transform: translate(6px, 6px);
     opacity: 0;
     visibility: 0;
     @include animation;
@@ -411,7 +417,7 @@
     color: #fff;
     text-transform: uppercase;
     font-family: var(--font-Manrope);
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
     letter-spacing: 0;
     line-height: 110%;
