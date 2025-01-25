@@ -1,6 +1,9 @@
 .section_cooperation {
     background-color: #f3fff6;
     padding-bottom: 35px;
+    @media screen and (min-width: 1440px) {
+        padding-bottom: 74px;
+    }
 }
 
 .changed_container {
