@@ -3,17 +3,91 @@
     padding-bottom: 35px;
 }
 
-.background_bage_mobile {
+.changed_container {
+    position: relative;
+}
+
+.container.changed_container {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+    @media screen and (min-width: 768px) {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+        width: 768px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 1200px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    @media screen and (min-width: 1400px) {
+        width: 1400px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    @media screen and (min-width: 1920px) {
+        width: 1920px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+.postion_content_section_cooperation {
+    @media screen and (min-width: 1200px) {
+        padding-top: 54px;
+        display: flex;
+        align-items: flex-start;
+    }
+    @media screen and (min-width: 1440px) {
+        padding-top: 74px;
+    }
+}
+
+.background_bage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 700px;
     background-image: url(../images/background-images/cooperation/badge_320.png);
     background-repeat: no-repeat;
     background-position: bottom;
-    // background-position: bottom center;
-
     background-size: cover;
     @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
         screen and (min-resolution: 192dpi) and (min-width: 320px),
         screen and (min-resolution: 2dppx) and (min-width: 320px) {
         background-image: url(../images/background-images/cooperation/badge_320@2x.png);
+    }
+    @media screen and (min-width: 768px) {
+        background-size: contain;
+        background-position: center;
+        background-image: url(../images/background-images/cooperation/badge_768.png);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+        screen and (min-resolution: 192dpi) and (min-width: 768px),
+        screen and (min-resolution: 2dppx) and (min-width: 768px) {
+        background-image: url(../images/background-images/cooperation/badge_768@2x.png);
+    }
+    @media screen and (min-width: 1200px) {
+        width: 450px;
+        // height: 100%;
+        background-size: contain;
+        background-position: top left;
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+        screen and (min-resolution: 192dpi) and (min-width: 1200px),
+        screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+    }
+    @media screen and (min-width: 1440px) {
+        width: 514px;
+        height: 700px;
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+        screen and (min-resolution: 192dpi) and (min-width: 1440px),
+        screen and (min-resolution: 2dppx) and (min-width: 1440px) {
     }
 }
 
@@ -21,6 +95,14 @@
     padding-top: 35px;
     padding-bottom: 35px;
     height: 700px;
+    z-index: 1;
+    position: relative;
+    @media screen and (min-width: 1200px) {
+        height: auto;
+        padding-top: 0px;
+        flex-grow: 1;
+        padding-bottom: 0;
+    }
 }
 
 .title_cooperation {
@@ -28,6 +110,9 @@
     letter-spacing: -1%;
     font-size: 15px;
     color: #04a427;
+    @media screen and (min-width: 1200px) {
+        font-size: 17px;
+    }
 }
 
 .descr_cooperation {
@@ -39,6 +124,18 @@
     line-height: 124%;
     max-width: 230px;
     color: #06631b;
+    @media screen and (min-width: 768px) {
+        margin-top: 30px;
+        font-size: 29px;
+        max-width: 330px;
+    }
+    @media screen and (min-width: 1200px) {
+        margin-top: 0;
+        margin-left: 60px;
+        margin-bottom: 40px;
+        font-size: 33px;
+        max-width: 500px;
+    }
 }
 
 .descr_cooperation span {
@@ -50,6 +147,34 @@
     font-size: 20px;
     // line-height: 72%;
     font-weight: 500;
+    @media screen and (min-width: 768px) {
+        font-size: 31px;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 35px;
+    }
+}
+
+.descr_cooperation.mobile_tablet {
+    @media screen and (min-width: 1200px) {
+        display: none;
+    }
+}
+
+.position_descr_list_vacancy {
+    @media screen and (min-width: 1200px) {
+        width: 788px;
+    }
+    @media screen and (min-width: 1440px) {
+        width: 944px;
+    }
+}
+
+.descr_cooperation.decktop {
+    display: none;
+    @media screen and (min-width: 1200px) {
+        display: block;
+    }
 }
 
 .title_job_vacancy {
@@ -60,26 +185,76 @@
     line-height: 120%;
     color: #06631b;
     margin-bottom: 10px;
+    @media screen and (min-width: 1200px) {
+        margin-left: 60px;
+        margin-bottom: 14px;
+    }
+}
+
+.bakground_list_job_vacancy_bottom_leave_details {
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../images/background-images/cooperation/dog.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
+        screen and (min-resolution: 192dpi) and (min-width: 320px),
+        screen and (min-resolution: 2dppx) and (min-width: 320px) {
+        background-image: url(../images/background-images/cooperation/dog@2x.jpg);
+    }
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        align-items: flex-end;
+        background-size: 434px;
+        background-color: #04a427;
+        padding: 8px 8px 8px 8px;
+        flex-direction: row;
+        justify-content: flex-start;
+        background-image: url(../images/background-images/cooperation/dog_768.png);
+        background-position: top right 8px;
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+        screen and (min-resolution: 192dpi) and (min-width: 768px),
+        screen and (min-resolution: 2dppx) and (min-width: 768px) {
+        background-image: url(../images/background-images/cooperation/dog_768@2x.png);
+    }
+    @media screen and (min-width: 1440px) {
+        flex-direction: row;
+        align-items: flex-end;
+        background-size: 434px;
+        background-color: #04a427;
+        padding: 8px 8px 8px 8px;
+        flex-direction: row;
+        justify-content: flex-start;
+        background-image: url(../images/background-images/cooperation/dog_1440.png);
+        background-position: top right 8px;
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+        screen and (min-resolution: 192dpi) and (min-width: 1440px),
+        screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+        background-image: url(../images/background-images/cooperation/dog_1440@2x.png);
+    }
 }
 
 .list_job_vacancy {
     width: 100%;
-    // border-radius: 26px;
-    // padding: 10px 0;
-    // border: 5px solid #04a427;
     display: flex;
     flex-direction: column;
     align-items: center;
     row-gap: 10px;
-
-    // justify-content: cen ter;
-}
-
-.borders {
+    padding: 10px;
     border-radius: 26px;
-    padding: 10px 0;
-    border: 5px solid #04a427;
     background-color: #f3fff6;
+    border: 6px solid #04a427;
+    @media screen and (min-width: 768px) {
+        border: none;
+        padding: 10px 0;
+        width: 534px;
+        padding: 8px 26px;
+    }
 }
 
 .item_list_job_vacancy {
@@ -99,25 +274,18 @@
     transition-duration: 150ms;
     transition-property: height;
     overflow: hidden;
+    @media screen and (min-width: 768px) {
+    }
 }
 
 .show_list {
-    // height: 100vh;
-    // height: auto;
-    // transform: scaleY(100%);
-    // height: 100%;
     height: 500px;
     @include animation;
     transition-duration: 150ms;
     transition-property: height;
-    // justify-content: flex-start;
-
-    // @include animation;
-    // transition-duration: 250ms;
 }
 
 .wapper_name_job_vacancy {
-    // margin-top: 4px;
     display: flex;
     align-items: center;
 }
@@ -148,10 +316,8 @@
 }
 
 .icon_paw_item_vacancy {
-    // margin-right: 10px;
     width: 26px;
     height: 26px;
-    // flex-grow: 0.5;
 }
 
 .name_job_vacancy {
@@ -161,13 +327,26 @@
     letter-spacing: 2%;
     line-height: 120%;
     color: #06631b;
+    @media screen and (min-width: 768px) {
+        font-size: 16px;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 17px;
+    }
 }
 
 .number_job_vacancy {
     font-size: 12px;
     color: #06631b;
     display: inline-block;
-    // margin-bottom: 4px;
+    @media screen and (min-width: 768px) {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 15px;
+        margin-bottom: 6px;
+    }
 }
 
 .wrapper_number_name_job_vacancy {
@@ -200,9 +379,6 @@
 
 .icon_minus_btn_view_job {
     position: absolute;
-    // top: 0;
-    // left: 0;
-    // transform: translate(6px, 6px);
     opacity: 0;
     visibility: 0;
     @include animation;
@@ -212,7 +388,6 @@
 .is-show {
     opacity: 1;
     visibility: 1;
-    // transform: scale(1);
 }
 
 .wrapper_descr_job_vacancy {
@@ -227,9 +402,7 @@
     justify-content: space-around;
     overflow-y: scroll;
     scroll-behavior: smooth;
-    // display: none;
 }
-//
 
 .wrapper_descr_job_vacancy::-webkit-scrollbar {
     width: 8px;
@@ -245,7 +418,6 @@
 
 .wrapper_descr_job_vacancy::-webkit-scrollbar-thumb {
     background-color: #04a427;
-    // border: 1px solid #04a42740;
     border-radius: 80px;
     width: 8px;
     height: 5px;
@@ -401,6 +573,10 @@
     align-items: center;
     justify-content: center;
     padding: 44px 0 18px 0;
+    @media screen and (min-width: 768px) {
+        padding: 0;
+        flex-grow: 1;
+    }
 }
 
 .btn_leave_details {
@@ -454,17 +630,7 @@
     margin-right: 2px;
 }
 
-.bakground_bottom_leave_details {
-    background-image: url(../images/background-images/cooperation/dog.jpg);
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    border-bottom-right-radius: 26px;
-    border-bottom-left-radius: 26px;
-
-    @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
-        screen and (min-resolution: 192dpi) and (min-width: 320px),
-        screen and (min-resolution: 2dppx) and (min-width: 320px) {
-        background-image: url(../images/background-images/cooperation/dog@2x.jpg);
-    }
+.a {
+    width: 100%;
+    height: 800px;
 }
