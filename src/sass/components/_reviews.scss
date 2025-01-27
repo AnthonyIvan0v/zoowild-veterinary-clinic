@@ -1,5 +1,13 @@
 .section_reviews {
     background-color: #f3fff6;
+    padding: 35px 0;
+    background-image: url(../images/background-images/reviews/paws_top.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top left;
+}
+
+.background_section_reviews {
 }
 
 .wrapper_title_reviews {
@@ -117,6 +125,10 @@
     column-gap: 70px;
     align-items: flex-end;
     margin-top: 16px;
+    background-image: url(../images/background-images/reviews/paws_center.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center bottom;
 }
 
 .thumb_img_cat_on_grass {
