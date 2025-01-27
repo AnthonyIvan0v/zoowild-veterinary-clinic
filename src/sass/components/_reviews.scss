@@ -338,6 +338,10 @@
         background-image: url(../images/background-images/reviews/paws_center_right_1440.svg);
         background-position: center right;
     }
+    @media screen and (min-width: 1920px) {
+        background-size: 215px;
+        background-position: top 200px right 20px;
+    }
 }
 
 .thumb_img_cat_on_grass {
