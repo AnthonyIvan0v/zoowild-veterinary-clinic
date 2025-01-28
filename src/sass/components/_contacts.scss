@@ -17,10 +17,38 @@
         background-image: url(../images/background-images/contacts/paws_center_768.svg);
         background-position: top 240px left 120px;
     }
+    @media screen and (min-width: 1200px) {
+        background-size: auto;
+        background-image: url(../images/background-images/contacts/paws_top_1200.svg);
+        background-position: top 50px left 80px;
+    }
+    @media screen and (min-width: 1440px) {
+        padding: 74px 0 50px 0;
+        background-size: 240px;
+        background-image: url(../images/background-images/contacts/paws_top_1200.svg);
+        background-position: top 80px left 180px;
+    }
+    @media screen and (min-width: 1920px) {
+        padding: 74px 0 50px 0;
+        background-size: 300px;
+        background-image: url(../images/background-images/contacts/paws_top_1200.svg);
+        background-position: top 100px left 190px;
+    }
 }
 
 .postion_title_descr_section_contacts {
     margin-bottom: 45px;
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    @media screen and (min-width: 1440px) {
+        margin-bottom: 30px;
+    }
+    @media screen and (min-width: 1920px) {
+        margin-bottom: 60px;
+    }
 }
 
 .title_section_contacts {
@@ -29,6 +57,13 @@
     line-height: 110%;
     letter-spacing: -1%;
     margin-bottom: 20px;
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 0;
+        font-size: 16px;
+    }
+    @media screen and (min-width: 1440px) {
+        font-size: 20px;
+    }
 }
 
 .descr_section_contacts {
@@ -41,6 +76,18 @@
     @media screen and (min-width: 768px) {
         font-size: 28px;
     }
+    @media screen and (min-width: 1200px) {
+        font-size: 30px;
+        max-width: 720px;
+    }
+    @media screen and (min-width: 1440px) {
+        font-size: 40px;
+        max-width: 900px;
+    }
+    @media screen and (min-width: 1920px) {
+        font-size: 43px;
+        max-width: 1150px;
+    }
 }
 
 .descr_section_contacts span {
@@ -50,6 +97,15 @@
     @media screen and (min-width: 768px) {
         font-size: 31px;
     }
+    @media screen and (min-width: 1200px) {
+        font-size: 34px;
+    }
+    @media screen and (min-width: 1440px) {
+        font-size: 45px;
+    }
+    @media screen and (min-width: 1920px) {
+        font-size: 49px;
+    }
 }
 
 .wrapper_block_contacts_communication_list_clinic {
@@ -57,6 +113,18 @@
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
+    }
+    @media screen and (min-width: 1200px) {
+        // align-items: stretch;
+        margin-top: 20px;
+    }
+    @media screen and (min-width: 1440px) {
+        // align-items: stretch;
+        margin-top: 25px;
+    }
+    @media screen and (min-width: 1920px) {
+        // align-items: stretch;
+        margin-top: 30px;
     }
 }
 
@@ -73,6 +141,24 @@
         width: 338px;
         height: 330px;
     }
+    @media screen and (min-width: 1200px) {
+        width: 375px;
+        height: 100%;
+        padding-bottom: 20px;
+    }
+    @media screen and (min-width: 1440px) {
+        border-radius: 20px;
+        width: 440px;
+        padding: 14px 14px 20px 14px;
+        // padding-bottom: 20px;
+    }
+    @media screen and (min-width: 1920px) {
+        border-radius: 26px;
+        width: 560px;
+        padding: 14px 14px 40px 14px;
+        row-gap: 20px;
+        // padding-bottom: 20px;
+    }
 }
 
 .thumb_img_cat {
@@ -80,6 +166,17 @@
     height: 174px;
     border-radius: 15px;
     overflow: hidden;
+    @media screen and (min-width: 1200px) {
+        height: 200px;
+    }
+    @media screen and (min-width: 1440px) {
+        height: 242px;
+        border-radius: 20px;
+    }
+    @media screen and (min-width: 1920px) {
+        height: 300px;
+        border-radius: 20px;
+    }
 }
 
 .thumb_img_cat img {
@@ -100,6 +197,9 @@
     letter-spacing: 0;
     line-height: 120%;
     font-size: 15px;
+    @media screen and (min-width: 1920px) {
+        font-size: 15px;
+    }
 }
 
 .reception_information:last-child {
@@ -129,8 +229,18 @@
     font-size: 32px;
     letter-spacing: 0;
     display: block;
+    font-weight: 600;
     @media screen and (min-width: 768px) {
         font-size: 38px;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 43px;
+    }
+    @media screen and (min-width: 1440px) {
+        font-size: 50px;
+    }
+    @media screen and (min-width: 1920px) {
+        font-size: 60px;
     }
 }
 
@@ -138,11 +248,24 @@
     display: flex;
     justify-content: flex-end;
     column-gap: 20px;
+    @media screen and (min-width: 1440px) {
+        column-gap: 40px;
+    }
+    @media screen and (min-width: 1920px) {
+        column-gap: 50px;
+    }
 }
 
 .text_social_link {
     color: #dadc00;
     font-size: 15px;
+    @media screen and (min-width: 1440px) {
+        font-size: 18px;
+    }
+    @media screen and (min-width: 1920px) {
+        font-weight: 500;
+        font-size: 20px;
+    }
 }
 
 .list_clinic_contacts {
@@ -150,6 +273,30 @@
     flex-direction: column;
     row-gap: 24px;
     margin-top: 24px;
+    @media screen and (min-width: 1200px) {
+        margin-top: 0;
+        flex-direction: row;
+        column-gap: 16px;
+        width: 100%;
+    }
+    @media screen and (min-width: 1440px) {
+        column-gap: 16px;
+    }
+    @media screen and (min-width: 1920px) {
+        column-gap: 20px;
+    }
+}
+
+.list_clinic_contacts.mobile {
+    @media screen and (min-width: 1200px) {
+        display: none;
+    }
+}
+.list_clinic_contacts.desktop {
+    display: none;
+    @media screen and (min-width: 1200px) {
+        display: flex;
+    }
 }
 
 .item_list_clinic_contacts {
@@ -160,6 +307,18 @@
     padding: 10px;
     @media screen and (min-width: 768px) {
         padding: 18px;
+    }
+    @media screen and (min-width: 1200px) {
+        flex-basis: calc((100% - 32px) / 3);
+    }
+    @media screen and (min-width: 1440px) {
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+    @media screen and (min-width: 1920px) {
+        flex-basis: calc((100% - 40px) / 3);
+        padding: 14px 20px;
+        border-radius: 26px;
     }
 }
 
@@ -173,6 +332,9 @@
 .number_item_clinic_contacts {
     font-size: 13px;
     color: #06631b;
+    @media screen and (min-width: 1200px) {
+        font-size: 15px;
+    }
 }
 
 .reception_information_clinic {
@@ -198,9 +360,17 @@
     color: #04a427;
     font-family: var(--font-Cormorant-Unicase);
     font-size: 32px;
+    line-height: 90%;
     letter-spacing: 0.02;
+    font-weight: 600;
     @media screen and (min-width: 768px) {
         font-size: 42px;
+    }
+    @media screen and (min-width: 1440px) {
+        font-size: 50px;
+    }
+    @media screen and (min-width: 1920px) {
+        font-size: 60px;
     }
 }
 
@@ -217,12 +387,22 @@
     line-height: 120%;
     margin-left: 6px;
     font-size: 16px;
+    @media screen and (min-width: 1440px) {
+        font-size: 18px;
+    }
+    @media screen and (min-width: 1920px) {
+        font-size: 20px;
+    }
 }
 
 .wrapper_clinic_address svg {
     margin-top: 4px;
     width: 10px;
     height: 12px;
+    @media screen and (min-width: 1920px) {
+        width: 14px;
+        height: 16px;
+    }
 }
 
 .btn_show_map {
@@ -233,6 +413,12 @@
     padding: 0 0 3px 0;
     color: #04a427;
     border-bottom: 1px solid #04a427;
+    font-weight: 500;
+}
+
+.wrapper_btn_reseption_information {
+    display: flex;
+    justify-content: space-between;
 }
 
 .wrapper_map {
@@ -245,6 +431,35 @@
     overflow: hidden;
     @media screen and (min-width: 768px) {
         height: 360px;
+    }
+    @media screen and (min-width: 1200px) {
+        width: 770px;
+        height: 410px;
+        margin-top: 0px;
+    }
+    @media screen and (min-width: 1440px) {
+        width: 894px;
+        height: 474px;
+        border-radius: 24px;
+    }
+    @media screen and (min-width: 1920px) {
+        width: 1140px;
+        height: 588px;
+        border-radius: 30px;
+    }
+}
+
+.wrapper_map.desktop {
+    display: none;
+    @media screen and (min-width: 1200px) {
+        display: flex;
+    }
+}
+
+.wrapper_map.mobile {
+    display: block;
+    @media screen and (min-width: 1200px) {
+        display: none;
     }
 }
 
