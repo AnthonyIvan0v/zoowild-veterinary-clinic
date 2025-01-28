@@ -1,2 +1,254 @@
 .section_contacts {
+    background-color: #f3fff6;
+}
+
+.borders_section_contacts {
+    padding: 24px 0;
+    border-radius: 25px;
+    border-top: 1px solid rgba(4, 164, 39, 0.4);
+    border-bottom: 1px solid rgba(4, 164, 39, 0.4);
+    background-color: rgba(255, 255, 255, 0.75);
+    background-image: url(../images/background-images/contacts/paws_top.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top 20px right 35px;
+    @media screen and (min-width: 768px) {
+        padding: 34px 0;
+        background-image: url(../images/background-images/contacts/paws_center_768.svg);
+        background-position: top 240px left 120px;
+    }
+}
+
+.postion_title_descr_section_contacts {
+    margin-bottom: 45px;
+}
+
+.title_section_contacts {
+    font-size: 15px;
+    color: #04a427;
+    line-height: 110%;
+    letter-spacing: -1%;
+    margin-bottom: 20px;
+}
+
+.descr_section_contacts {
+    text-transform: uppercase;
+    font-size: 19px;
+    line-height: 120%;
+    letter-spacing: 2%;
+    color: #06631b;
+    font-weight: 500;
+    @media screen and (min-width: 768px) {
+        font-size: 28px;
+    }
+}
+
+.descr_section_contacts span {
+    color: #04a427;
+    font-family: var(--font-Cormorant-Unicase);
+    font-size: 22px;
+    @media screen and (min-width: 768px) {
+        font-size: 31px;
+    }
+}
+
+.wrapper_block_contacts_communication_list_clinic {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+}
+
+.block_contacts_communication {
+    border-radius: 15px;
+    border: 1px solid rgba(4, 164, 39, 0.4);
+    background-color: #06631b;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 100%;
+    @media screen and (min-width: 768px) {
+        width: 338px;
+        height: 330px;
+    }
+}
+
+.thumb_img_cat {
+    width: 100%;
+    height: 174px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.thumb_img_cat img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.wrapper_reception_information {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.reception_information {
+    color: #fff;
+    letter-spacing: 0;
+    line-height: 120%;
+    font-size: 15px;
+}
+
+.reception_information:last-child {
+    display: flex;
+    align-items: center;
+}
+
+.reception_information svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    fill: currentColor;
+}
+
+.wrapper_phone_contacts_communication {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 12px;
+}
+
+.phone_contacts_communication {
+    color: #fff;
+    font-family: var(--font-Cormorant-Unicase);
+    line-height: 100%;
+    font-size: 32px;
+    letter-spacing: 0;
+    display: block;
+    @media screen and (min-width: 768px) {
+        font-size: 38px;
+    }
+}
+
+.wrapper_list_text_social_link {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 20px;
+}
+
+.text_social_link {
+    color: #dadc00;
+    font-size: 15px;
+}
+
+.list_clinic_contacts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    margin-top: 24px;
+}
+
+.item_list_clinic_contacts {
+    background-color: #f3fff6;
+    border-top: 1px solid rgba(4, 164, 39, 0.4);
+    border-bottom: 1px solid rgba(4, 164, 39, 0.4);
+    border-radius: 18px;
+    padding: 10px;
+    @media screen and (min-width: 768px) {
+        padding: 18px;
+    }
+}
+
+.wrapper_reception_information_clinic_contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.number_item_clinic_contacts {
+    font-size: 13px;
+    color: #06631b;
+}
+
+.reception_information_clinic {
+    color: #06631b;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.reception_information_clinic span {
+    font-weight: 400;
+}
+
+.reception_information_clinic svg {
+    width: 16px;
+    height: 16px;
+    fill: #04a427;
+    margin-right: 4px;
+}
+
+.phone_number_clinic {
+    color: #04a427;
+    font-family: var(--font-Cormorant-Unicase);
+    font-size: 32px;
+    letter-spacing: 0.02;
+    @media screen and (min-width: 768px) {
+        font-size: 42px;
+    }
+}
+
+.wrapper_clinic_address {
+    display: flex;
+    align-items: flex-start;
+    margin: 8px 0;
+}
+
+.clinic_address {
+    text-transform: uppercase;
+    color: #06631b;
+    // max-width: 140px;
+    line-height: 120%;
+    margin-left: 6px;
+    font-size: 16px;
+}
+
+.wrapper_clinic_address svg {
+    margin-top: 4px;
+    width: 10px;
+    height: 12px;
+}
+
+.btn_show_map {
+    outline: none;
+    border: none;
+    font-size: 15px;
+    background-color: transparent;
+    padding: 0 0 3px 0;
+    color: #04a427;
+    border-bottom: 1px solid #04a427;
+}
+
+.wrapper_map {
+    width: 100%;
+    margin-top: 24px;
+    height: 230px;
+    border-radius: 15px;
+    border-top: 1px solid #04a427;
+    border-bottom: 1px solid #04a427;
+    overflow: hidden;
+    @media screen and (min-width: 768px) {
+        height: 360px;
+    }
+}
+
+.wrapper_map iframe {
+    width: 100%;
+    height: 100%;
 }
