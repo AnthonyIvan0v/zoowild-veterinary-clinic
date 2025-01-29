@@ -10,19 +10,38 @@
         screen and (min-resolution: 192dpi) and (min-width: 320px),
         screen and (min-resolution: 2dppx) and (min-width: 320px) {
         background-image: url(../images/background-images/footer/cat@2x.png),
-            url(../images/background-images/footer/logo@2x.png);
+            url(../images/background-images/footer/logo@2x.png),
+            url(../images/background-images/footer/paw_768.svg);
     }
     @media screen and (min-width: 768px) {
         background-image: url(../images/background-images/footer/cat_768.png),
             url(../images/background-images/footer/logo_768.png);
-        background-size: 798px, 490px;
-        background-position: bottom right 50%, bottom 170px right 50%;
+        background-size: 798px, 490px, auto;
+        background-position: bottom right 50%, bottom 170px right 50%,
+            bottom 500px right 30px;
     }
     @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
         screen and (min-resolution: 192dpi) and (min-width: 768px),
         screen and (min-resolution: 2dppx) and (min-width: 768px) {
         background-image: url(../images/background-images/footer/cat_768@2x.png),
-            url(../images/background-images/footer/logo_768@2x.png);
+            url(../images/background-images/footer/logo_768@2x.png),
+            url(../images/background-images/footer/paw_768.svg);
+    }
+    @media screen and (min-width: 1200px) {
+        padding: 40px 0;
+        background-image: url(../images/background-images/footer/cat_1200.png),
+            url(../images/background-images/footer/logo_1200.png),
+            url(../images/background-images/footer/paws_top_1200.svg);
+        background-size: 1230px, 756px, auto;
+        background-position: bottom right 50%, bottom 210px right 50%,
+            top 125px left 50px;
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+        screen and (min-resolution: 192dpi) and (min-width: 1200px),
+        screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+        background-image: url(../images/background-images/footer/cat_1200@2x.png),
+            url(../images/background-images/footer/logo_1200@2x.png),
+            url(../images/background-images/footer/paws_top_1200.svg);
     }
 }
 
@@ -31,11 +50,19 @@
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
+        column-gap: 14px;
     }
 }
 
 .wrapper_list_social_thumb_img {
     position: relative;
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: flex-end;
+        flex-grow: 1;
+    }
 }
 
 .thumb_img_ceo_footer_section {
@@ -47,6 +74,10 @@
         width: 348px;
         height: 390px;
         border-radius: 26px;
+    }
+    @media screen and (min-width: 1200px) {
+        width: 405px;
+        height: 454px;
     }
 }
 
@@ -86,6 +117,11 @@
     column-gap: 8px;
     @media screen and (min-width: 768px) {
         padding: 20px 25px;
+        height: auto;
+        column-gap: 14px;
+    }
+    @media screen and (min-width: 1200px) {
+        padding: 26px 54px;
         height: auto;
         column-gap: 14px;
     }
@@ -136,17 +172,27 @@
 }
 
 .background_bobcat {
-    width: 148px;
-    height: 135px;
-    background-image: url(../images/background-images/footer/bobcat.png);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 20px;
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: block;
+        width: 148px;
+        height: 135px;
+        background-image: url(../images/background-images/footer/bobcat.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 20px;
+    }
     @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
         screen and (min-resolution: 192dpi) and (min-width: 768px),
         screen and (min-resolution: 2dppx) and (min-width: 768px) {
         background-image: url(../images/background-images/footer/bobcat@2x.png);
+    }
+    @media screen and (min-width: 1200px) {
+        // background-image: url(../images/background-images/footer/bobcat_1200.png);
+        margin-top: 0;
+        width: 168px;
+        height: 154px;
     }
 }
 
@@ -297,6 +343,9 @@
         max-width: 236px;
         margin: 0 auto;
     }
+    @media screen and (min-width: 1200px) {
+        margin: 0 0 0 auto;
+    }
     &::before {
         position: absolute;
         top: 0;
@@ -372,6 +421,9 @@
 .footer_btn_sign_up_for span {
     margin: 10px 0 4px 0;
     max-width: 100px;
+    @media screen and (min-width: 1200px) {
+        max-width: 130px;
+    }
     @media screen and (min-width: 1440px) {
         max-width: 140px;
     }
@@ -395,6 +447,9 @@
         align-items: center;
         margin-top: 340px;
     }
+    @media screen and (min-width: 1200px) {
+        margin-top: 570px;
+    }
 }
 
 .slogan_footer_information {
@@ -413,6 +468,10 @@
         font-size: 16px;
         margin-bottom: 0px;
     }
+    @media screen and (min-width: 1200px) {
+        max-width: 200px;
+        font-size: 18px;
+    }
 }
 
 .list_footer_information {
@@ -425,6 +484,9 @@
         row-gap: 0;
         column-gap: 18px;
         flex-direction: row;
+    }
+    @media screen and (min-width: 1200px) {
+        column-gap: 24px;
     }
 }
 
@@ -443,6 +505,11 @@
         min-height: 120px;
         padding: 20px;
         width: 200px;
+    }
+    @media screen and (min-width: 1200px) {
+        min-height: 120px;
+        padding: 28px 40px;
+        width: 300px;
     }
 }
 
@@ -463,6 +530,11 @@
     margin-bottom: 8px;
 }
 
+.copyright {
+    max-width: 160px;
+    // margin-right: auto;
+}
+
 .item_footer_information a {
     text-transform: uppercase;
     color: #04a427;
@@ -471,5 +543,8 @@
     text-decoration: underline;
     @media screen and (min-width: 768px) {
         font-size: 18px;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 19px;
     }
 }
