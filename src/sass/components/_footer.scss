@@ -730,7 +730,11 @@
 }
 
 .item_footer_information span.text_like {
-    max-width: 116px;
-    font-size: 14px;
-    margin-bottom: 0;
+    display: none;
+    @media screen and (min-width: 1440px) {
+        display: block;
+        max-width: 116px;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
 }
