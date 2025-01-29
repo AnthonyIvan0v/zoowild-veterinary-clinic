@@ -5,6 +5,7 @@
 @import './base/veriables';
 //utils
 @import './utils/mixins';
+@import './utils/visually-hidden';
 //components
 @import './components/header';
 @import './components/hero';
@@ -26,3 +27,4 @@
 @import './components/reviews';
 @import './components/questions';
 @import './components/contacts';
+@import './components/footer';
