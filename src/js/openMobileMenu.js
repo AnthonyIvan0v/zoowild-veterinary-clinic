@@ -1,0 +1,37 @@
+(() => {
+    const refs = {
+        openMenuBtn: document.querySelector('[data-menu-open]'),
+        closeMenuBtn: document.querySelector('[data-menu-close]'),
+        menu: document.querySelector('[data-menu]'),
+        modal: document.querySelector('[data-modal]'),
+    };
+
+    // const links = document.querySelectorAll('.mobile-menu-link');
+    // links.forEach(element => element.addEventListener('click', toggleModal));
+
+    refs.openMenuBtn.addEventListener('click', toggleModal);
+    refs.closeMenuBtn.addEventListener('click', toggleModal);
+
+    function toggleModal() {
+        refs.menu.classList.toggle('is-open');
+        refs.menu.classList.toggle('allow-scroll');
+        refs.modal.classList.toggle('is-hidden');
+        document.body.classList.toggle('not-scroll');
+    }
+})();
+
+// document.body.style.overflow = 'hidden';
+// (() => {
+//     const refs = {
+//         openModalBtn: document.querySelector('[data-modal-open]'),
+//         closeModalBtn: document.querySelector('[data-modal-close]'),
+//         modal: document.querySelector('[data-modal]'),
+//     };
+
+//     refs.openModalBtn.addEventListener('click', toggleModal);
+//     refs.closeModalBtn.addEventListener('click', toggleModal);
+
+//     function toggleModal() {
+//         refs.modal.classList.toggle('is-hidden');
+//     }
+// })();
