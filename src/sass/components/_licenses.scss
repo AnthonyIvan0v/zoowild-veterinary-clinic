@@ -48,23 +48,15 @@
 }
 
 .title_licenses {
-    line-height: 110%;
-    letter-spacing: -1%;
-    font-size: 15px;
-    color: #04a427;
     margin-bottom: 20px;
     @media screen and (min-width: 768px) {
         margin-bottom: 25px;
     }
     @media screen and (min-width: 1200px) {
         margin-bottom: 0;
-        font-size: 17px;
     }
     @media screen and (min-width: 1440px) {
         max-width: 150px;
-    }
-    @media screen and (min-width: 1920px) {
-        font-size: 20px;
     }
 }
 

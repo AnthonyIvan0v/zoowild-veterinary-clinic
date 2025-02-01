@@ -14,14 +14,13 @@
     }
 }
 
-.title_about {
+.section_title {
     font-family: var(--font-Manrope);
     font-size: 15px;
     font-weight: 400;
     color: #04a427;
     letter-spacing: -0.01;
     line-height: 1.1;
-
     @media screen and (min-width: 1200px) {
         font-size: 17px;
     }
