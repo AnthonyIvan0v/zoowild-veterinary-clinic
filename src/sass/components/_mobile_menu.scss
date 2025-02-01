@@ -10,6 +10,28 @@
     transform: translate(-100%, 0);
     @include animation;
     transition-property: transform;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.wrapper_menu::-webkit-scrollbar {
+    width: 4px;
+}
+
+.wrapper_menu::-webkit-scrollbar-track {
+    background: #e2ffe9;
+    border: 1px solid rgba(4, 164, 39, 0.4);
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.wrapper_menu::-webkit-scrollbar-thumb {
+    background-color: #04a427;
+    border-radius: 80px;
+    width: 8px;
+    height: 5px;
 }
 
 .is-open {
