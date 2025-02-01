@@ -121,6 +121,17 @@
     }
 }
 
+.wrapper_descr_preparing {
+    @media screen and (min-width: 1200px) {
+        min-width: 750px;
+    }
+    @media screen and (min-width: 1440px) {
+        min-width: 900px;
+    }
+    @media screen and (min-width: 1920px) {
+        min-width: 1170px;
+    }
+}
 .title_preparing {
     text-transform: uppercase;
     font-size: 19px;
