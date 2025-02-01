@@ -1,0 +1,387 @@
+// section_services - кнопки "зв'язатися" "телефон"
+// wide_buttons
+.wrapper_wide_buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        row-gap: 0px;
+        column-gap: 10px;
+    }
+    @media screen and (min-width: 1440px) {
+        column-gap: 20px;
+    }
+}
+
+.wide_button {
+    width: 100%;
+    height: 46px;
+    border-radius: 14px;
+    border-top: 1.5px solid rgba(4, 164, 39, 0.4);
+    border-bottom: 1.5px solid rgba(4, 164, 39, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include animation;
+    transition-property: color;
+    font-family: var(--font-Manrope);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0;
+    &:hover,
+    &:focus {
+        color: #dadc00;
+    }
+    @media screen and (min-width: 768px) {
+        flex-basis: calc(100% - 10px / 2);
+        font-size: 16px;
+    }
+    @media screen and (min-width: 1200px) {
+        height: 52px;
+    }
+    @media screen and (min-width: 1440px) {
+        flex-basis: calc(100% - 20px / 2);
+        height: 62px;
+        border-radius: 16px;
+        font-size: 17px;
+    }
+    @media screen and (min-width: 1920px) {
+        font-size: 18px;
+        height: 78px;
+        border-radius: 20px;
+    }
+}
+
+.wide_button:nth-child(1) {
+    color: #fff;
+    background-image: url(../images/background-images/veterinary_drugs/background_btn.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
+        screen and (min-resolution: 192dpi) and (min-width: 320px),
+        screen and (min-resolution: 2dppx) and (min-width: 320px) {
+        background-image: url(../images/background-images/veterinary_drugs/background_btn@2x.jpg);
+    }
+}
+
+.icon-arrow_btn_call_deg45 {
+    width: 12px;
+    height: 12px;
+    margin-left: 6px;
+    fill: currentColor;
+    @media screen and (min-width: 768px) {
+        width: 12px;
+        height: 12px;
+        margin-left: 10px;
+    }
+    @media screen and (min-width: 1920px) {
+        margin-left: 12px;
+        width: 14px;
+        height: 14px;
+    }
+}
+
+.wide_button:nth-child(2) {
+    background-color: #e2ffe9;
+    color: #04a427;
+    backdrop-filter: blur(7);
+    box-shadow: inset 0 -4 7 0 rgba(4, 164, 39, 0.1),
+        inset 0 4 7 0 rgba(4, 164, 39, 0.1);
+}
+
+// // клас-модифікатор кнопок - кнопка з номером телефона
+.wide_button_phone_number {
+    font-weight: 700;
+    @media screen and (min-width: 1440px) {
+        font-size: 20px;
+    }
+    @media screen and (min-width: 1920px) {
+        font-size: 22px;
+    }
+}
+
+// section_cooperation
+// клас-модифікатор кнопок - блок опису вакансій
+.btn_applying_job {
+    font-size: 15px;
+    height: 46px;
+    border-radius: 14px;
+    border-top: 1.5px solid rgba(4, 164, 39, 0.4);
+    border-bottom: 1.5px solid rgba(4, 164, 39, 0.4);
+    @media screen and (min-width: 768px) {
+        flex-basis: calc(100% - 8px / 2);
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 16px;
+    }
+    @media screen and (min-width: 1440px) {
+        flex-basis: calc(100% - 8px / 2);
+    }
+    @media screen and (min-width: 1920px) {
+        font-size: 18px;
+        flex-basis: calc(100% - 8px / 2);
+        height: 50px;
+        border-radius: 20px;
+    }
+}
+
+// round_buttons
+.round_button {
+    width: 120px;
+    height: 120px;
+    border: none;
+    outline: none;
+    padding: 0;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-30deg);
+    background-color: #dadc00;
+    color: #04a427;
+    text-transform: uppercase;
+    font-family: var(--font-Manrope);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1.1;
+    box-shadow: 0 4 8 0 rgba(6, 99, 27, 0.3);
+    transform: rotate(-30deg);
+    &:hover,
+    &:focus {
+        animation-name: changeSizeRotateBTN;
+        animation-duration: 1500ms;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    @media screen and (min-width: 768px) {
+        width: 145px;
+        height: 145px;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 17px;
+    }
+    @media screen and (min-width: 1440px) {
+        font-size: 18px;
+        width: 170px;
+        height: 170px;
+    }
+    @media screen and (min-width: 1920px) {
+        width: 192px;
+        height: 192px;
+    }
+}
+
+.round_button span {
+    display: block;
+    margin: 8px 0 0px 0;
+    @media screen and (min-width: 1440px) {
+        margin: 14px 0 0px 0;
+    }
+    @media screen and (min-width: 1920px) {
+        margin: 20px 0 4px 0;
+    }
+}
+
+.round_button .icon_paw {
+    fill: currentColor;
+    margin-right: 2px;
+    width: 18px;
+    height: 18px;
+    @media screen and (min-width: 1440px) {
+        width: 22px;
+        height: 22px;
+    }
+    @media screen and (min-width: 1920px) {
+        width: 26px;
+        height: 26px;
+    }
+}
+
+.round_button .icon_arrow_right {
+    fill: currentColor;
+    width: 29px;
+    height: 29px;
+    @media screen and (min-width: 1440px) {
+        width: 36px;
+        height: 36px;
+    }
+    @media screen and (min-width: 1920px) {
+        width: 44px;
+        height: 44px;
+    }
+}
+
+// модифікатор кнопки в секціі after_treat, footer, fird_slide
+.round_button .text_btn_sign_up_for {
+    max-width: 100px;
+    @media screen and (min-width: 1440px) {
+        max-width: 140px;
+    }
+    @media screen and (min-width: 1920px) {
+        max-width: 145px;
+    }
+}
+
+// модифікатор кнопки в секціі cooperation
+.secondary_round_button {
+    color: #fff;
+    background: #04a427;
+}
+
+.round_button .text_btn_leave_data {
+    max-width: 112px;
+    @media screen and (min-width: 1440px) {
+        max-width: 140px;
+    }
+    @media screen and (min-width: 1920px) {
+        max-width: 145px;
+    }
+}
+
+// кнопки слайдер-куба
+.round_button.main_btn_on_slide {
+    transform: rotate(0deg);
+    position: relative;
+    z-index: 1;
+    width: 66px;
+    height: 66px;
+    @media screen and (min-width: 768px) {
+        transform: rotate(-30deg);
+        width: 120px;
+        height: 120px;
+    }
+    @media screen and (min-width: 1200px) {
+        width: 145px;
+        height: 145px;
+        font-size: 18px;
+    }
+    @media screen and (min-width: 1440px) {
+        width: 160px;
+        height: 160px;
+        font-size: 20px;
+    }
+    @media screen and (min-width: 1920px) {
+        width: 192px;
+        height: 192px;
+        font-size: 24px;
+    }
+}
+
+.icon_arrow_right_turned_45deg {
+    width: 16px;
+    height: 24px;
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
+
+.round_button.main_btn_on_slide .icon_paw {
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: block;
+    }
+}
+
+.round_button.main_btn_on_slide span {
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: block;
+        max-width: 106px;
+    }
+    @media screen and (min-width: 1200px) {
+        max-width: 128px;
+    }
+    @media screen and (min-width: 1440px) {
+        max-width: 160px;
+    }
+}
+
+.round_button.main_btn_on_slide .icon_arrow_right {
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: block;
+    }
+}
+
+.round_button.main_btn_on_slide.resized {
+    width: 38px;
+    height: 38px;
+    @media screen and (min-width: 768px) {
+        width: 100px;
+        height: 100px;
+    }
+    @media screen and (min-width: 1200px) {
+        width: 166px;
+        height: 166px;
+    }
+    @media screen and (min-width: 1440px) {
+        width: 180px;
+        height: 180px;
+    }
+    @media screen and (min-width: 1920px) {
+        width: 238px;
+        height: 238px;
+    }
+}
+
+.wrapper_btn_snake_tongue {
+    flex-grow: 1;
+    // background-color: #dadc00;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper_inside_btn_snake_tongue {
+    margin-bottom: 10px;
+    @media screen and (min-width: 768px) {
+        margin-right: 30px;
+        margin-bottom: 20px;
+    }
+    @media screen and (min-width: 1200px) {
+        margin-left: 100px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+    @media screen and (min-width: 1440px) {
+        margin-left: 154px;
+    }
+    @media screen and (min-width: 1920px) {
+        margin-top: 50px;
+        margin-left: 230px;
+    }
+}
+.btn_snake_tongue {
+    display: inline-block;
+    width: 42px;
+    height: 64px;
+    border-radius: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(0.53);
+    border: 0.5px solid #fff;
+    &:hover,
+    &:focus {
+        animation-name: rotateSnakeTongueBTN;
+        animation-duration: 1000ms;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+}
+
+.btn_snake_tongue svg {
+    width: 14px;
+    height: 14px;
+    @media screen and (min-width: 1920px) {
+        width: 25px;
+        height: 25px;
+    }
+}
