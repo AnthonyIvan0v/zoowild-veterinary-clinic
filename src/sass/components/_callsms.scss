@@ -2,13 +2,13 @@
     // background-color: orange;
     position: fixed;
     width: auto;
-    bottom: 88px;
+    bottom: 60px;
     right: 15px;
     z-index: 1500;
     height: auto;
     @media screen and( min-width: 1440px) {
         right: 30px;
-        bottom: 120px;
+        bottom: 14px;
     }
 }
 
@@ -43,8 +43,14 @@
         margin-bottom: 20px;
     }
 }
+.btn_callsms:nth-child(2) {
+    margin-bottom: 20px;
+    @media screen and( min-width: 1440px) {
+        margin-bottom: 30px;
+    }
+}
 
-.btn_callsms:nth-last-child(2) {
+.btn_callsms:nth-child(3) {
     margin-bottom: 20px;
     @media screen and( min-width: 1440px) {
         margin-bottom: 30px;
@@ -97,4 +103,20 @@
             rgba(255, 255, 255, 0.3) 54px
         );
     }
+}
+
+.btn-to-top {
+    visibility: hidden;
+    opacity: 0;
+    @include animation;
+    transition-duration: 40ms;
+    transition-property: visibility, opacity;
+}
+
+.visible {
+    visibility: visible;
+    opacity: 1;
+    @include animation;
+    transition-duration: 40ms;
+    transition-property: visibility, opacity;
 }
