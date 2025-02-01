@@ -7,3 +7,5 @@ import './js/slider_licenses';
 import './js/slider_reviews';
 import './js/expand_answer_question';
 import './js/openMobileMenu';
+import './js/scrollUp';
+// import './js/anime';
