@@ -13,6 +13,9 @@
     overflow-y: scroll;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    @media screen and (min-width: 768px) {
+        width: 384px;
+    }
 }
 
 .wrapper_menu::-webkit-scrollbar {
@@ -43,6 +46,10 @@
 .thumb_logo_mobile_menu {
     width: 144px;
     height: 44px;
+    @media screen and (min-width: 768px) {
+        width: 166px;
+        height: 54px;
+    }
 }
 
 .thumb_logo_mobile_menu img {
@@ -72,27 +79,39 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    @media screen and (min-width: 768px) {
+        width: 44px;
+        height: 44px;
+    }
 }
 
 .btn_close_menu svg {
     width: 15px;
     height: 15px;
+    @media screen and (min-width: 768px) {
+        width: 18px;
+        height: 18px;
+    }
 }
 
 .wrapper_content_mobile_menu {
     margin-top: 20px;
     padding-top: 20px;
     padding-bottom: 25px;
-
     border-top: 1px solid #04a427;
     border-bottom: 1px solid #04a427;
+    @media screen and (min-width: 768px) {
+        padding-top: 30px;
+    }
 }
 
 .wrapper_links_menu {
     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     flex-wrap: wrap;
     justify-content: space-between;
-    row-gap: 24px;
+    row-gap: 10px;
 }
 
 .wrapper_links_menu a {
@@ -104,8 +123,7 @@
 }
 
 .wrapper_links_menu a:first-child {
-    display: block;
-    width: 100%;
+    color: #04a427;
 }
 
 .wrapper_links_menu div {
@@ -127,6 +145,9 @@
     margin-top: 24px;
     display: flex;
     align-items: center;
+    @media screen and (min-width: 768px) {
+        margin-top: 30px;
+    }
 }
 
 .wrapper_phone_menu svg {
@@ -161,6 +182,9 @@
     letter-spacing: 0;
     line-height: 1.2;
     max-width: 250px;
+    @media screen and (min-width: 768px) {
+        max-width: 350px;
+    }
 }
 
 .btn_reception {
@@ -174,6 +198,11 @@
     color: #fff;
     padding: 12px 18px;
     border-radius: 90px;
+    font-size: 16px;
+    @media screen and (min-width: 768px) {
+        margin-top: 20px;
+        font-size: 18px;
+    }
 }
 
 .btn_reception svg {
@@ -189,6 +218,9 @@
     font-size: 14px;
     letter-spacing: 0;
     line-height: 1.2;
+    @media screen and (min-width: 768px) {
+        font-size: 15px;
+    }
 }
 
 .list_social_link_mobile_menu {
@@ -207,12 +239,20 @@
     background-color: #fff;
     color: #04a427;
     box-shadow: 0 0 4.14 0 rgba(180, 174, 167, 0.25);
+    @media screen and (min-width: 768px) {
+        width: 42px;
+        height: 42px;
+    }
 }
 
 .link_social_mobile_menu svg {
     width: 22px;
     height: 22px;
     fill: currentColor;
+    @media screen and (min-width: 768px) {
+        width: 24px;
+        height: 24px;
+    }
 }
 
 .text_develop {
@@ -224,6 +264,51 @@
 }
 
 .text_develop a {
+    color: #095119;
     font-weight: 500;
     text-decoration: underline;
+}
+
+.btn_toggle_lang.modified_btn_toggle_lang {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px;
+    height: auto;
+    // margin-right: 10px;
+    color: #095119;
+    margin-left: auto;
+}
+
+.btn_toggle_lang.modified_btn_toggle_lang span {
+    display: block;
+    font-size: 13px;
+}
+
+.switch_lang.modified_btn_toggle_lang {
+    display: block;
+    width: 40px;
+    height: 20px;
+    border: 1px solid #095119;
+    border-radius: 25px;
+    position: relative;
+}
+
+.switch_lang.modified_btn_toggle_lang::after {
+    display: block;
+    content: '';
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #095119;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(4px, 2px);
+    @include animation;
+    transition-property: transform;
+}
+
+.toggle.switch_lang.modified_btn_toggle_lang::after {
+    transform: translate(20px, 2px);
 }
