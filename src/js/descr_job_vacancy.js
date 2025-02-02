@@ -16,16 +16,6 @@
         elem.addEventListener('click', () => changeIconBtn(index))
     );
 
-    function showList(event) {
-        // if (event.target.nodeName !== 'BUTTON') {
-        //     return;
-        // }
-        // refs.listBtnToggleShowDescr.addEventListener('click', showList);
-        // console.log(event.target.getAttribute('id'));
-        // const idElem = event.target.getAttribute('id');
-        // refs.itemList[idElem].classList.toggle('show_list');
-    }
-
     function changeIconBtn(id) {
         refs.iconPlus[id].classList.toggle('is-scale');
         refs.iconMinus[id].classList.toggle('is-show');
