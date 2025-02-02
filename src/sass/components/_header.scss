@@ -332,22 +332,22 @@
 .btn_call:hover .call_icon,
 .btn-call:focus .call_icon {
     @media screen and (min-width: 768px) {
-        transform: translate(112px, 2px);
+        transform: translate(112px, 2px) rotate(360deg);
     }
     @media screen and (min-width: 1200px) {
-        transform: translate(111px, 2px);
+        transform: translate(111px, 2px) rotate(360deg);
     }
     @media screen and (min-width: 1440px) {
-        transform: translate(138px, 2px);
+        transform: translate(138px, 2px) rotate(360deg);
     }
     @media screen and (min-width: 1920px) {
-        transform: translate(140px, 2px);
+        transform: translate(140px, 2px) rotate(360deg);
     }
 }
 
 .call_icon {
     @include animation;
-    transition-duration: 350ms;
+    transition-duration: 380ms;
     transition-property: transform;
     position: absolute;
     top: 0;
