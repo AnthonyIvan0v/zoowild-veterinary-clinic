@@ -368,16 +368,23 @@
     align-items: center;
     backdrop-filter: blur(0.53);
     border: 0.5px solid #fff;
+    color: #fff;
+    transform: scale(1);
+    @include animation;
+    transition-property: border, color, transform;
     &:hover,
     &:focus {
         animation-name: rotateSnakeTongueBTN;
         animation-duration: 1000ms;
         animation-timing-function: linear;
         animation-iteration-count: infinite;
+        color: #dadc00;
+        border-color: #dadc00;
     }
 }
 
 .btn_snake_tongue svg {
+    fill: currentColor;
     width: 14px;
     height: 14px;
     @media screen and (min-width: 1920px) {
