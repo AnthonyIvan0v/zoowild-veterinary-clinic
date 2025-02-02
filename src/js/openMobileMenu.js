@@ -4,11 +4,12 @@
         closeMenuBtn: document.querySelector('[data-menu-close]'),
         menu: document.querySelector('[data-menu]'),
         modal: document.querySelector('[data-modal]'),
+        links: document.querySelectorAll('.link_mobile_menu'),
     };
 
-    // const links = document.querySelectorAll('.mobile-menu-link');
-    // links.forEach(element => element.addEventListener('click', toggleModal));
-
+    refs.links.forEach(element =>
+        element.addEventListener('click', toggleModal)
+    );
     refs.openMenuBtn.addEventListener('click', toggleModal);
     refs.closeMenuBtn.addEventListener('click', toggleModal);
 
