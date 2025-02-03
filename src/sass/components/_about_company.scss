@@ -29,6 +29,16 @@
     }
 }
 
+.title_about {
+    max-width: 70px;
+    @media screen and (min-width: 1200px) {
+        max-width: 80px;
+    }
+    @media screen and (min-width: 1440px) {
+        max-width: 100px;
+    }
+}
+
 .about_descr {
     font-family: var(--font-Manrope);
     font-size: 19px;

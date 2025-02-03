@@ -148,7 +148,7 @@
     margin: 15px auto 0 auto;
     border-radius: 16px;
     overflow: hidden;
-    width: 290px;
+    width: 100%;
     height: 180px;
     @media screen and (min-width: 768px) {
         margin-top: 0;
@@ -171,7 +171,7 @@
     height: 100%;
     max-width: 100%;
     object-fit: cover;
-    object-position: center;
+    object-position: top;
     @media screen and (min-width: 1440px) {
         height: auto;
     }
@@ -234,6 +234,7 @@
     flex-direction: column;
     column-gap: 12px;
     row-gap: 20px;
+    width: 100%;
     @media screen and (min-width: 768px) {
         flex-direction: row;
         flex-wrap: wrap;
@@ -279,6 +280,7 @@
 }
 
 .block_v.mobile {
+    width: 100%;
     @media screen and (min-width: 1200px) {
         display: none;
     }
@@ -305,6 +307,9 @@
     display: flex;
     flex-direction: column;
     row-gap: 20px;
+    //
+    // align-items: center;
+    // width: 100%;
     @media screen and (min-width: 1920px) {
         row-gap: 30px;
     }
@@ -329,7 +334,7 @@
 }
 
 .surgery {
-    width: 290px;
+    width: 100%;
     height: 249px;
     padding: 30px;
     background-color: #8ed4da;
@@ -416,7 +421,7 @@
 }
 
 .therapy {
-    width: 290px;
+    width: 100%;
     height: 249px;
     padding: 30px;
     background-color: #ffb83e;
@@ -446,7 +451,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 290px;
+    width: 100%;
     height: 132px;
     border-radius: 26px;
     background-color: #f3fff6;
@@ -494,7 +499,7 @@
 }
 
 .grooming {
-    width: 290px;
+    width: 100%;
     height: 249px;
     padding: 30px;
     border-radius: 20px;
@@ -521,7 +526,7 @@
     }
 }
 .dentistry {
-    width: 290px;
+    width: 100%;
     height: 249px;
     padding: 30px;
     background-color: #93d9fb;
@@ -553,7 +558,7 @@
 }
 
 .dermatology {
-    width: 290px;
+    width: 100%;
     height: 249px;
     padding: 30px 16px;
     border-radius: 20px;
@@ -594,7 +599,7 @@
 }
 
 .care {
-    width: 290px;
+    width: 100%;
     height: 249px;
     padding: 30px;
     border-radius: 20px;
@@ -783,7 +788,7 @@
 }
 
 .options {
-    width: 290px;
+    width: 100%;
     height: 249px;
     padding: 30px;
     border-radius: 20px;
@@ -885,6 +890,7 @@
 }
 
 .background_snake {
+    // width: 100%;
     width: 136px;
     height: 136px;
     padding: 14px;
@@ -919,15 +925,16 @@
 .wrapper_exotic_animals {
     display: flex;
     justify-content: space-between;
+    // width: 100%;
     @media screen and (min-width: 768px) {
         align-items: flex-end;
     }
 }
 .thumb_exotic_animals {
-    // margin: 4px auto 0 auto;
     margin: 0 auto 0 auto;
 
-    width: 144px;
+    // width: 144px;
+    width: 100%;
     height: 144px;
     border-radius: 16px;
     overflow: hidden;
@@ -942,6 +949,14 @@
         width: 215px;
         height: 215px;
     }
+}
+
+.thumb_exotic_animals img {
+    display: block;
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: bottom;
 }
 
 .secondary_card_title.chinese_animal {
@@ -963,7 +978,7 @@
 }
 
 .wrapper_btn_all_services {
-    width: 290px;
+    width: 100%;
     height: 180px;
     display: flex;
     align-items: center;

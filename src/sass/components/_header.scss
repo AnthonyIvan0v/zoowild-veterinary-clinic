@@ -27,9 +27,14 @@
 .navigation {
     display: flex;
     align-items: flex-start;
+    justify-content: space-between;
     @media screen and (min-width: 768px) {
         align-items: center;
     }
+}
+
+.wrapper_nav_links {
+    display: flex;
 }
 
 .link_nav {
@@ -58,8 +63,12 @@
     }
 }
 
+.link_nav:first-child {
+    color: #dadc00;
+}
+
 .link_nav:not(:first-child) {
-    margin-left: 48px;
+    margin-left: 24px;
 }
 
 .icon_locaction {
@@ -79,7 +88,8 @@
         color: #dadc00;
     }
     @media screen and (min-width: 1200px) {
-        margin: 0 auto;
+        // margin-left: 10%;
+        // margin: 0 auto;
     }
     @media screen and (min-width: 1440px) {
         // flex-direction: column;
@@ -92,13 +102,13 @@
     width: 50px;
     height: 46px;
     fill: currentColor;
-    margin-right: 0px;
+    margin-right: 8px;
     @media screen and (min-width: 1200px) {
         width: 56px;
         height: 46px;
     }
     @media screen and (min-width: 1440px) {
-        width: 68px;
+        width: 50px;
         height: 50px;
     }
 }
@@ -113,9 +123,14 @@
         height: 27px;
     }
     @media screen and (min-width: 1440px) {
-        width: 140px;
+        width: 120px;
         height: 33px;
     }
+}
+
+.logo_img {
+    // width: 140px;
+    // height: 100%;
 }
 
 .phone {
@@ -164,6 +179,15 @@
     }
     @media screen and (min-width: 1200px) {
         margin-left: 0;
+    }
+}
+
+.btn_wrapper .position:not(:first-child) {
+    margin-left: 8px;
+
+    @media screen and (min-width: 768px) {
+    }
+    @media screen and (min-width: 1200px) {
     }
 }
 
@@ -219,14 +243,13 @@
         letter-spacing: 0;
         width: 90px;
         // margin-right: 26px;
-        margin-right: 10px;
+        // margin-right: 10px;
     }
     @media screen and (min-width: 1440px) {
         font-size: 12px;
-        margin-right: 10px;
     }
     @media screen and (min-width: 1920px) {
-        margin-right: 22px;
+        // margin-right: 22px;
     }
 }
 
@@ -278,12 +301,13 @@
     position: relative;
     color: white;
     width: 32px;
+    height: 32px;
     border: 0.67px solid var(--primary-white-color);
-    border-radius: 45.8px;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 16px;
+    // margin: 0 16px;
     @include animation;
     transition-property: color, border;
     &:hover,
@@ -292,14 +316,16 @@
         border-color: #dadc00;
     }
     @media screen and (min-width: 768px) {
+        height: 30px;
+        border-radius: 45px;
         width: 140px;
         padding-left: 29px;
         justify-content: flex-start;
-        margin: 0 22px;
+        // margin: 0 22px;
     }
     @media screen and (min-width: 1200px) {
         padding-left: 29px;
-        margin: 0 0 0 12px;
+        // margin: 0 0 0 12px;
     }
     @media screen and (min-width: 1400px) {
         padding-left: 36px;
@@ -332,7 +358,7 @@
 .btn_call:hover .call_icon,
 .btn-call:focus .call_icon {
     @media screen and (min-width: 768px) {
-        transform: translate(112px, 2px) rotate(360deg);
+        transform: translate(111px, 2px) rotate(360deg);
     }
     @media screen and (min-width: 1200px) {
         transform: translate(111px, 2px) rotate(360deg);
@@ -349,16 +375,16 @@
     @include animation;
     transition-duration: 380ms;
     transition-property: transform;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(2px, 2px);
     fill: currentColor;
     width: 25px;
     height: 25px;
-    margin-right: 1px;
+    // margin-right: 1px;
     @media screen and (min-width: 768px) {
-        margin-right: 6px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(2px, 2px);
+        // margin-right: 6px;
     }
     @media screen and (min-width: 1440px) {
         width: 30px;

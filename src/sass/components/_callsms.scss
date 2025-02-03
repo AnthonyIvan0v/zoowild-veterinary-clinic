@@ -8,7 +8,7 @@
     height: auto;
     @media screen and( min-width: 1440px) {
         right: 30px;
-        bottom: 14px;
+        bottom: 30px;
     }
 }
 
@@ -26,14 +26,15 @@
     height: 32px;
     border-radius: 50%;
     background-color: rgba(246, 255, 248, 0.75);
+    opacity: 0.8;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #04a427;
-    box-shadow: 0 0 24 0 rgba(25, 48, 56, 0.2);
+    box-shadow: 0 0 24 0 rgba(25, 48, 56, 0.4);
     @media screen and( min-width: 1440px) {
-        width: 68px;
-        height: 68px;
+        width: 56px;
+        height: 56px;
     }
 }
 
@@ -72,6 +73,16 @@
     }
 }
 
+.btn_callsms.btn-to-top svg {
+    width: 15px;
+    height: 15px;
+    fill: currentColor;
+    @media screen and( min-width: 1440px) {
+        width: 24px;
+        height: 24px;
+    }
+}
+
 .message::after {
     display: block;
     content: '';
@@ -91,15 +102,26 @@
         rgba(255, 255, 255, 0.3) 20px,
         rgba(255, 255, 255, 0.3) 26px
     );
+    // @media screen and (min-width: 1440px) {
+    //     width: 108px;
+    //     height: 108px;
+    //     background-image: radial-gradient(
+    //         circle at center,
+    //         rgba(255, 255, 255, 0.5),
+    //         rgba(255, 255, 255, 0.5) 44px,
+    //         rgba(255, 255, 255, 0.3) 44px,
+    //         rgba(255, 255, 255, 0.3) 54px
+    //     );
+    // }
     @media screen and (min-width: 1440px) {
-        width: 108px;
-        height: 108px;
+        width: 80px;
+        height: 80px;
         background-image: radial-gradient(
             circle at center,
             rgba(255, 255, 255, 0.5),
-            rgba(255, 255, 255, 0.5) 44px,
-            rgba(255, 255, 255, 0.3) 44px,
-            rgba(255, 255, 255, 0.3) 54px
+            rgba(255, 255, 255, 0.5) 34px,
+            rgba(255, 255, 255, 0.3) 34px,
+            rgba(255, 255, 255, 0.3) 44px
         );
     }
 }
@@ -125,7 +147,7 @@
 
 .visible {
     visibility: visible;
-    opacity: 1;
+    opacity: 0.8;
     @include animation;
     transition-duration: 40ms;
     transition-property: visibility, opacity;
@@ -268,7 +290,7 @@
     // pointer-events: none;
     @media screen and (min-width: 1440px) {
         visibility: visible;
-        opacity: 1;
+        opacity: 0.8;
         pointer-events: all;
     }
 }
@@ -343,6 +365,7 @@
     line-height: 90%;
     font-weight: 700;
     font-size: 36px;
+    text-decoration: none;
 }
 
 .wrapper_btn_close_block_laction {

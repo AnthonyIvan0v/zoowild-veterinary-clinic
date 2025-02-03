@@ -19,8 +19,10 @@
 
 .title_question {
     margin-bottom: 20px;
+    max-width: 90px;
     @media screen and (min-width: 1200px) {
         margin-bottom: 0;
+        max-width: 110px;
     }
     @media screen and (min-width: 1440px) {
         max-width: 150px;
