@@ -13,4 +13,5 @@ import './js/openModalContacts';
 import './js/scrollUp';
 import './js/openModaWindowMap';
 import './js/openModaWindowLicenes';
+import './js/openModaWindowVideo';
 // import './js/anime';
