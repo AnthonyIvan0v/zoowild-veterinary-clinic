@@ -84,10 +84,17 @@
 }
 
 .thumb_img_modal_licenses {
-    width: 30%;
-    height: 90%;
     border-radius: 30px;
     overflow: hidden;
+    width: 90%;
+    height: 70%;
+    @media screen and (min-width: 768px) {
+        width: 60%;
+        height: 90%;
+    }
+    @media screen and (min-width: 1200px) {
+        width: 30%;
+    }
 }
 
 .thumb_img_modal_licenses img {
