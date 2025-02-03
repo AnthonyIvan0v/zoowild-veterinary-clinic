@@ -19,7 +19,7 @@
         switch (typelicenses) {
             case 'diploma':
                 // refs.thumbFotoLicenses.innerHTML = `<img src="./images/content-images/licenses/diploma_1920.jpg"/>`;
-                refs.thumbFotoLicenses.innerHTML = `<img src="src/images/content-images/licenses/diploma_1920@2x.jpg"/>`;
+                refs.thumbFotoLicenses.innerHTML = `<img src="./images/content-images/licenses/diploma_1920@2x.jpg"/>`;
 
             case 'certificate':
                 refs.thumbFotoLicenses.innerHTML = `<img src="./images/content-images/licenses/certificate_1920@2x.jpg"/>`;
