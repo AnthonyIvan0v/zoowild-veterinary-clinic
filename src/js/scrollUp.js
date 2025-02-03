@@ -32,10 +32,9 @@ toTopBtn.addEventListener('click', onToTopBtn);
 
 function onScroll() {
     const scrolled = window.pageYOffset;
-    console.log(scrolled);
     // const scrolled = window.scrollY;
     const coords = window.innerHeight / 3;
-    console.log(coords);
+
     if (scrolled > coords) {
         toTopBtn.classList.add('visible');
     }
@@ -61,8 +60,8 @@ function onToTopBtn() {
 //     }
 // }
 
-onScroll();
-onToTopBtn();
+// onScroll();
+// onToTopBtn();
 
 ///////////////////////////
 

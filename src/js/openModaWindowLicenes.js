@@ -19,8 +19,9 @@
         switch (typelicenses) {
             case 'diploma':
                 // refs.thumbFotoLicenses.innerHTML = `<img src="./images/content-images/licenses/diploma_1920.jpg"/>`;
-                refs.thumbFotoLicenses.innerHTML = `<img src="./images/content-images/licenses/diploma_1920@2x.jpg"/>`;
-
+                refs.thumbFotoLicenses.innerHTML = `<img src="/images/content-images/licenses/diploma_1920@2x.jpg"/>`;
+                console.log(typelicenses);
+                break;
             case 'certificate':
                 refs.thumbFotoLicenses.innerHTML = `<img src="./images/content-images/licenses/certificate_1920@2x.jpg"/>`;
                 break;
@@ -29,9 +30,9 @@
                 break;
                 refs.thumbFotoLicenses.innerHTML = '';
             default:
-                // }
-                refs.backdrop.classList.toggle('is-hidden');
-                document.body.classList.toggle('not-scroll');
+            // }
         }
+        refs.backdrop.classList.toggle('is-hidden');
+        document.body.classList.toggle('not-scroll');
     }
 })();
