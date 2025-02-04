@@ -9,28 +9,31 @@
 @import './utils/keyframes';
 @import './utils/backdrop';
 //components
-@import './components/modal_windows';
-@import './components/callsms';
-@import './components/buttons';
-@import './components/header';
-@import './components/mobile_menu';
-@import './components/hero';
+@import './components_main_page/modal_windows';
+@import './components_main_page/callsms';
+@import './components_main_page/buttons';
+@import './components_main_page/header';
+@import './components_main_page/mobile_menu';
+@import './components_main_page/hero';
 //slider-cube
-@import './components/slider_cube/first_slide';
-@import './components/slider_cube/second_slide';
-@import './components/slider_cube/third_slide';
-@import './components/slider_cube/fourth_slide';
+@import './components_main_page/slider_cube/first_slide';
+@import './components_main_page/slider_cube/second_slide';
+@import './components_main_page/slider_cube/third_slide';
+@import './components_main_page/slider_cube/fourth_slide';
 //
-@import './components/about_company';
-@import './components/services';
-@import './components/veterinary_drugs';
-@import './components/pharmacy';
-@import './components/health_problems';
-@import './components/after_treat';
-@import './components/cooperation';
-@import './components/licenses';
-@import './components/preparing';
-@import './components/reviews';
-@import './components/questions';
-@import './components/contacts';
-@import './components/footer';
+@import './components_main_page/about_company';
+@import './components_main_page/services_main_page';
+@import './components_main_page/veterinary_drugs';
+@import './components_main_page/pharmacy';
+@import './components_main_page/health_problems';
+@import './components_main_page/after_treat';
+@import './components_main_page/cooperation';
+@import './components_main_page/licenses';
+@import './components_main_page/preparing';
+@import './components_main_page/reviews';
+@import './components_main_page/questions';
+@import './components_main_page/contacts';
+@import './components_main_page/footer';
+
+//файли сорінки сервіси
+// @import './components/services_services_page';
