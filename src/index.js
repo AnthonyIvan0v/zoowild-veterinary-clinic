@@ -14,4 +14,5 @@ import './js/scrollUp';
 import './js/openModaWindowMap';
 import './js/openModaWindowLicenes';
 import './js/openModaWindowVideo';
+import './js/openModaWindowForm';
 // import './js/anime';
