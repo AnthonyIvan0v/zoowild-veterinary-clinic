@@ -302,12 +302,11 @@
     color: white;
     width: 32px;
     height: 32px;
-    border: 0.67px solid var(--primary-white-color);
+
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    // margin: 0 16px;
     @include animation;
     transition-property: color, border;
     &:hover,
@@ -316,25 +315,25 @@
         border-color: #dadc00;
     }
     @media screen and (min-width: 768px) {
-        height: 30px;
-        border-radius: 45px;
-        width: 140px;
-        padding-left: 29px;
+        border: 1px solid var(--primary-white-color);
+        padding-left: 27px;
+        height: 25px;
+        border-radius: 30px;
+        width: 118px;
         justify-content: flex-start;
-        // margin: 0 22px;
     }
     @media screen and (min-width: 1200px) {
         padding-left: 29px;
         // margin: 0 0 0 12px;
     }
     @media screen and (min-width: 1400px) {
-        padding-left: 36px;
-        width: 172px;
+        padding-left: 40px;
+        width: 150px;
         height: 35px;
     }
     @media screen and (min-width: 1920px) {
-        padding-left: 42px;
-        width: 182px;
+        padding-left: 48px;
+        width: 160px;
         height: 44px;
     }
 }
@@ -348,6 +347,8 @@
         font-size: 15px;
         line-height: 0.98;
         letter-spacing: 0.01;
+        @include animation;
+        transition-property: transform;
     }
     @media screen and (min-width: 1440px) {
         font-size: 18px;
@@ -355,44 +356,107 @@
     }
 }
 
-.btn_call:hover .call_icon,
-.btn-call:focus .call_icon {
+.btn_call:hover .btn_call_text,
+.btn-call:focus .btn_call_text {
     @media screen and (min-width: 768px) {
-        transform: translate(111px, 2px) rotate(360deg);
-    }
-    @media screen and (min-width: 1200px) {
-        transform: translate(111px, 2px) rotate(360deg);
+        transform: translateX(-22px);
     }
     @media screen and (min-width: 1440px) {
-        transform: translate(138px, 2px) rotate(360deg);
+        transform: translateX(-30px);
     }
     @media screen and (min-width: 1920px) {
-        transform: translate(140px, 2px) rotate(360deg);
+        transform: translateX(-36px);
     }
 }
 
-.call_icon {
+.btn_call:hover .wrapper_icon_call,
+.btn-call:focus .wrapper_icon_call {
+    border-color: #dadc00;
+}
+
+.btn_call:hover .icon_call,
+.btn-call:focus .icon_call {
+    border-color: #dadc00;
+    background-color: #dadc00;
+}
+
+.wrapper_icon_call {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border: 1px solid var(--primary-white-color);
+    border-radius: 50%;
     @include animation;
-    transition-duration: 380ms;
     transition-property: transform;
-    fill: currentColor;
-    width: 25px;
-    height: 25px;
-    // margin-right: 1px;
     @media screen and (min-width: 768px) {
         position: absolute;
-        top: 0;
-        left: 0;
-        transform: translate(2px, 2px);
+        top: -1px;
+        left: -1px;
+        z-index: 2;
+
+        width: 25px;
+        height: 25px;
+
+        // transform: translate(2px, 2px);
         // margin-right: 6px;
     }
+    // @media screen and (min-width: 1200px) {
+    //     width: 36px;
+    //     height: 36px;
+    // }
     @media screen and (min-width: 1440px) {
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
     }
     @media screen and (min-width: 1920px) {
-        width: 38px;
-        height: 38px;
+        height: 44px;
+        width: 44px;
+    }
+}
+
+.icon_call {
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid var(--primary-white-color);
+    background-color: var(--primary-white-color);
+    // background-color: #dadc00;
+    background-image: url(../images/background-images/header/icon_call.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    @include animation;
+    transition-property: border-color, background-color;
+    @media screen and (min-width: 768px) {
+        width: 18px;
+        height: 18px;
+    }
+    @media screen and (min-width: 1440px) {
+        width: 27px;
+        height: 27px;
+    }
+    @media screen and (min-width: 1920px) {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+.btn_call:hover .wrapper_icon_call,
+.btn-call:focus .wrapper_icon_call {
+    @media screen and (min-width: 768px) {
+        transform: translateX(93px) rotate(360deg);
+    }
+    // @media screen and (min-width: 1200px) {
+    //     transform: translate(111px, 2px) rotate(360deg);
+    // }
+    @media screen and (min-width: 1440px) {
+        transform: translateX(116px) rotate(360deg);
+    }
+    @media screen and (min-width: 1920px) {
+        transform: translateX(116px) rotate(360deg);
     }
 }
 
