@@ -221,6 +221,9 @@
 // модифікатор кнопки в секціі after_treat, footer, fird_slide
 .round_button .text_btn_sign_up_for {
     max-width: 100px;
+    @media screen and (min-width: 1200px) {
+        max-width: 110px;
+    }
     @media screen and (min-width: 1440px) {
         max-width: 140px;
     }
