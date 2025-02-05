@@ -78,8 +78,8 @@
     height: 14px;
     fill: currentColor;
     @media screen and( min-width: 1440px) {
-        width: 28px;
-        height: 28px;
+        width: 26px;
+        height: 26px;
     }
 }
 
@@ -96,8 +96,8 @@
 .message::after {
     display: block;
     content: '';
-    width: 50px;
-    height: 50px;
+    width: 44px;
+    height: 44px;
     z-index: -1;
     border-radius: 50%;
     position: absolute;
@@ -108,21 +108,11 @@
     background-image: radial-gradient(
         circle at center,
         rgba(255, 255, 255, 0.5),
-        rgba(255, 255, 255, 0.5) 20px,
-        rgba(255, 255, 255, 0.3) 20px,
+        rgba(255, 255, 255, 0.5) 19px,
+        rgba(255, 255, 255, 0.3) 19px,
         rgba(255, 255, 255, 0.3) 26px
     );
-    // @media screen and (min-width: 1440px) {
-    //     width: 108px;
-    //     height: 108px;
-    //     background-image: radial-gradient(
-    //         circle at center,
-    //         rgba(255, 255, 255, 0.5),
-    //         rgba(255, 255, 255, 0.5) 44px,
-    //         rgba(255, 255, 255, 0.3) 44px,
-    //         rgba(255, 255, 255, 0.3) 54px
-    //     );
-    // }
+
     @media screen and (min-width: 1440px) {
         width: 80px;
         height: 80px;
@@ -303,6 +293,13 @@
         opacity: 0.8;
         pointer-events: all;
     }
+}
+
+.btn_callsms.location_btn {
+    background-image: url(../images/background-images/call_sms/location.svg);
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .wrapper_blok_location {
