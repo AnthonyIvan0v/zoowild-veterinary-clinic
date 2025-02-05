@@ -73,6 +73,16 @@
     }
 }
 
+.btn_callsms.btn_open_phone_number svg {
+    width: 14px;
+    height: 14px;
+    fill: currentColor;
+    @media screen and( min-width: 1440px) {
+        width: 28px;
+        height: 28px;
+    }
+}
+
 .btn_callsms.btn-to-top svg {
     width: 15px;
     height: 15px;
