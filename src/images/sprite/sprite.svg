@@ -38,8 +38,8 @@
 </symbol>
 
 <symbol id="icon-location" viewBox="0 0 26 32">
-<path stroke="currentColor"  stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0719" d="M24.4 13.191c0 8.333-11.437 16.11-11.437 16.11s-11.437-7.777-11.437-16.11c0-3.094 1.205-6.061 3.35-8.249s5.054-3.417 8.087-3.417c3.033 0 5.943 1.229 8.087 3.417s3.35 5.155 3.35 8.249z"></path>
-<path stroke="currentColor" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0719" d="M12.961 15.964c1.504 0 2.723-1.244 2.723-2.778s-1.219-2.778-2.723-2.778c-1.504 0-2.723 1.244-2.723 2.778s1.219 2.778 2.723 2.778z"></path>
+<path stroke="currentColor"  stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.0719" d="M24.4 13.191c0 8.333-11.437 16.11-11.437 16.11s-11.437-7.777-11.437-16.11c0-3.094 1.205-6.061 3.35-8.249s5.054-3.417 8.087-3.417c3.033 0 5.943 1.229 8.087 3.417s3.35 5.155 3.35 8.249z"></path>
+<path stroke="currentColor" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.0719" d="M12.961 15.964c1.504 0 2.723-1.244 2.723-2.778s-1.219-2.778-2.723-2.778c-1.504 0-2.723 1.244-2.723 2.778s1.219 2.778 2.723 2.778z"></path>
 </symbol>
 
 <symbol id="icon-main-title-mobile" viewBox="0 0 45 32">
