@@ -5,7 +5,7 @@ const cubeSlider = new Swiper('.cube-slider', {
     grabCursor: true,
     loop: true,
     direction: 'vertical',
-    speed: 2800,
+    speed: 4000,
     cubeEffect: {
         shadow: true,
         slideShadows: false,
