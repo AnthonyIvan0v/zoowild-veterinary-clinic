@@ -527,7 +527,7 @@
     font-family: var(--font-Cormorant-Unicase);
     text-transform: uppercase;
     color: #06631b;
-    // max-width: 180px;
+
     // word-break: break-all;
 
     word-break: break-word;
@@ -540,6 +540,13 @@
     }
     @media screen and (min-width: 1920px) {
         font-size: 43px;
+    }
+}
+
+.title_medical_card.modified_width_blok {
+    max-width: 240px;
+    @media screen and (min-width: 768px) {
+        max-width: 360px;
     }
 }
 
@@ -608,10 +615,11 @@
 }
 
 .btn_show_descr {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-color: #04a427;
+    outline: none;
     border: none;
     display: flex;
     align-items: center;
@@ -623,8 +631,8 @@
     transition-property: transform;
 }
 .btn_show_descr svg {
-    width: 28px;
-    height: 28px;
+    width: 26px;
+    height: 26px;
     fill: currentColor;
 }
 
@@ -713,7 +721,13 @@
     line-height: 1.2;
     letter-spacing: 0;
     color: #06631b;
-    max-height: 86px;
+    height: 68px;
+    overflow: hidden;
+}
+
+.show_text_descr_details {
+    height: auto;
+    overflow: visible;
 }
 
 .btn_read_more {
@@ -753,7 +767,7 @@
     line-height: 1.2;
     letter-spacing: -0.01;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 400;
     color: #04a427;
     display: flex;
     align-items: center;
@@ -779,7 +793,7 @@
     font-family: var(--font-Manrope);
     line-height: 1.2;
     letter-spacing: -0.01;
-    font-weight: 500;
+    font-weight: 400;
     color: #04a427;
 }
 
@@ -810,7 +824,7 @@
     font-family: var(--font-Manrope);
     line-height: 1.2;
     letter-spacing: -0.01;
-    font-weight: 600;
+    font-weight: 400;
     color: #06631b;
     position: relative;
 
@@ -858,7 +872,7 @@
     font-family: var(--font-Manrope);
     line-height: 1;
     letter-spacing: -0.02;
-    font-weight: 500;
+    font-weight: 400;
     color: #04a427;
     @media screen and (min-width: 768px) {
         font-size: 20px;
