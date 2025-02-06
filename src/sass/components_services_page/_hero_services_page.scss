@@ -3,17 +3,17 @@
     width: 100%;
     overflow: hidden;
     position: relative;
-    height: calc(100svh - 67px);
-    @media screen and (min-width: 1200px) {
-        height: calc(100svh - 74px);
-    }
-    @media screen and (min-width: 1400px) {
-        height: calc(100svh - 80px);
-    }
+    height: calc(82svh);
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    // margin-top: 64px;
 }
 
 .header_section.services_page_header {
-    background-color: #06631b;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    width: 100%;
 }
 
 .backdrop_img {
@@ -25,6 +25,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
+    z-index: 1;
     top: 0;
     left: 0;
     @media screen and (min-device-pixel-ratio: 2) and (max-width: 320px),
@@ -34,6 +35,9 @@
     }
 }
 .wrapper_title_services_page {
+    position: absolute;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
