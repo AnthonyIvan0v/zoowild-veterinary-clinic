@@ -7,7 +7,22 @@
         detailsMedicalCard: document.querySelectorAll(
             '[data-details-medical-card]'
         ),
+        textDescrDetailsMedicalCard: document.querySelectorAll(
+            '[data-text-descr-details]'
+        ),
+        toggleBtnShowTextDescrDetailsMedicalCard:
+            document.querySelectorAll('[data-show-text]'),
     };
+
+    refs.textDescrDetailsMedicalCard.forEach((elem, index) =>
+        elem.setAttribute('id', index)
+    );
+    refs.toggleBtnShowTextDescrDetailsMedicalCard.forEach((elem, index) =>
+        elem.setAttribute('id', index)
+    );
+    refs.toggleBtnShowTextDescrDetailsMedicalCard.forEach((elem, index) =>
+        elem.addEventListener('click', () => toggleShowText(index))
+    );
 
     refs.medicalCard.forEach((elem, index) => elem.setAttribute('id', index));
     refs.toggleBtnShowDetailsMedicalCard.forEach((elem, index) =>
@@ -47,5 +62,22 @@
                 elem.classList.remove('rotate_btn_show_descr');
             }
         });
+    }
+
+    function toggleShowText(id) {
+        refs.textDescrDetailsMedicalCard[id].classList.toggle(
+            'show_text_descr_details'
+        );
+        if (
+            refs.toggleBtnShowTextDescrDetailsMedicalCard[
+                id
+            ].textContent.includes('Читати')
+        ) {
+            refs.toggleBtnShowTextDescrDetailsMedicalCard[id].textContent =
+                'Приховати';
+        } else {
+            refs.toggleBtnShowTextDescrDetailsMedicalCard[id].textContent =
+                'Читати більше';
+        }
     }
 })();
