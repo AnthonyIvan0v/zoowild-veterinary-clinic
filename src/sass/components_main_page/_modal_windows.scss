@@ -333,6 +333,7 @@
     width: 38px;
     height: 38px;
     border-radius: 50%;
+    color: #fff;
     @media screen and (min-width: 1440px) {
         width: 45px;
         height: 45px;
@@ -344,6 +345,7 @@
 }
 
 .form_social_link_ceo svg {
+    fill: currentColor;
     width: 20px;
     height: 20px;
     @media screen and (min-width: 1440px) {
