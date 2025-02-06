@@ -347,7 +347,7 @@
 .thumb_img_cat_on_grass {
     flex-basis: calc((100% - 70px) / 2);
     height: 80px;
-    border-radius: 15px;
+    border-radius: 20px;
     overflow: hidden;
     @media screen and (min-width: 768px) {
         flex-basis: 110px;
@@ -362,7 +362,6 @@
         height: 144px;
     }
     @media screen and (min-width: 1920px) {
-        border-radius: 20px;
         flex-basis: 268px;
         height: 178px;
     }
@@ -378,7 +377,7 @@
 .thumb_img_employee_with_parrot {
     flex-basis: calc((100% - 70px) / 2);
     height: 106px;
-    border-radius: 15px;
+    border-radius: 20px;
     overflow: hidden;
     @media screen and (min-width: 768px) {
         flex-basis: 106px;
@@ -391,12 +390,11 @@
         margin-top: auto;
         flex-basis: 180px;
         height: 180px;
-        border-radius: 24px;
+        border-radius: 30px;
     }
     @media screen and (min-width: 1920px) {
         flex-basis: 246px;
         height: 246px;
-        border-radius: 30px;
     }
 }
 
@@ -431,10 +429,10 @@
         padding: 14px 20px 20px 20px;
     }
     @media screen and (min-width: 1440px) {
-        width: 440px;
+        width: 430px;
         height: 144px;
-        transform: translateY(0px);
-        padding: 0 0 15px 0;
+        transform: translate(-8px, 0px);
+        padding: 0 10px 15px 10px;
     }
     @media screen and (min-width: 1920px) {
         width: 561px;
