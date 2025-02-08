@@ -1,0 +1,78 @@
+.bakground_img_hero_about_company {
+    overflow: hidden;
+    width: 100%;
+    height: calc(82svh);
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    box-shadow: 0 0 30 0 rgba(10, 112, 64, 0.2);
+    background-color: #06631b;
+    background-image: url(../images/background-images/about_company_page/hero_about_company.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.header_section.services_page_header {
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    width: 100%;
+}
+
+.wrapper_title_about_company_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.title_about_company_page {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+}
+
+.title_about_company_page span:first-child {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--font-Cormorant-Unicase);
+    line-height: 1.1;
+    letter-spacing: -0.07;
+    @media screen and (min-width: 768px) {
+        font-size: 70px;
+    }
+    @media screen and (min-width: 1440px) {
+        font-size: 75px;
+    }
+}
+
+.title_about_company_page span:last-child {
+    display: block;
+    color: #fff;
+    font-size: 50px;
+    // max-width: 300px;
+
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--font-Cormorant-Unicase);
+    line-height: 0.9;
+    letter-spacing: -0.05;
+    mix-blend-mode: overlay;
+    @media screen and (min-width: 768px) {
+        font-size: 100px;
+        // max-width: 600px;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 120px;
+        // max-width: 700px;
+    }
+    @media screen and (min-width: 1440px) {
+        // max-width: 1200px;
+        font-size: 200px;
+    }
+}
