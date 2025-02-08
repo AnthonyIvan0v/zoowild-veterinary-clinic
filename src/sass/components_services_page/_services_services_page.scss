@@ -653,7 +653,6 @@
 
 .visible_details_medical_card {
     overflow-y: visible;
-    // visibility: visible;
     z-index: 10;
     @include animation;
     transition-duration: 280ms;
