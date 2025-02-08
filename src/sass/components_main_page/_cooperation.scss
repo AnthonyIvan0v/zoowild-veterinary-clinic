@@ -243,7 +243,7 @@
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: contain;
-    overflow: hidden;
+    // overflow: hidden;
     @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
         screen and (min-resolution: 192dpi) and (min-width: 320px),
         screen and (min-resolution: 2dppx) and (min-width: 320px) {
@@ -277,7 +277,7 @@
     border-radius: 26px;
     background-color: #f3fff6;
     border: 6px solid #04a427;
-    z-index: 2;
+    // z-index: 2;
     @media screen and (min-width: 768px) {
         border: none;
         width: 534px;
@@ -297,43 +297,88 @@
 .item_list_job_vacancy {
     width: 100%;
     height: 68px;
+    z-index: 1;
     position: relative;
     background-color: #fff;
     border-radius: 20px;
-    border-top: 1px solid rgba(4, 164, 39, 0.4);
     border-bottom: 1px solid rgba(4, 164, 39, 0.4);
-    display: flex;
-    flex-direction: column;
-    // align-items: center;
-    // justify-content: center;
-    padding: 10px 10px 8px 10px;
     @include animation;
-    transition-duration: 150ms;
-    transition-property: height;
-    overflow: hidden;
-    @media screen and (min-width: 768px) {
-    }
+    transition-property: z-index;
     @media screen and (min-width: 1440px) {
-        padding: 14px 32px 8px 32px;
         height: 80px;
         border-radius: 32px;
     }
     @media screen and (min-width: 1920px) {
-        padding: 26px 50px 8px 50px;
         height: 100px;
         border-radius: 40px;
     }
 }
-.show_list {
-    height: 500px;
-    @include animation;
-    transition-duration: 150ms;
-    transition-property: height;
+
+.wrapper_job_title {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    border-top: 1px solid rgba(4, 164, 39, 0.4);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    z-index: 50;
+    background-color: #fff;
+    padding: 14px 32px;
+
+    @media screen and (min-width: 1440px) {
+        border-radius: 32px;
+        padding: 14px 32px;
+    }
+    @media screen and (min-width: 1920px) {
+        padding: 26px 50px 26px 50px;
+        border-radius: 40px;
+    }
 }
 
-.wapper_name_job_vacancy {
-    display: flex;
-    align-items: center;
+.vacancy_descr_wrapper {
+    padding: 60px 8px 20px 8px;
+    border-bottom: 1px solid rgba(4, 164, 39, 0.4);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(42%) scaleY(0);
+    @include animation;
+    transition-duration: 280ms;
+    transition-property: transform;
+    @media screen and (min-width: 768px) {
+        padding: 60px 32px 20px 32px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        padding: 80px 32px 20px 32px;
+        border-radius: 32px;
+    }
+    @media screen and (min-width: 1920px) {
+        padding: 80px 50px 30px 50px;
+        border-radius: 40px;
+    }
+}
+
+.active_item_list_job_vacancy {
+    z-index: 10;
+    @include animation;
+    transition-property: z-index;
+}
+
+.show_vacancy_descr_wrapper {
+    transform: translateY(92%) scaleY(1);
+    background-color: #fff;
+    @include animation;
+    transition-duration: 280ms;
+    transition-property: transform;
+    @media screen and (min-width: 1440px) {
+        transform: translateY(88%) scaleY(1);
+    }
 }
 
 .title_descr_job_vacancy {
@@ -463,14 +508,14 @@
     border-radius: 30;
     border-top: 0.7px solid rgba(4, 164, 39, 0.5);
     // border-bottom: 0.7px solid rgba(4, 164, 39, 0.5);
-
     padding: 10px 20px;
-    margin-top: 30px;
+    // margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     overflow-y: scroll;
     scroll-behavior: smooth;
+    height: 500px;
 }
 
 .wrapper_descr_job_vacancy::-webkit-scrollbar {
