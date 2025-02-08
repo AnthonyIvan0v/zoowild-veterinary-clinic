@@ -1,0 +1,229 @@
+.bakground_badge_our_team_about_company_page {
+    background-color: #f3fff6;
+    background-image: url(../images/background-images/about_company_page/badge.png);
+    background-repeat: no-repeat;
+    background-position: bottom 750px left 20%;
+    background-size: auto;
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
+        screen and (min-resolution: 192dpi) and (min-width: 320px),
+        screen and (min-resolution: 2dppx) and (min-width: 320px) {
+        background-image: url(../images/background-images/about_company_page/badge@2x.png);
+        background-size: 500px;
+    }
+    @media screen and (min-width: 768px) {
+        background-size: 500px;
+        background-position: bottom 520px left 50%;
+    }
+    @media screen and (min-width: 1200px) {
+        background-position: bottom left;
+    }
+    @media screen and (min-width: 1440px) {
+        background-size: 540px;
+    }
+    @media screen and (min-width: 1920px) {
+        background-size: 840px;
+    }
+}
+
+.section_our_team {
+    // padding-top: 36px;
+
+    background-image: url(../images/background-images/about_company_page/paw_center.svg);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: top right 80px;
+
+    @media screen and (min-width: 768px) {
+        // padding-top: 40px;
+
+        background-image: url(../images/background-images/about_company_page/paws_top.svg),
+            url(../images/background-images/about_company_page/paw_bottom.svg);
+        background-size: 180px, 60px;
+        background-position: top right 30px, bottom 34px left 100px;
+    }
+    @media screen and (min-width: 1200px) {
+        background-image: url(../images/background-images/about_company_page/paws_top.svg),
+            url(../images/background-images/about_company_page/paw_center.svg),
+            url(../images/background-images/about_company_page/paw_bottom.svg);
+        background-size: 260px, 60px, 60px;
+        background-position: top 60px left 100px, center left 300px,
+            bottom 34px left 154px;
+    }
+    @media screen and (min-width: 1440px) {
+        // padding-top: 70px;
+
+        background-size: 300px, 70px, 70px;
+        background-position: top 240px left 100px, center left 300px,
+            bottom 34px left 154px;
+    }
+    @media screen and (min-width: 1920px) {
+        background-position: top 240px left 183px, center left 400px,
+            bottom 34px left 154px;
+    }
+}
+
+.wrapper_title_descr_our_team {
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+}
+
+.title_our_team {
+    max-width: 140px;
+    margin-bottom: 20px;
+    @media screen and (min-width: 768px) {
+        margin-bottom: 30px;
+    }
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 0;
+    }
+    @media screen and (min-width: 1440px) {
+        max-width: 180px;
+    }
+}
+
+.descr_our_team {
+    font-family: var(--font-Manrope);
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.23;
+    color: #06631b;
+    letter-spacing: 0;
+    // margin-top: 20px;
+    @media screen and (min-width: 768px) {
+        font-size: 28px;
+        // margin-top: 28px;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 30px;
+        margin-top: 0px;
+        max-width: 724px;
+        margin-left: auto;
+    }
+    @media screen and (min-width: 1440px) {
+        font-size: 40px;
+        max-width: 900px;
+    }
+    @media screen and (min-width: 1920px) {
+        font-size: 43px;
+        font-weight: 400;
+    }
+}
+
+.descr_our_team span {
+    color: #04a427;
+    font-family: var(--font-Cormorant);
+    font-size: 22px;
+    font-weight: 500;
+    @media screen and (min-width: 768px) {
+        font-size: 31px;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 33px;
+    }
+    @media screen and (min-width: 1440px) {
+        font-size: 45px;
+    }
+    @media screen and (min-width: 1920px) {
+        font-size: 50px;
+    }
+}
+
+.wrapper_cards_our_team {
+    margin-top: 20px;
+    display: flex;
+    @media screen and (min-width: 768px) {
+        margin-top: 30px;
+    }
+    @media screen and (min-width: 1200px) {
+        justify-content: flex-end;
+    }
+}
+
+.cards_our_team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+    width: 100%;
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 724px;
+    }
+    @media screen and (min-width: 1440px) {
+        width: 900px;
+    }
+}
+
+.item_cards_our_team {
+    border-radius: 40px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 3 20 0 rgba(6, 99, 27, 0.12);
+    max-width: 480px;
+    @media screen and (min-width: 768px) {
+        max-width: none;
+        flex-basis: calc((100% - 40px) / 2);
+    }
+    @media screen and (min-width: 1440px) {
+        flex-basis: calc((100% - 40px) / 3);
+    }
+}
+
+.thumb_img_employee {
+    overflow: hidden;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: #b6f2c3;
+}
+.thumb_img_employee img {
+    object-position: center;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.block_descr_card {
+    width: 100%;
+    height: 160px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.name_employee {
+    font-size: 27px;
+    line-height: 1;
+    letter-spacing: -0.02;
+    font-weight: 500;
+    font-family: var(--font-Cormorant-Unicase);
+    color: #04a427;
+    text-transform: uppercase;
+}
+
+.specialty {
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: -0.02;
+    font-weight: 500;
+    font-family: var(--font-Manrope);
+    color: #06631b;
+    max-width: 140px;
+}
+
+.section_cooperation_about_company_page {
+    // background-color: #f3fff6;
+    padding-bottom: 35px;
+    @media screen and (min-width: 1440px) {
+        padding-bottom: 74px;
+    }
+}
