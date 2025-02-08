@@ -1,0 +1,14 @@
+.section_about {
+    background-color: #f3fff6;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    @media screen and (min-width: 1200px) {
+        padding-top: 70px;
+    }
+}
+
+.border_section_about_company {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-top: 2px solid rgba(4, 164, 39, 0.4);
+}

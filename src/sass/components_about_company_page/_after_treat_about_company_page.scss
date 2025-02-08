@@ -1,0 +1,49 @@
+.section_after_treat {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top: 2px solid rgba(4, 164, 39, 0.4);
+    border-bottom: 2px solid rgba(4, 164, 39, 0.4);
+    background-color: #e2ffe9;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    background-image: url(../images/background-images/after_treat/paws_top.svg),
+        url(../images/background-images/after_treat/paws_center.svg);
+    background-position: top 50px right 12px, top 275px left 40px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    @media screen and (min-width: 768px) {
+        border-radius: 25px;
+        padding-top: 40px;
+        padding-bottom: 35px;
+        background-image: url(../images/background-images/after_treat/paws_top_left_768.svg),
+            url(../images/background-images/after_treat/paws_center_768.svg),
+            url(../images/background-images/after_treat/paw_bottom_768.svg);
+        background-position: top 74px left 60px, center right 60px,
+            bottom 175px left 134px;
+    }
+    @media screen and (min-width: 1200px) {
+        padding-bottom: 40px;
+        background-image: url(../images/background-images/after_treat/paws_top_left_1920.svg),
+            url(../images/background-images/after_treat/paws_top_right_1920.svg),
+            url(../images/background-images/after_treat/paws_center_right_1920.svg);
+        background-size: 200px, 200px, 300px;
+        background-position: top 200px left 140px, top 120px right 80px,
+            top 540px right 80px;
+    }
+    @media screen and (min-width: 1440px) {
+        padding-top: 74px;
+        padding-bottom: 74px;
+        background-size: 250px, 180px, 275px;
+        background-position: top 364px left 140px, top 190px right 190px,
+            top 660px right 140px;
+    }
+    @media screen and (min-width: 1920px) {
+        background-size: auto, auto, auto;
+        background-position: top 480px left 165px, top 270px right 252px,
+            top 820px right 190px;
+    }
+}
+
+.section_after_treat_modified_border {
+    border-bottom: none;
+}
