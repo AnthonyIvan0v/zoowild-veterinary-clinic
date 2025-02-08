@@ -1,0 +1,616 @@
+.section_founder_clinic {
+    background-color: #f3fff6;
+    position: relative;
+    padding-bottom: 36px;
+}
+
+.position_content_founder_clinic {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    @media screen and (min-width: 1200px) {
+        align-items: flex-start;
+        flex-direction: row;
+    }
+}
+
+.title_founder_clinic {
+    max-width: 140px;
+    @media screen and (min-width: 1440px) {
+        max-width: 180px;
+    }
+}
+
+.postion_block_founder_clinc {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 680px;
+    @media screen and (min-width: 768px) {
+        height: auto;
+    }
+}
+
+.radial_gradient_founder_clinic {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-image: radial-gradient(
+        circle at center,
+        rgba(20, 114, 12, 0.05),
+        rgba(20, 114, 12, 0.05) 64%,
+        rgba(20, 114, 12, 0.03) 64%,
+        rgba(20, 114, 12, 0.03) 82%
+    );
+    @media screen and (min-width: 768px) {
+        width: 562px;
+        height: 562px;
+        background-image: radial-gradient(
+            circle at center,
+            rgba(20, 114, 12, 0.05),
+            rgba(20, 114, 12, 0.05) 64%,
+            rgba(20, 114, 12, 0.03) 64%,
+            rgba(20, 114, 12, 0.03) 82%
+        );
+    }
+    @media screen and (min-width: 1200px) {
+        width: 602px;
+        height: 602px;
+        background-image: radial-gradient(
+            circle at center,
+            rgba(20, 114, 12, 0.05),
+            rgba(20, 114, 12, 0.05) 64%,
+            rgba(20, 114, 12, 0.03) 64%,
+            rgba(20, 114, 12, 0.03) 82%
+        );
+    }
+    @media screen and (min-width: 1440px) {
+        width: 722px;
+        height: 722px;
+        background-image: radial-gradient(
+            circle at center,
+            rgba(20, 114, 12, 0.05),
+            rgba(20, 114, 12, 0.05) 60%,
+            rgba(20, 114, 12, 0.03) 60%,
+            rgba(20, 114, 12, 0.03) 82%
+        );
+    }
+
+    @media screen and (min-width: 1920px) {
+        width: 894px;
+        height: 894px;
+        background-image: radial-gradient(
+            circle at center,
+            rgba(20, 114, 12, 0.05),
+            rgba(20, 114, 12, 0.05) 60%,
+            rgba(20, 114, 12, 0.03) 60%,
+            rgba(20, 114, 12, 0.03) 82%
+        );
+    }
+}
+
+.sticker {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 7.48 0 rgba(25, 91, 10, 0.06);
+    @media screen and (min-width: 768px) {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.sticker_paw {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.sticker_paw svg {
+    width: 24px;
+    height: 24px;
+    @media screen and (min-width: 768px) {
+        width: 38px;
+        height: 38px;
+    }
+}
+
+.sticker_like {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(145px);
+    z-index: 10;
+    @media screen and (min-width: 768px) {
+        transform: translate(-40px, 260px);
+    }
+    @media screen and (min-width: 1200px) {
+        transform: translate(-40px, 290px);
+    }
+    @media screen and (min-width: 1440px) {
+        transform: translate(20px, 380px);
+    }
+}
+
+.sticker_like svg {
+    width: 25px;
+    height: 25px;
+    @media screen and (min-width: 768px) {
+        width: 48px;
+        height: 48px;
+    }
+}
+
+.sticker_monkey {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(-20px, 255px);
+    z-index: 10;
+    @media screen and (min-width: 768px) {
+        transform: translate(80px, -200px);
+    }
+    @media screen and (min-width: 1200px) {
+        transform: translate(130px, -240px);
+    }
+}
+
+.sticker_monkey svg {
+    width: 25px;
+    height: 25px;
+    @media screen and (min-width: 768px) {
+        width: 48px;
+        height: 48px;
+    }
+}
+
+.wrapper_photo_founder {
+    border-radius: 50%;
+    background-color: #14720c;
+    width: 82%;
+    height: 82%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    @media screen and (min-width: 1440px) {
+        width: 70%;
+        height: 70%;
+    }
+}
+
+.thumb_photo_founder {
+    position: relative;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: blue;
+}
+
+.border_photo_founder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 4px solid rgba(245, 255, 247, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    @media screen and (min-width: 1440px) {
+        border: 10px solid rgba(245, 255, 247, 0.5);
+    }
+}
+
+.btn-play-video-founder_clinic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover,
+    &:focus {
+        background-color: #dadc00;
+    }
+    @media screen and (min-width: 768px) {
+        width: 40px;
+        height: 40px;
+    }
+    @media screen and (min-width: 1200px) {
+        width: 54px;
+        height: 54px;
+    }
+    @media screen and (min-width: 1440px) {
+        width: 65px;
+        height: 65px;
+    }
+    @media screen and (min-width: 1920px) {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.wrapper_info_founder_clinic {
+    width: 290px;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px 15px 36px 15px;
+    position: relative;
+    border-top: 1px solid rgba(4, 164, 39, 0.4);
+    border-bottom: 1px solid rgba(4, 164, 39, 0.4);
+
+    @media screen and (min-width: 768px) {
+        padding: 24px 30px;
+        width: 380px;
+    }
+    @media screen and (min-width: 1440px) {
+        border-radius: 32px;
+        padding: 30px;
+        width: auto;
+    }
+    @media screen and (min-width: 1920px) {
+        border-radius: 40px;
+        padding: 40px;
+    }
+}
+
+.name_founder_clinic {
+    text-align: center;
+    max-width: 246px;
+    font-size: 20px;
+    color: #04a427;
+    line-height: 100%;
+    letter-spacing: -2%;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: var(--font-Cormorant-Unicase);
+    margin-bottom: 14px;
+    @media screen and (min-width: 768px) {
+        font-size: 25px;
+        max-width: 290px;
+        text-align: right;
+    }
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 24px;
+    }
+    @media screen and (min-width: 1440px) {
+        max-width: 350px;
+        font-size: 30px;
+    }
+    @media screen and (min-width: 1920px) {
+        margin-bottom: 24px;
+    }
+}
+
+.position_work_founder_clinic {
+    font-size: 14px;
+    color: #06631b;
+    line-height: 120%;
+    letter-spacing: 0.5;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 10px;
+    max-width: 250px;
+    text-align: right;
+    @media screen and (min-width: 768px) {
+        font-size: 15px;
+        max-width: 290px;
+        text-align: right;
+    }
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 30px;
+    }
+    @media screen and (min-width: 1440px) {
+        max-width: 350px;
+        font-size: 18px;
+        // max-width: none;
+        margin-bottom: 40px;
+    }
+    @media screen and (min-width: 1920px) {
+        font-size: 19px;
+        margin-bottom: 30px;
+    }
+}
+
+.position_work_founder_clinic span {
+    color: #04a427;
+}
+
+.founder_clinic_sign {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(-30px, -10px);
+    width: 80px;
+    height: 60px;
+    background-image: url(../images/background-images/questions/ceo_sign.svg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    @media screen and (min-width: 768px) {
+        transform: translate(-50px, -6px);
+        width: 80px;
+        height: 60px;
+    }
+    @media screen and (min-width: 1200px) {
+        transform: translate(-50px, 0px);
+
+        width: 100px;
+        height: 80px;
+    }
+    @media screen and (min-width: 1440px) {
+        width: 100px;
+        height: 80px;
+        transform: translate(-50px, -10px);
+    }
+    @media screen and (min-width: 1920px) {
+        width: 130px;
+        height: 110px;
+    }
+}
+
+.list_social {
+    display: flex;
+    column-gap: 14px;
+    @media screen and (min-width: 768px) {
+        column-gap: 16px;
+    }
+    @media screen and (min-width: 1920px) {
+        column-gap: 22px;
+    }
+}
+
+.item_social_list {
+    width: 26px;
+    height: 26px;
+    border: 3px solid #04a427;
+    border-radius: 8px;
+    color: #04a427;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include animation;
+    transition-property: color, border-color;
+    &:hover,
+    &:focus {
+        color: #dadc00;
+        border-color: #dadc00;
+    }
+    @media screen and (min-width: 768px) {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.item_social_list:first-child {
+    border: none;
+    width: 27px;
+    height: 27px;
+    @media screen and (min-width: 768px) {
+        width: 31px;
+        height: 31px;
+    }
+}
+
+.item_social_list:first-child svg {
+    width: 100%;
+    height: 100%;
+}
+
+.item_social_list svg {
+    fill: currentColor;
+    width: 18px;
+    height: 18px;
+    // @media screen and (min-width: 1440px) {
+    //     width: 34px;
+    //     height: 34px;
+    // }
+    @media screen and (min-width: 768px) {
+        width: 22px;
+        height: 22px;
+    }
+}
+
+.position_text_card_top {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    // transform: translateY(200px);
+    @media screen and (min-width: 768px) {
+        bottom: auto;
+        right: auto;
+        top: 0;
+        left: 0;
+        transform: translate(-8px, 20px);
+        z-index: 1;
+    }
+    @media screen and (min-width: 1200px) {
+        top: auto;
+        right: auto;
+        bottom: 0;
+        left: 0;
+        transform: translate(-150px, -20px);
+        z-index: 8;
+    }
+    @media screen and (min-width: 1440px) {
+        transform: translate(-70px, -40px);
+    }
+}
+
+.position_text_card_info {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 8;
+    transform: translateY(170px);
+    @media screen and (min-width: 768px) {
+        right: auto;
+        left: 0;
+        transform: translate(-80px, 10px);
+    }
+    @media screen and (min-width: 1200px) {
+        bottom: auto;
+        top: 0;
+        z-index: 1;
+        transform: translate(-250px, 40px);
+    }
+}
+
+.position_text_card_experience {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 8;
+    transform: translate(0, 270px);
+    @media screen and (min-width: 768px) {
+        left: auto;
+        right: 0;
+        transform: translate(-20px, -200px);
+    }
+    @media screen and (min-width: 1200px) {
+        transform: translate(30px, -210px);
+    }
+    @media screen and (min-width: 1440px) {
+        transform: translate(30px, -380px);
+    }
+}
+
+.position_text_card_number_one {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 8;
+    transform: translate(0, 408px);
+    @media screen and (min-width: 768px) {
+        transform: translate(10px, -40px);
+    }
+    @media screen and (min-width: 1200px) {
+        transform: translate(130px, 0px);
+    }
+    @media screen and (min-width: 1440px) {
+        transform: translate(130px, -20px);
+    }
+}
+
+.card_text_info_founder_clinic {
+    border-top: 1px solid rgba(4, 164, 39, 0.4);
+    border-bottom: 1px solid rgba(4, 164, 39, 0.4);
+    border-radius: 22px;
+    padding: 10px 32px 10px 16px;
+    @media screen and (min-width: 1200px) {
+        padding: 30px 40px;
+        border-radius: 40px;
+    }
+}
+
+.card_text_info_founder_clinic p {
+    font-size: 15px;
+    font-family: var(--font-Manrope);
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: #06631b;
+    text-transform: uppercase;
+    max-width: 115px;
+    @media screen and (min-width: 1200px) {
+        font-size: 18px;
+        max-width: 140px;
+    }
+}
+
+.card_text_info_founder_clinic.first_card {
+    background-color: #e2ffe1;
+    // width: 264px;
+}
+
+.sticker_hart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-10px, 10px);
+    z-index: 10;
+    @media screen and (min-width: 1200px) {
+        transform: translate(-20px, 24px);
+    }
+}
+
+.sticker_hart svg {
+    width: 25px;
+    height: 25px;
+    @media screen and (min-width: 1200px) {
+        width: 38px;
+        height: 38px;
+    }
+}
+
+.card_text_info_founder_clinic.second_card {
+    background-color: #faffe2;
+    // width: 224px;
+}
+
+.card_text_info_founder_clinic.fird_card {
+    background-color: #e2fff2;
+    // width: 400px;
+}
+
+.card_text_info_founder_clinic p:first-child {
+    font-size: 42px;
+    font-family: var(--font-Cormorant-Unicase);
+    line-height: 0.7;
+    letter-spacing: -0.02;
+    font-weight: 500;
+    color: #04a427;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    @media screen and (min-width: 1200px) {
+        font-size: 65px;
+    }
+}
+
+.card_text_info_founder_clinic.first_card p:first-child {
+    font-size: 20px;
+    font-family: var(--font-Cormorant-Unicase);
+    line-height: 1;
+    letter-spacing: -0.02;
+    font-weight: 500;
+    color: #04a427;
+    text-transform: uppercase;
+    max-width: 100px;
+    @media screen and (min-width: 1200px) {
+        font-size: 30px;
+        max-width: 170px;
+    }
+}
+
+.card_text_info_founder_clinic.first_card span {
+    font-size: 30px;
+    line-height: 0.7;
+    letter-spacing: -0.02;
+    @media screen and (min-width: 1200px) {
+        font-size: 50px;
+    }
+}
+
+.card_text_info_founder_clinic.fird_card p:last-child {
+    max-width: 190px;
+    @media screen and (min-width: 1200px) {
+        max-width: 280px;
+    }
+}
