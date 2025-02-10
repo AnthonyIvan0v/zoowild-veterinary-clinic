@@ -4,23 +4,37 @@
     background-position: bottom;
     width: 100%;
     height: 100%;
-    background-image: url(../images/background-images/hero/slider-cube/first-slide/snake.jpg);
+    // background-image: url(../images/background-images/hero/slider-cube/first-slide/snake.jpg);
     @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
         screen and (min-resolution: 192dpi) and (min-width: 320px),
         screen and (min-resolution: 2dppx) and (min-width: 320px) {
-        background-image: url(../images/background-images/hero/slider-cube/first-slide/snake@2x.jpg);
+        // background-image: url(../images/background-images/hero/slider-cube/first-slide/snake@2x.jpg);
     }
 
     @media screen and (min-width: 768px) {
         background-position: center;
-        background-image: url(../images/background-images/hero/slider-cube/first-slide/snake_desktop.jpg);
+        // background-image: url(../images/background-images/hero/slider-cube/first-slide/snake_desktop.jpg);
     }
 
     @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
         screen and (min-resolution: 192dpi) and (min-width: 768px),
         screen and (min-resolution: 2dppx) and (min-width: 768px) {
-        background-image: url(../images/background-images/hero/slider-cube/first-slide/snake_desktop.jpg);
+        // background-image: url(../images/background-images/hero/slider-cube/first-slide/snake_desktop.jpg);
     }
+}
+
+.thumb_img_hero_snake {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.thumb_img_hero_snake img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .container_flex {
