@@ -455,6 +455,7 @@
 .wrapper_leave_data svg {
     width: 40px;
     height: 60px;
+    fill: #095119;
     @media screen and (min-width: 1440px) {
         width: 50px;
         height: 74px;
@@ -640,7 +641,7 @@
         }
     }
 
-    .confirm_checkbox:checked + &::before {
+    .confirm_checkbox_form:checked + &::before {
         border: none;
         background-color: #04a427;
         background-image: url(../images/background-images/footer/check.svg);
@@ -730,6 +731,8 @@
     flex-direction: row;
     align-items: center;
     color: #fff;
+    background-color: transparent;
+    border: none;
     font-family: var(--font-Manrope);
     font-weight: 400;
     font-size: 16px;
@@ -868,7 +871,7 @@
     display: none;
     @media screen and (min-width: 768px) {
         display: inline-block;
-        fill: #06631b;
+        fill: currentColor;
         width: 50px;
         height: 64px;
     }
@@ -1143,4 +1146,69 @@
     border-radius: 30px;
     border-top: 1px solid rgba(4, 164, 39, 0.4);
     border-bottom: 1px solid rgba(4, 164, 39, 0.4);
+}
+
+.fake_chekbox_vacancy_form {
+}
+
+.fake_chekbox_vacancy_form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    // margin-bottom: 30px;
+    // width: 100%;
+
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 120%;
+    color: #095119;
+    max-width: 220px;
+    position: relative;
+    @media screen and (min-width: 768px) {
+        font-size: 14px;
+        max-width: 236px;
+        margin: 0 auto;
+    }
+    @media screen and (min-width: 1440px) {
+        max-width: 260px;
+        font-size: 15px;
+    }
+    &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(-18px, 2px);
+        content: '';
+        width: 14px;
+        height: 14px;
+        border: 1px solid #06631b;
+        border-radius: 4px;
+        // border-radius: 2px;
+        cursor: pointer;
+        background-color: #ffffff;
+        transition-property: background-color, background-image;
+        @include animation;
+        @media screen and (min-width: 1440px) {
+            transform: translate(-22px, 2px);
+            width: 16px;
+            height: 16px;
+        }
+        @media screen and (min-width: 1920px) {
+            transform: translate(-26px, 2px);
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    .confirm_checkbox_vacancy_form:checked + &::before {
+        border: none;
+        background-color: #04a427;
+        background-image: url(../images/background-images/footer/check.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        @include animation;
+    }
 }

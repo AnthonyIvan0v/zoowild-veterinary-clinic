@@ -4,7 +4,7 @@
         closeMenuBtn: document.querySelector('[data-menu-close]'),
         menu: document.querySelector('[data-menu]'),
         modal: document.querySelector('[data-modal]'),
-        links: document.querySelectorAll('.link_mobile_menu'),
+        links: document.querySelectorAll('[data-link-mobile-menu]'),
     };
 
     refs.links.forEach(element =>

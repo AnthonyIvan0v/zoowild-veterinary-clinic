@@ -29,7 +29,7 @@
         const name = formElements.name.value;
         const email = formElements.email.value;
         const phone = formElements.phoneNumber.value;
-        const agreePrivacyPolicy = formElements.confirm.value;
+        const agreePrivacyPolicy = formElements.confirm_policy_form.value;
         if (
             name === '' ||
             email === '' ||
