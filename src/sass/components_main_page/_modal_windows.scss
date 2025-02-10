@@ -865,10 +865,10 @@
 }
 
 .block_text_leave_data svg {
-    width: 30px;
-    height: 44px;
-    fill: #06631b;
+    display: none;
     @media screen and (min-width: 768px) {
+        display: inline-block;
+        fill: #06631b;
         width: 50px;
         height: 64px;
     }
