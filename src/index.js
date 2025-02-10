@@ -17,4 +17,4 @@ import './js/openModaWindowLicenes';
 import './js/openModaWindowVideo';
 import './js/openModaWindowForm';
 import './js/openModalWindowPostForm';
-// import './js/anime';
+import './js/anime';

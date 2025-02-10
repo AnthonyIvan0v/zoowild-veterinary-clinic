@@ -15,4 +15,5 @@ import './js/openModaWindowLicenes';
 import './js/openModaWindowVideo';
 import './js/openModaWindowForm';
 import './js/showDetailsMedicalCard';
-// import './js/anime';
+import './js/openModalWindowPostForm';
+import './js/anime';
