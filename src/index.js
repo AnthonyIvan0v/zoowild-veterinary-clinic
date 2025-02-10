@@ -3,6 +3,7 @@ import './js/counter_services';
 import './js/openBlockInfoCEO';
 import './js/toggleLang';
 import './js/descr_job_vacancy';
+import './js/openFormVacancy';
 import './js/slider_licenses';
 import './js/slider_reviews';
 import './js/expand_answer_question';
