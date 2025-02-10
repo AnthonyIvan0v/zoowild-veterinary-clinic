@@ -776,6 +776,25 @@
         align-items: center;
     }
 }
+
+.wrapper_positon_resume_submission_form::-webkit-scrollbar {
+    width: 8px;
+}
+
+.wrapper_positon_resume_submission_form::-webkit-scrollbar-track {
+    background: #e2ffe9;
+    border: 1px solid rgba(4, 164, 39, 0.4);
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.wrapper_positon_resume_submission_form::-webkit-scrollbar-thumb {
+    background-color: #04a427;
+    border-radius: 80px;
+    width: 8px;
+    height: 5px;
+}
 .wrapper_resume_submission_form {
     width: auto;
     height: auto;
