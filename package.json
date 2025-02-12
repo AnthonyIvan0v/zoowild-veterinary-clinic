@@ -18,8 +18,6 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
-    "animejs": "^3.2.2",
-    "gsap": "^3.12.7",
     "modern-normalize": "^1.1.0",
     "swiper": "^11.1.15",
     "throttle-debounce": "^5.0.2"
