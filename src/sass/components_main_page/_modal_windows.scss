@@ -265,12 +265,16 @@
     justify-content: flex-start;
     align-items: center;
     width: 90%;
+
     @media screen and (min-width: 768px) {
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: row;
         column-gap: 16px;
         width: auto;
+    }
+    @media screen and (min-width: 1440px) {
+        margin-left: 13%;
     }
 }
 
