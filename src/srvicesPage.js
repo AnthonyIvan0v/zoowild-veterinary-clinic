@@ -1,3 +1,4 @@
+import './js/refs';
 import './js/toggleLang';
 import './js/descr_job_vacancy';
 import './js/openFormVacancy';
@@ -16,3 +17,4 @@ import './js/openModaWindowForm';
 import './js/showDetailsMedicalCard';
 import './js/openModalWindowPostForm';
 import './js/anime';
+import './js/scrollToSectionContacts';

@@ -1,3 +1,4 @@
+import './js/refs';
 import './js/slider';
 import './js/counter_services';
 import './js/openBlockInfoCEO';
@@ -18,3 +19,5 @@ import './js/openModaWindowVideo';
 import './js/openModaWindowForm';
 import './js/openModalWindowPostForm';
 import './js/anime';
+import './js/scrollToSectionAbout';
+import './js/scrollToSectionContacts';
