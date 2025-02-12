@@ -611,10 +611,10 @@
 
 .ceo_info_mobile_screen {
     position: absolute;
-    z-index: 19;
+    z-index: 80;
     top: 0;
     right: 0;
-    transform: translate(4%, -80%);
+    transform: translate(4%, -100%);
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -624,7 +624,7 @@
     height: 140px;
     border-radius: 17.37px;
     border: 0.65px solid rgba(4, 164, 39, 0.4);
-    background-color: rgba(243, 255, 246, 0.95);
+    background-color: rgba(243, 255, 246, 1);
     text-transform: uppercase;
     @include animation;
     transition-property: visibility, opacity;

@@ -70,8 +70,8 @@
     // top: 0;
     // right: 0;
     // transform: translate(-24px, 20px);
-    width: 38px;
-    height: 38px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
     border: none;
     box-shadow: 0 0 9 0 rgba(37, 39, 34, 0.08);
@@ -79,19 +79,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    @media screen and (min-width: 768px) {
-        width: 44px;
-        height: 44px;
-    }
+    // @media screen and (min-width: 768px) {
+    //     width: 44px;
+    //     height: 44px;
+    // }
 }
 
 .btn_close_menu svg {
     width: 15px;
     height: 15px;
-    @media screen and (min-width: 768px) {
-        width: 18px;
-        height: 18px;
-    }
+    // @media screen and (min-width: 768px) {
+    //     width: 18px;
+    //     height: 18px;
+    // }
 }
 
 .wrapper_content_mobile_menu {

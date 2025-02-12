@@ -219,7 +219,7 @@
 
 .item_medical_services_cards {
     width: calc(100%);
-    box-shadow: 4 7 13 0 rgba(15, 50, 6, 0.11);
+    box-shadow: 4 7 13 0 rgba(15, 50, 6, 0.07);
     border-radius: 30px;
     // overflow-y: hidden;
     position: relative;
@@ -249,7 +249,7 @@
         padding: 30px 30px;
     }
     @media screen and (min-width: 1200px) {
-        background-position: top right 80px;
+        background-position: top right 90px;
     }
     @media screen and (min-width: 1440px) {
         padding: 30px 36px;
@@ -307,6 +307,9 @@
         screen and (min-resolution: 2dppx) and (min-width: 320px) {
         background-image: url(../images/background-images/services_services_page/bg_grooming@2x.png);
     }
+    @media screen and (min-width: 1200px) {
+        background-position: top right 70px;
+    }
 }
 
 .item_medical_services_cards:nth-child(6) .card_medical_services {
@@ -327,6 +330,9 @@
         screen and (min-resolution: 2dppx) and (min-width: 320px) {
         background-image: url(../images/background-images/services_services_page/bg_neurology@2x.png);
     }
+    // @media screen and (min-width: 1200px) {
+    //     background-position: top right 70px;
+    // }
 }
 
 .item_medical_services_cards:nth-child(8) .card_medical_services {
@@ -366,6 +372,9 @@
         screen and (min-resolution: 192dpi) and (min-width: 320px),
         screen and (min-resolution: 2dppx) and (min-width: 320px) {
         background-image: url(../images/background-images/services_services_page/bg_ophthalmology@2x.png);
+    }
+    @media screen and (min-width: 1200px) {
+        background-position: top right 70px;
     }
 }
 
@@ -506,6 +515,9 @@
         screen and (min-resolution: 192dpi) and (min-width: 320px),
         screen and (min-resolution: 2dppx) and (min-width: 320px) {
         background-image: url(../images/background-images/services_services_page/bg_zootaxis@2x.png);
+    }
+    @media screen and (min-width: 1200px) {
+        background-position: top right 70px;
     }
 }
 
@@ -660,7 +672,7 @@
 }
 
 .wrapper_details_medical_card {
-    box-shadow: 4 7 13 0 rgba(15, 50, 6, 0.11);
+    box-shadow: 4 7 13 0 rgba(15, 50, 6, 0.08);
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
     background-color: #f3fff6;
@@ -805,6 +817,7 @@
 
 .item_list_type_service_price {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding-left: 20px;
@@ -814,8 +827,11 @@
 .item_list_type_service_price:not(:last-child) {
     border-bottom: 1px solid rgba(4, 164, 39, 0.3);
 }
-.wrapper_title_descr_reception {
-    width: 70%;
+.wrapper_title_descr_price {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .title_type_service {
@@ -847,7 +863,6 @@
 
 .wrapper_price {
     display: flex;
-
     align-items: center;
     justify-content: center;
     padding: 14px 22px;
@@ -968,10 +983,15 @@
 }
 
 .wrapper_btn_sign_up_for_serivces_page {
+    height: 200px;
+    border-radius: 30px;
+    padding: 20px 10px;
     width: 100%;
-    padding: 60px 0;
-    border-top: 1px solid #06631b;
-    border-bottom: 1px solid #06631b;
+
+    // width: 100%;
+    // padding: 60px 0;
+    // border-top: 1px solid #06631b;
+    // border-bottom: 1px solid #06631b;
     border-radius: 40px;
     background-color: #04a427;
     margin-top: 20px;
@@ -994,8 +1014,9 @@
             url(../images/background-images/services_services_page/paws_top_right.svg);
     }
     @media screen and (min-width: 768px) {
+        padding: 30px 30px;
         background-size: 200px, 180px, 180px;
-        background-position: bottom left 20px, top 10px left 40px,
+        background-position: bottom left 20px, top 10px left 80px,
             top 20px right 40px;
     }
     @media screen and (min-width: 1200px) {
@@ -1004,13 +1025,14 @@
             top 40px right 30%;
     }
     @media screen and (min-width: 1440px) {
-        background-size: 226px, 280px, 280px;
+        padding: 30px 36px;
+        background-size: 226px, 200px, 200px;
         background-position: bottom left 35%, top 40px left 40px,
             top 40px right 20%;
     }
     @media screen and (min-width: 1920px) {
-        background-size: 226px, 336px, 342px;
-
+        padding: 40px 36px;
+        background-size: 226px, 200px, 200px;
         background-position: bottom left 35%, top 40px left 10%,
             top 40px right 20%;
     }

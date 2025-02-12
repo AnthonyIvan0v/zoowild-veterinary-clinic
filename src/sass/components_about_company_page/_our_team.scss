@@ -177,6 +177,7 @@
 }
 
 .thumb_img_employee {
+    height: 330px;
     overflow: hidden;
     border-bottom-right-radius: 40px;
     border-bottom-left-radius: 40px;
@@ -184,7 +185,8 @@
 }
 .thumb_img_employee img {
     object-position: center;
-    object-fit: contain;
+    object-fit: cover;
+    object-position: top;
     width: 100%;
     height: 100%;
 }
@@ -214,10 +216,9 @@
     font-size: 20px;
     line-height: 1;
     letter-spacing: -0.02;
-    font-weight: 500;
+    font-weight: 400;
     font-family: var(--font-Manrope);
     color: #06631b;
-    max-width: 140px;
 }
 
 .section_cooperation_about_company_page {

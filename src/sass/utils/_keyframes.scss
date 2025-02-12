@@ -55,7 +55,7 @@
 }
 
 .start-animation-text {
-    animation: 1.8s animate-text;
+    animation: 0.8s animate-text;
 }
 
 @keyframes animate-blockLeft {
@@ -76,7 +76,7 @@
 }
 
 .start-animation-blockLeft {
-    animation: 1.8s animate-blockLeft;
+    animation: 0.8s animate-blockLeft;
 }
 
 @keyframes animate-blockRight {
@@ -97,5 +97,5 @@
 }
 
 .start-animation-blockRight {
-    animation: 1.8s animate-blockRight;
+    animation: 0.8s animate-blockRight;
 }

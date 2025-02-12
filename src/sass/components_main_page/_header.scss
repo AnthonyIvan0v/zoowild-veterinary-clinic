@@ -20,7 +20,6 @@
     }
     @media screen and (min-width: 1400px) {
         height: 80px;
-        // height: 100px;
     }
 }
 
@@ -79,21 +78,12 @@
 
 .logo {
     display: flex;
-    // flex-direction: column;
     align-items: center;
     color: var(--primary-white-color);
     @include animation;
     &:hover,
     &:focus {
         color: #dadc00;
-    }
-    @media screen and (min-width: 1200px) {
-        // margin-left: 10%;
-        // margin: 0 auto;
-    }
-    @media screen and (min-width: 1440px) {
-        // flex-direction: column;
-        // margin: 0 140px;
     }
 }
 
@@ -129,8 +119,6 @@
 }
 
 .logo_img {
-    // width: 140px;
-    // height: 100%;
 }
 
 .phone {
@@ -222,11 +210,6 @@
 .chekbox_icon {
     fill: currentColor;
 }
-
-// .icon_select {
-//     margin-left: 4px;
-//     fill: currentColor;
-// }
 
 .btn_toggle_lang {
     display: none;
@@ -383,7 +366,7 @@
 }
 
 .wrapper_icon_call {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     height: 100%;

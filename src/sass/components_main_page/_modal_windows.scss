@@ -56,6 +56,7 @@
 
 .btn_close_modal {
     position: absolute;
+    z-index: 2;
     top: 0;
     right: 0;
     width: 38px;
@@ -165,39 +166,74 @@
 
 //FORM
 .wrapper_modal_form {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 10px 0;
-    @media screen and (min-width: 1200px) {
-        padding-top: 20px;
-        height: auto;
-    }
-}
-
-.modal_window_form {
-    padding: 60px 0 40px 0;
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border-radius: 30px;
     background-color: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(50);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // position: absolute;
+    // top: 0;
+    // right: 0;
+    // padding: 10px 0;
+    // @media screen and (min-width: 1200px) {
+    //     // padding-top: 20px;
+    //     height: auto;
+    // }
+    padding: 20px 0;
     background-image: url(../images/background-images/form/paws.svg);
     background-size: 120px;
     background-repeat: no-repeat;
     background-position: bottom left 20px;
     @media screen and (min-width: 768px) {
-        padding: 40px 0;
+        // padding: 40px 0;
         height: auto;
-        width: 100%;
+        // width: 100%;
+        background-image: url(../images/background-images/form/paws.svg);
+        background-size: 120px;
+        background-position: bottom 10px left 100px;
+    }
+    @media screen and (min-width: 1200px) {
+        // padding: 20px 200px 20px 200px;
+        // width: 96%;
+        background-image: url(../images/background-images/form/bobcat@2x.png),
+            url(../images/background-images/form/paws.svg);
+        background-size: 140px, 160px;
+        background-position: bottom 100px left 20px, top 130px left 20px;
+    }
+    @media screen and (min-width: 1440px) {
+        background-image: url(../images/background-images/form/bobcat@2x.png),
+            url(../images/background-images/form/paws.svg);
+        background-size: 180px, 240px;
+        background-position: bottom 150px left 20px, top 130px left;
+    }
+    @media screen and (min-width: 1920px) {
+        background-image: url(../images/background-images/form/bobcat@2x.png),
+            url(../images/background-images/form/paws.svg);
+        background-size: 180px, auto;
+    }
+}
+
+.modal_window_form {
+    // padding: 60px 0 40px 0;
+    // width: 100%;
+    // height: auto;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // border-radius: 30px;
+    // background-color: rgba(255, 255, 255, 0.3);
+    // backdrop-filter: blur(50);
+    background-image: url(../images/background-images/form/paws.svg);
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position: bottom left 20px;
+    @media screen and (min-width: 768px) {
+        // padding: 40px 0;
+        height: auto;
+        // width: 100%;
         background-image: url(../images/background-images/form/paws.svg);
         background-size: 120px;
         background-position: bottom 10px left 100px;
@@ -227,8 +263,11 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: center;
     width: 90%;
     @media screen and (min-width: 768px) {
+        justify-content: flex-start;
+        align-items: flex-start;
         flex-direction: row;
         column-gap: 16px;
         width: auto;
@@ -511,17 +550,19 @@
     margin-top: 15px;
     display: flex;
     flex-direction: column;
+    width: 100%;
     // row-gap: 12px;
     @media screen and (min-width: 768px) {
         margin-top: 0;
-        width: 360px;
+        // width: 360px;
         // row-gap: 16px;
+        flex-grow: 1;
     }
     @media screen and (min-width: 1440px) {
-        width: 430px;
+        // width: 430px;
     }
     @media screen and (min-width: 1920px) {
-        width: 530px;
+        // width: 530px;
     }
 }
 
@@ -898,7 +939,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    @media screen and(min-width: 768px) {
+    @media screen and (min-width: 768px) {
         flex-direction: row;
     }
 }
@@ -1058,7 +1099,12 @@
 }
 
 .wrapper_add_resume {
-    margin-top: 20px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    @media screen and (min-width: 768px) {
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
 }
 
 .add_resume {
@@ -1070,6 +1116,7 @@
     display: inline-block;
     text-align: center;
     color: #06631b;
+    cursor: pointer;
     @include animation;
     @media screen and (min-width: 768px) {
         font-size: 18px;
@@ -1146,9 +1193,6 @@
     border-radius: 30px;
     border-top: 1px solid rgba(4, 164, 39, 0.4);
     border-bottom: 1px solid rgba(4, 164, 39, 0.4);
-}
-
-.fake_chekbox_vacancy_form {
 }
 
 .fake_chekbox_vacancy_form {

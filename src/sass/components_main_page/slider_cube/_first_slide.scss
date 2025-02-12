@@ -42,7 +42,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    @media screen and(min-width: 768px) {
+    @media screen and (min-width: 768px) {
         align-items: flex-start;
     }
 }
@@ -50,6 +50,7 @@
 .title_first_slide {
     // margin-top: auto;
     // margin-bottom: 20%;
+    z-index: 4;
     margin: auto 0;
     font-family: var(--font-Manrope);
     font-size: 16px;
@@ -59,19 +60,19 @@
     color: #fff;
     text-shadow: 0.42 0.42 0 0 #1d2904;
     text-transform: uppercase;
-    @media screen and(min-width: 768px) {
+    @media screen and (min-width: 768px) {
         max-width: 240px;
         margin: auto 0 74px 50px;
     }
-    @media screen and(min-width: 1200px) {
+    @media screen and (min-width: 1200px) {
         max-width: none;
         margin: auto 0 150px 50px;
     }
-    @media screen and(min-width: 1440px) {
+    @media screen and (min-width: 1440px) {
         font-size: 20;
         margin: auto 0 180px 50px;
     }
-    @media screen and(min-width: 1920px) {
+    @media screen and (min-width: 1920px) {
         margin: auto 0 240px 50px;
     }
 }
@@ -115,7 +116,7 @@
     // flex-wrap: nowrap;
     // align-items: center;
     // margin: auto 0 20px 0;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     @media screen and (min-width: 768px) {
         margin: auto 0 20px 0;
 
@@ -266,6 +267,7 @@
     align-items: center;
     justify-content: center;
     @include animation;
+    color: #fff;
     transition-property: color, transform, background-color;
     &:hover,
     &:focus {
@@ -352,10 +354,22 @@
 }
 
 .icon-learn-more {
-    width: 14px;
-    height: 17px;
+    display: none;
     @media screen and (min-width: 768px) {
+        display: block;
         width: 14px;
         height: 14px;
+    }
+}
+
+.btn-learn-more .icon_arrow {
+    // color: var();
+    width: 16px;
+    height: 24px;
+    color: #fff;
+    fill: currentColor;
+    stroke: currentColor;
+    @media screen and (min-width: 768px) {
+        display: none;
     }
 }
