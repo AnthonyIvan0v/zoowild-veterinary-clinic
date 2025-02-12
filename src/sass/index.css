@@ -618,6 +618,11 @@ body::-webkit-scrollbar-thumb {
     width: auto;
   }
 }
+@media screen and (min-width: 1440px) {
+  .wrapper_thumb_img_ceo_form_social_list {
+    margin-left: 13%;
+  }
+}
 
 .postion_list_social_form {
   position: relative;
