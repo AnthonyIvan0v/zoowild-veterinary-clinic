@@ -1,4 +1,4 @@
-<section class="hero">
+<div class="hero">
     <div class="cube-wrapper">
         <div class="cube-slider swiper">
             <div class="swiper-wrapper ">
@@ -10,7 +10,8 @@
                                     srcset="./images/background-images/hero/slider-cube/first-slide/snake_desktop.jpg 1x">
                                 <source media="(min-width:320px)"
                                     srcset="./images/background-images/hero/slider-cube/first-slide/snake@2x.jpg 2x">
-                                <img src="./images/background-images/hero/slider-cube/first-slide/snake.jpg" />
+                                <img src="./images/background-images/hero/slider-cube/first-slide/snake.jpg"
+                                    alt="Змія" />
                             </picture>
                         </div>
 
@@ -35,19 +36,23 @@
                                     </div>
                                     <div class="wrapper_btn_snake_tongue">
                                         <div class="wrapper_inside_btn_snake_tongue">
-                                            <a href="#section_about" class="btn_snake_tongue">
+                                            <a href="#section_about" class="btn_snake_tongue" data-sroll-to-about>
                                                 <svg class="icon-play-video">
                                                     <use href="./images/sprite/sprite.svg#icon-snake_tongue"></use>
                                                 </svg>
                                             </a>
                                         </div>
                                     </div>
-                                    <button type="button" class="btn btn-learn-more">
+                                    <a class="btn btn-learn-more link" href="#section_about" data-sroll-to-about>
                                         <span class="btn-learn-more-descr">Дiзнатись бiльше</span>
-                                        <svg class="icon-learn-more" width="14" height="17">
+                                        <svg class="icon_arrow">
+                                            <use href="./images/sprite/sprite.svg#icon_arrow_right_turned_45deg_v2">
+                                            </use>
+                                        </svg>
+                                        <svg class="icon-learn-more">
                                             <use href="./images/sprite/sprite.svg#icon-learn-more-arrow"></use>
                                         </svg>
-                                    </button>
+                                    </a>
                                 </div>
 
                             </div>
@@ -151,7 +156,7 @@
                             <div class="position_about_company">
                                 <a class="link about_company">Про компанію</a>
                                 <span class="secondary_logo">
-                                    <svg class="" width="65" height="16">
+                                    <svg class="">
                                         <use href="./images/sprite/sprite.svg#icon-secondary-logo"></use>
                                     </svg>
                                 </span>
@@ -195,12 +200,12 @@
                                                     <button type="button" class="btn btn-open-block-info_ceo"
                                                         data-open-block-info-ceo>
 
-                                                        <svg class="icon-plus" width="12" heigth="12">
+                                                        <svg class="icon-plus">
                                                             <use href="./images/sprite/sprite.svg#icon-plus"></use>
                                                         </svg>
 
 
-                                                        <svg class="icon-minus is-hidden" width="12" heigth="12">
+                                                        <svg class="icon-minus is-hidden">
                                                             <use href="./images/sprite/sprite.svg#icon-minus"></use>
                                                         </svg>
                                                     </button>
@@ -340,4 +345,4 @@
                 <div class="swiper-pagination modified_pagination"></div>
             </div>
         </div>
-</section>
+    </div>
