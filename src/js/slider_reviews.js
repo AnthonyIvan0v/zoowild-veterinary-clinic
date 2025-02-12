@@ -1,6 +1,6 @@
 import Swiper from 'swiper/swiper-bundle.min.mjs';
 
-const swiper = new Swiper('.swiper-reviews', {
+const swiperReviews = new Swiper('.swiper-reviews', {
     effect: 'slide',
     speed: 500,
     direction: 'horizontal',
