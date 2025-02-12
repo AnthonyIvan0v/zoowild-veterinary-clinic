@@ -2846,6 +2846,7 @@ body::-webkit-scrollbar-thumb {
 .logo:hover, .logo:focus {
   color: #dadc00;
 }
+
 .logo_icon {
   display: inline-block;
   width: 50px;
@@ -3157,7 +3158,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .wrapper_icon_call {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   height: 100%;
