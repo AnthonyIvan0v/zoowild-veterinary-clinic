@@ -368,52 +368,29 @@
 .item_social_list {
     width: 26px;
     height: 26px;
-    border: 3px solid #04a427;
-    border-radius: 8px;
     color: #04a427;
     display: flex;
     align-items: center;
     justify-content: center;
+    transform: scale(1);
     @include animation;
-    transition-property: color, border-color;
+    transition-duration: 100ms;
+    transition-property: transform;
     &:hover,
     &:focus {
-        color: #dadc00;
-        border-color: #dadc00;
+        transform: scale(1.05);
     }
+
     @media screen and (min-width: 768px) {
         width: 30px;
         height: 30px;
     }
 }
 
-.item_social_list:first-child {
-    border: none;
-    width: 27px;
-    height: 27px;
-    @media screen and (min-width: 768px) {
-        width: 31px;
-        height: 31px;
-    }
-}
-
-.item_social_list:first-child svg {
-    width: 100%;
-    height: 100%;
-}
-
 .item_social_list svg {
     fill: currentColor;
-    width: 18px;
-    height: 18px;
-    // @media screen and (min-width: 1440px) {
-    //     width: 34px;
-    //     height: 34px;
-    // }
-    @media screen and (min-width: 768px) {
-        width: 22px;
-        height: 22px;
-    }
+    width: 100%;
+    height: 100%;
 }
 
 .position_text_card_top {

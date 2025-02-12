@@ -521,55 +521,28 @@
 .social_link {
     width: 23px;
     height: 23px;
-    border: 2px solid #04a427;
-    border-radius: 6px;
     color: #04a427;
     display: flex;
     align-items: center;
     justify-content: center;
+    transform: scale(1);
     @include animation;
-    transition-property: color, border-color;
+    transition-duration: 100ms;
+    transition-property: transform;
     &:hover,
     &:focus {
-        color: #dadc00;
-        border-color: #dadc00;
+        transform: scale(1.05);
     }
     @media screen and (min-width: 1200px) {
         width: 30px;
         height: 30px;
-        border: 3px solid #04a427;
-
-        border-radius: 8px;
     }
-}
-
-.social_link:first-child {
-    border: none;
-    width: 23px;
-    height: 23px;
-    @media screen and (min-width: 1200px) {
-        width: 31px;
-        height: 31px;
-    }
-}
-
-.social_link:first-child svg {
-    width: 100%;
-    height: 100%;
 }
 
 .social_link svg {
     fill: currentColor;
-    width: 16px;
-    height: 16px;
-    @media screen and (min-width: 1200px) {
-        width: 20px;
-        height: 20px;
-    }
-    @media screen and (min-width: 1440px) {
-        width: 22px;
-        height: 22px;
-    }
+    width: 100%;
+    height: 100%;
 }
 
 //Стилі блока інформація СЕО моб.версії
@@ -698,35 +671,22 @@
 .social_link_mobile_screen {
     width: 20px;
     height: 20px;
-    border: 2px solid #04a427;
-    border-radius: 6px;
     color: #04a427;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    transform: scale(1);
     @include animation;
-    transition-property: color, border-color;
+    transition-duration: 100ms;
+    transition-property: transform;
     &:hover,
     &:focus {
-        color: #dadc00;
-        border-color: #dadc00;
+        transform: scale(1.05);
     }
 }
 
-.social_link_mobile_screen:first-child {
-    border: none;
-    width: 21px;
-    height: 21px;
-}
-
-.social_link_mobile_screen:first-child svg {
+.social_list_mobile_screen svg {
     width: 100%;
     height: 100%;
-}
-
-.social_list_mobile_screen svg {
-    width: 12px;
-    height: 12px;
     fill: currentColor;
 }
