@@ -12698,7 +12698,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 32px;
   letter-spacing: 0;
   display: block;
-  font-weight: 600;
+  font-weight: 400;
 }
 @media screen and (min-width: 768px) {
   .phone_contacts_communication {
