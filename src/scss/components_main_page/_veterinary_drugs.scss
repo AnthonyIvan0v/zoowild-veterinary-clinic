@@ -1,0 +1,439 @@
+.overlay_veterinary_drugs {
+  border-radius: 25px;
+  border-top: 1px solid rgba(7, 97, 26, 0.3);
+  border-bottom: 1.25px solid rgba(7, 97, 26, 0.3);
+  background-color: #e8ffee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (min-width: 768px) {
+    padding-top: 25px;
+    background-repeat: no-repeat;
+    background-image: url(../images//background-images/veterinary_drugs/paws_left_side.svg),
+      url(../images//background-images/veterinary_drugs/paws_right_side_768.svg);
+    background-size: 123px, 105px;
+    background-position: top 385px left 30px, bottom 110px right 40px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 40px;
+    background-image: url(../images//background-images/veterinary_drugs/paws_left_side.svg),
+      url(../images//background-images/veterinary_drugs/paws_right_side.svg);
+    background-size: 131px, 153px;
+    background-position: center left 130px, center right 100px;
+  }
+  @media screen and (min-width: 1440px) {
+    padding-top: 74px;
+    padding-bottom: 74px;
+
+    background-size: 157px, 184px;
+    background-position: center left 170px, center right 140px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    background-size: auto;
+    background-position: center left 250px, center right 250px;
+  }
+}
+
+.postion_items_section_veterinary_drugs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper_title_poster_veterinary_drugs {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_play_vidoe_veterinaru_drugs {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+    position: absolute;
+    // z-index: 21;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover,
+    &:focus {
+      background-color: #dadc00;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    width: 54px;
+    height: 54px;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 65px;
+    height: 65px;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.title_veterinary_drugs {
+  color: #04a427;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 17px;
+  line-height: 1.13;
+  letter-spacing: -0.01;
+  font-weight: 400;
+  max-width: 230px;
+  font-family: var(--font-Manrope);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(30px, 0%);
+  border-radius: 20px;
+  background-color: rgba(243, 255, 246, 0.8);
+  padding: 10px;
+  border-top: 1px solid rgba(4, 164, 39, 0.4);
+  border-bottom: 1px solid rgba(4, 164, 39, 0.4);
+
+  @media screen and (min-width: 768px) {
+    text-align: left;
+    max-width: 308px;
+    height: 76px;
+    padding: 20px;
+    transform: translate(15px, 15px);
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 330px;
+    height: 78px;
+    padding: 20px;
+    transform: translate(40px, 40px);
+  }
+  @media screen and (min-width: 1440px) {
+    max-width: 370px;
+    height: 94px;
+    padding: 30px;
+    transform: translate(50px, 50px);
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 20px;
+    max-width: 489px;
+    height: 117px;
+    padding: 34px;
+    transform: translate(60px, 60px);
+  }
+}
+
+.thumb_poster_veterinary_drugs {
+  width: 290px;
+  height: 280px;
+  border-radius: 30px;
+  overflow: hidden;
+  @media screen and (min-width: 768px) {
+    width: 738px;
+    height: 280px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1160px;
+    height: 438px;
+  }
+  @media screen and (min-width: 1440px) {
+    border-radius: 32px;
+    width: 1391px;
+    height: 525px;
+  }
+  @media screen and (min-width: 1920px) {
+    border-radius: 40px;
+    width: 1720px;
+    height: 650px;
+  }
+}
+
+.thumb_poster_veterinary_drugs img {
+  object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.desrcr_veterinary_drug_order {
+  font-weight: 400;
+  width: 290px;
+  font-family: var(--font-Manrope);
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: -0.01;
+  border-radius: 20px;
+  // background-color: rgba(243, 255, 246, 0.8);
+  padding: 16px 10px;
+  border-top: 1px solid rgba(4, 164, 39, 0.4);
+  border-bottom: 1px solid rgba(4, 164, 39, 0.4);
+  color: #06631b;
+  margin: 8px;
+  @media screen and (min-width: 768px) {
+    width: 463px;
+    padding: 20px 18px;
+    text-align: center;
+    margin: 20px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin: 25px;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 18px;
+    margin: 25px;
+    width: 555px;
+    padding: 25px 18px;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 19px;
+    margin: 25px;
+    width: 555px;
+    padding: 37px 30px;
+  }
+}
+
+.list_cards_veterinary_drugs {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    column-gap: 20px;
+  }
+  @media screen and (min-width: 1200px) {
+    flex-direction: column;
+    row-gap: 20;
+    column-gap: 0;
+  }
+}
+
+.list_item_cards_veterinary_drugs {
+  padding: 8px 8px 14px 8px;
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-between;
+  align-items: center;
+  // margin: 0 auto;
+  width: 290px;
+  // height: 364px;
+  background-color: #ffff;
+  border-radius: 24px;
+  border-top: 1.5px solid rgba(4, 164, 39, 0.4);
+  border-bottom: 1.5px solid rgba(4, 164, 39, 0.4);
+  @media screen and (min-width: 768px) {
+    padding: 16px 16px 26px 16px;
+    width: 310px;
+    height: 420px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 8px 30px 8px 8px;
+    width: 570px;
+    height: 209px;
+    flex-direction: row;
+    // justify-content: space-between;
+    column-gap: 20px;
+    align-items: center;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 670px;
+    width: auto;
+
+    height: 250px;
+    padding: 10px 40px 10px 10px;
+    column-gap: 25px;
+    border-radius: 32px;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 845px;
+    height: 310px;
+    column-gap: 50px;
+    border-radius: 40px;
+  }
+}
+
+.list_item_cards_veterinary_drugs:nth-child(2) {
+  @media screen and (min-width: 1200px) {
+    flex-direction: row-reverse;
+    padding: 8px 8px 8px 30px;
+    text-align: right;
+  }
+  @media screen and (min-width: 1440px) {
+    padding: 10px 10px 10px 40px;
+  }
+}
+
+.thumb_sales_foto {
+  width: 272px;
+  height: 200px;
+  border-radius: 18px;
+  overflow: hidden;
+  // margin: 0 auto;
+  @media screen and (min-width: 1200px) {
+    height: 100%;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 328px;
+    border-radius: 24px;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 406px;
+    border-radius: 30px;
+  }
+}
+
+.thumb_sales_foto img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top left;
+}
+
+.title_card_sale {
+  font-family: var(--font-Cormorant-Unicase);
+  font-weight: 500;
+  font-size: 21px;
+  letter-spacing: -0.02;
+  text-transform: uppercase;
+  color: #04a427;
+  @media screen and (min-width: 768px) {
+    font-size: 31px;
+    max-width: 270px;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 36px;
+    // max-width: 280px;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 40px;
+  }
+}
+
+.descr_card_sale {
+  font-family: var(--font-Manrope);
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0;
+  // text-transform: uppercase;
+  color: #06631b;
+  margin-top: 16px;
+  @media screen and (min-width: 1440px) {
+    font-size: 17px;
+    margin-top: 20px;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 18px;
+    margin-top: 25px;
+  }
+}
+
+.wrapper_descr_sales {
+  margin-top: 20px;
+  @media screen and (min-width: 1200px) {
+    max-width: 241px;
+    margin-top: 0;
+  }
+  @media screen and (min-width: 1440px) {
+    max-width: 280px;
+  }
+}
+
+.postion_list_cards_btn_order_veterinary_drugs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.block_btn_order {
+  width: 290px;
+  height: 233px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  margin-top: 15px;
+  background-image: url(../images/background-images/veterinary_drugs/order_btn_background_320.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
+    screen and (min-resolution: 192dpi) and (min-width: 320px),
+    screen and (min-resolution: 2dppx) and (min-width: 320px) {
+    background-image: url(../images/background-images/veterinary_drugs/order_btn_background_320@2x.jpg);
+  }
+  @media screen and (min-width: 768px) {
+    width: 350px;
+    height: 270px;
+    background-image: url(../images/background-images/veterinary_drugs/order_btn_background_768.jpg);
+  }
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+    screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px) {
+    background-image: url(../images/background-images/veterinary_drugs/order_btn_background_768@2x.jpg);
+  }
+  @media screen and (min-width: 1200px) {
+    // align-items: center;
+    justify-content: flex-start;
+    // align-items: ;
+    margin-top: 0;
+    width: 570px;
+    height: 432px;
+    background-image: url(../images/background-images/veterinary_drugs/order_btn_background_1200.jpg);
+  }
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+    screen and (min-resolution: 192dpi) and (min-width: 1200px),
+    screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+    background-image: url(../images/background-images/veterinary_drugs/order_btn_background_1200@2x.jpg);
+  }
+  @media screen and (min-width: 1440px) {
+    // width: 670px;
+    border-radius: 32px;
+    flex-grow: 0.8;
+    height: 520px;
+    background-image: url(../images/background-images/veterinary_drugs/order_btn_background_1440.jpg);
+  }
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+    screen and (min-resolution: 192dpi) and (min-width: 1440px),
+    screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+    background-image: url(../images/background-images/veterinary_drugs/order_btn_background_1440@2x.jpg);
+  }
+  @media screen and (min-width: 1920px) {
+    // width: 845px;
+    flex-grow: 0.9;
+    border-radius: 40px;
+    height: 634px;
+    background-image: url(../images/background-images/veterinary_drugs/order_btn_background_1920.jpg);
+  }
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 1920px),
+    screen and (min-resolution: 192dpi) and (min-width: 1920px),
+    screen and (min-resolution: 2dppx) and (min-width: 1920px) {
+    background-image: url(../images/background-images/veterinary_drugs/order_btn_background_1920@2x.jpg);
+  }
+}
+
+.wrapper_btn_order {
+  @media screen and (min-width: 1200px) {
+    margin: auto 0 20px 20px;
+  }
+  @media screen and (min-width: 1440px) {
+    margin: auto 0 52px 32px;
+  }
+  @media screen and (min-width: 1920px) {
+    margin: auto 0 40px 40px;
+  }
+}

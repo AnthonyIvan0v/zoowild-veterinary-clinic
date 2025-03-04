@@ -12,8 +12,8 @@
         Зоовайлд - Найкраща ветеринарна клініка у Дніпрі | Зоотовари, зоомагазин |
         Зоовайлд - Турбота про вашого улюбленця
     </title>
-    <link rel="shortcut icon" href="./images/favicon/favicon.ico" type="image/ico" />
-    <link rel="stylesheet" href="./sass/index.scss" />
+    <link rel="shortcut icon" href="./static/favicon/favicon.ico" type="image/ico" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -22,30 +22,25 @@
 </head>
 
 <body>
-    <include src="./partials/callsms.html"></include>
-    <include src="./partials/modal_window.html"></include>
-    <include src="./partials/hero.html"></include>
-    <include src="./partials/header.html"></include>
-    <include src="./partials/mobile_menu.html"></include>
-    <include src="./partials/about_company.html"></include>
-    <include src="./partials/services_main_page.html"></include>
-    <include src="./partials/veterinary_drugs.html"></include>
-    <include src="./partials/pharmacy.html"></include>
-    <include src="./partials/health_problems.html"></include>
-    <include src="./partials/after_treat.html"></include>
-    <include src="./partials/cooperation.html"></include>
-    <include src="./partials/licenses.html"></include>
-    <include src="./partials/preparing.html"></include>
-    <include src="./partials/reviews.html"></include>
-    <include src="./partials/questions.html"></include>
-    <include src="./partials/contacts.html"></include>
-    <include src="./partials/footer.html"></include>
-    <script type="module" src="./index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="
-    https://cdn.jsdelivr.net/npm/throttle-debounce@5.0.2/umd/index.min.js
-    "></script>
-
+    @@include('html/callsms.html')
+    @@include('html/modal_window.html')
+    @@include('html/hero.html')
+    @@include('html/header.html')
+    @@include('html/mobile_menu.html')
+    @@include('html/about_company.html')
+    @@include('html/services_main_page.html')
+    @@include('html/veterinary_drugs.html')
+    @@include('html/pharmacy.html')
+    @@include('html/health_problems.html')
+    @@include('html/after_treat.html')
+    @@include('html/cooperation.html')
+    @@include('html/licenses.html')
+    @@include('html/preparing.html')
+    @@include('html/reviews.html')
+    @@include('html/questions.html')
+    @@include('html/contacts.html')
+    @@include('html/footer.html')
+    <script defer src="./js/main.js"></script>
 </body>
 
 </html>

@@ -1,9 +1,9 @@
 import { refs } from './refs';
 
-refs.itemsScrollToSectionContacts.forEach(elem =>
-    elem.addEventListener('click', onToSectionContacts)
+refs.itemsScrollToSectionContacts.forEach((elem) =>
+  elem.addEventListener('click', onToSectionContacts)
 );
 
 function onToSectionContacts() {
-    refs.sectionContacts.scrollIntoView({ behavior: 'smooth' });
+  refs.sectionContacts.scrollIntoView({ behavior: 'smooth' });
 }
