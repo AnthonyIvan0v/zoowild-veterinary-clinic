@@ -1,0 +1,339 @@
+.section_why_our_courses {
+  background-color: #f3fff6;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  @media screen and (min-width: 1200px) {
+    // padding-top: 70px;
+  }
+}
+
+.wrapper_why_our_courses {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 20px;
+  }
+}
+
+.container_grid {
+  margin-top: 20px;
+  row-gap: 20px;
+  display: grid;
+  grid-template-areas:
+    'A   A'
+    'B   B'
+    'C   C'
+    'D   D';
+  @media screen and (min-width: 768px) {
+    column-gap: 20px;
+    grid-template-areas:
+      'A   A'
+      'B   C'
+      'D   D';
+    grid-template-columns: 350px 350px;
+    justify-self: center;
+  }
+  @media screen and (min-width: 1000px) {
+    grid-template-areas:
+      'A  B'
+      'C  D';
+  }
+  @media screen and (min-width: 1200px) {
+    grid-template-columns: 45% 25% 25% 45%;
+    grid-template-areas:
+      'A  B C'
+      'A  D D';
+    row-gap: 20px;
+    column-gap: 34px;
+    margin-top: 50px;
+  }
+}
+.box-1 {
+  grid-area: A;
+}
+.box-2 {
+  grid-area: B;
+}
+.box-3 {
+  grid-area: C;
+}
+.box-4 {
+  grid-area: D;
+}
+
+[class^='box-'] {
+  //   display: grid;
+  //   place-items: center;
+}
+
+.first_card_why_our_courses {
+  padding: 36px;
+  border-radius: 35px;
+  background-color: #a5bb7d;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(../images/background-images/veterinary_courses_page/why_our_courses/first-card-img.png);
+  background-size: 245px 90px;
+  background-repeat: no-repeat;
+  background-position: bottom 150px center;
+  @media screen and (min-width: 768px) {
+    background-size: 315px 117px;
+    background-position: bottom 100px left 100px;
+    // height: 382px;
+  }
+  @media screen and (min-width: 1440px) {
+    height: 560px;
+    background-size: 364px 142px;
+    background-position: bottom 170px left 80px;
+  }
+}
+
+.first_card_why_our_courses .wrapper_top_text_card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  @media screen and (min-width: 768px) {
+    row-gap: 30px;
+  }
+}
+.first_card_why_our_courses .wrapper_top_text_card span {
+  color: #fcfff4;
+  font-size: 18px;
+}
+.first_card_why_our_courses .wrapper_top_text_card p {
+  color: #fcfff4;
+  font-size: 18px;
+  font-weight: 500;
+  max-width: 350px;
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 32px;
+    max-width: 70%;
+  }
+}
+
+.first_card_why_our_courses .wrapper_bottom_text_card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    column-gap: 20px;
+  }
+  @media screen and (min-width: 1440px) {
+    flex-direction: column;
+  }
+}
+
+.first_card_why_our_courses .wrapper_bottom_text_card p {
+  color: #fcfff4;
+  font-size: 16px;
+  @media screen and (min-width: 768px) {
+    width: 220px;
+    font-size: 18px;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 80%;
+    font-size: 22px;
+  }
+}
+
+.second_card_why_our_courses {
+  padding: 36px;
+  border-radius: 35px;
+  background-color: #d4e2b9;
+  height: 348px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(../images/background-images/veterinary_courses_page/why_our_courses/second-card-img.png);
+  background-size: 222px 113px;
+  background-repeat: no-repeat;
+  background-position: bottom 110px center;
+  @media screen and (min-width: 768px) {
+    height: 400px;
+    width: 100%;
+    background-position: bottom 140px center;
+  }
+  @media screen and (min-width: 1440px) {
+    height: 420px;
+    background-size: 285px 136px;
+  }
+}
+
+.second_card_why_our_courses .wrapper_top_text_card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  @media screen and (min-width: 768px) {
+    row-gap: 30px;
+  }
+}
+.second_card_why_our_courses .wrapper_top_text_card span {
+  color: #fcfff4;
+  font-size: 18px;
+}
+.second_card_why_our_courses .wrapper_top_text_card p {
+  color: #5b6153;
+  font-size: 18px;
+  font-weight: 500;
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+  }
+}
+
+.second_card_why_our_courses .wrapper_bottom_text_card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.second_card_why_our_courses .wrapper_bottom_text_card p {
+  color: #5b6153;
+  font-size: 16px;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    max-width: 85%;
+  }
+}
+
+.third_card_why_our_courses {
+  padding: 36px;
+  border-radius: 35px;
+  background-color: #d4e2b9;
+  height: 348px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(../images/background-images/veterinary_courses_page/why_our_courses/third-card-img.png);
+  background-size: 258px 122px;
+  background-repeat: no-repeat;
+  background-position: bottom 110px center;
+  @media screen and (min-width: 768px) {
+    height: 400px;
+    background-size: 234px 114px;
+    background-position: bottom 140px center;
+  }
+  @media screen and (min-width: 1440px) {
+    height: 420px;
+    background-size: 285px 122px;
+  }
+}
+
+.third_card_why_our_courses .wrapper_top_text_card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  @media screen and (min-width: 768px) {
+    row-gap: 30px;
+  }
+}
+.third_card_why_our_courses .wrapper_top_text_card span {
+  color: #fcfff4;
+  font-size: 18px;
+}
+.third_card_why_our_courses .wrapper_top_text_card p {
+  color: #5b6153;
+  font-size: 18px;
+  font-weight: 500;
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+    // max-width: 50%;
+  }
+}
+
+.third_card_why_our_courses .wrapper_bottom_text_card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.third_card_why_our_courses .wrapper_bottom_text_card p {
+  color: #5b6153;
+  font-size: 16px;
+  @media screen and (min-width: 768px) {
+    max-width: 85%;
+    font-size: 18px;
+  }
+}
+
+.fourth_card_why_our_courses {
+  padding: 20px;
+  border-radius: 30px;
+  background-color: #dadc00;
+  height: 248px;
+  color: #5b6153;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    height: 170px;
+    column-gap: 20px;
+  }
+  @media screen and (min-width: 1000px) {
+    height: 400px;
+    flex-direction: column;
+  }
+  @media screen and (min-width: 1440px) {
+    height: 120px;
+    flex-direction: row;
+  }
+}
+
+.fourth_card_why_our_courses p {
+  font-style: italic;
+  @media screen and (min-width: 1440px) {
+    font-size: 18px;
+  }
+}
+.fourth_card_why_our_courses .wrapper_text_content_fourth_card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  @media screen and (min-width: 768px) {
+    width: 70%;
+  }
+  @media screen and (min-width: 1000px) {
+    width: 80%;
+  }
+}
+
+.fourth_card_why_our_courses .wrapper_text_content_fourth_card span {
+  margin-left: auto;
+}
+
+.btn_fouth_card {
+  margin-top: auto;
+  width: 60%;
+  padding: 4px 8px;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.35;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  border-width: 1px;
+  border-radius: 30px;
+  background-color: #a5bb7d;
+  border-color: #5b6153;
+  border-style: solid;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
+  box-shadow: 0px 0px 30px 0px rgba(252, 255, 244, 0.7);
+  @media screen and (min-width: 768px) {
+    width: 30%;
+  }
+  @media screen and (min-width: 1000px) {
+    width: 60%;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 40%;
+  }
+}
