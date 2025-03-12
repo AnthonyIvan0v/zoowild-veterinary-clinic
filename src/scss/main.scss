@@ -4,6 +4,7 @@
 @import './base/base';
 @import './base/container';
 @import './base/swiper';
+@import './base/section_border';
 //utils
 @import './utils/mixins';
 @import './config/fonts.scss';
@@ -49,3 +50,13 @@
 @import './components_about_company_page/founder_clinic';
 @import './components_about_company_page/our_team';
 @import './components_about_company_page/after_treat_about_company_page';
+
+// файли сторінки about_company
+@import './components_veterinary-courses_page/hero_veterinary-courses_page';
+@import './components_veterinary-courses_page/invitation_section';
+@import './components_veterinary-courses_page/traning_program';
+@import './components_veterinary-courses_page/why_our_courses';
+@import './components_veterinary-courses_page/facts_about_us';
+@import './components_veterinary-courses_page/course_program';
+@import './components_veterinary-courses_page/reviews_courses';
+@import './components_veterinary-courses_page/course_cost';
