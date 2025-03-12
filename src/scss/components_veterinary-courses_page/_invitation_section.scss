@@ -1,0 +1,87 @@
+.invitation_section {
+  background-color: #f3fff6;
+}
+
+.overlay_setion_inivation {
+  //   background-color: rgba(255, 255, 255, 0.75);
+  border-top: 1.25px solid rgba(10, 97, 26, 0.3);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 70px;
+  }
+}
+.invitation_section_container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}
+
+.text_descr {
+  font-family: var(--font-Manrope);
+  font-size: 19px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.23;
+  color: #06631b;
+  letter-spacing: 0;
+  @media screen and (min-width: 768px) {
+    font-size: 28px;
+    max-width: 500px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 30px;
+    margin-top: 0px;
+    max-width: 724px;
+    margin-left: auto;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 40px;
+    max-width: 950px;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 43px;
+    font-weight: 400;
+  }
+}
+
+.text_descr.modified {
+  @media screen and (min-width: 1440px) {
+    font-size: 40px;
+    max-width: 900px;
+  }
+}
+
+.text_descr span {
+  color: #04a427;
+}
+
+.btn_learn_more_courses {
+  flex-grow: 1;
+  display: block;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: var(--font-Manrope);
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  line-height: 1.55;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-width: 1px;
+  border-radius: 30px;
+  padding: 6px;
+  background-color: #a5bb7d;
+  background-position: center center;
+  border-color: #757575;
+  border-style: solid;
+  transition: background-color 0.2sease-in-out, color 0.2sease-in-out,
+    border-color 0.2sease-in-out;
+}
