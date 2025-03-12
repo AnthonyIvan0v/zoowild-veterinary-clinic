@@ -1,726 +1,722 @@
 .section_pharmacy {
-    background-color: #f3fff6;
+  background-color: #f3fff6;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  overflow: hidden;
+  @media screen and (min-width: 768px) {
     padding-top: 35px;
     padding-bottom: 35px;
-    overflow: hidden;
-    @media screen and (min-width: 768px) {
-        padding-top: 35px;
-        padding-bottom: 35px;
-    }
-    @media screen and (min-width: 1200px) {
-        padding-top: 47px;
-        padding-bottom: 40px;
-    }
-    @media screen and (min-width: 1440px) {
-        padding-top: 76px;
-        padding-bottom: 74px;
-    }
-    @media screen and (min-width: 1920px) {
-        padding-top: 86px;
-    }
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 47px;
+    padding-bottom: 40px;
+  }
+  @media screen and (min-width: 1440px) {
+    padding-top: 76px;
+    padding-bottom: 74px;
+  }
+  @media screen and (min-width: 1920px) {
+    padding-top: 86px;
+  }
 }
 
 .background_paws {
-    @media screen and (min-width: 1200px) {
-        background-repeat: no-repeat;
-        background-image: url(../images/background-images/pharmacy/paws_top_left.svg),
-            url(../images/background-images/pharmacy/paws_bottom_right.svg);
-        background-size: 131px, 153px;
-        background-position: top 40px left 100px, bottom right 110px;
-    }
-    @media screen and (min-width: 1440px) {
-        background-size: 157px, 184px;
-        background-position: top 120px left 47px, bottom right 148px;
-    }
-    @media screen and (min-width: 1920px) {
-        background-size: auto;
-        background-position: top 90px left 110px, bottom right 170px;
-    }
+  @media screen and (min-width: 1200px) {
+    background-repeat: no-repeat;
+    background-image: url(../images/background-images/pharmacy/paws_top_left.svg),
+      url(../images/background-images/pharmacy/paws_bottom_right.svg);
+    background-size: 131px, 153px;
+    background-position: top 40px left 100px, bottom right 110px;
+  }
+  @media screen and (min-width: 1440px) {
+    background-size: 157px, 184px;
+    background-position: top 120px left 47px, bottom right 148px;
+  }
+  @media screen and (min-width: 1920px) {
+    background-size: auto;
+    background-position: top 90px left 110px, bottom right 170px;
+  }
 }
 
 .positon_title_thumb_descr {
-    margin-bottom: 20px;
-    @media screen and (min-width: 768px) {
-        margin-bottom: 30px;
-    }
-    @media screen and (min-width: 1200px) {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 40px;
-    }
-    @media screen and (min-width: 1440px) {
-        margin-bottom: 60px;
-        padding-bottom: 30px;
-    }
+  margin-bottom: 20px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  @media screen and (min-width: 1440px) {
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+  }
 }
 
 .title_pharmacy {
-    // @media screen and (min-width: 768px) {
-    //     max-width: 90px;
-    // }
-    // @media screen and (min-width: 1200px) {
-    //     max-width: 105px;
-    // }
-    // @media screen and (min-width: 1440px) {
-    //     max-width: 120px;
-    // }
+  // @media screen and (min-width: 768px) {
+  //     max-width: 90px;
+  // }
+  // @media screen and (min-width: 1200px) {
+  //     max-width: 105px;
+  // }
+  // @media screen and (min-width: 1440px) {
+  //     max-width: 120px;
+  // }
 }
 
 .descr_pharmacy {
-    text-transform: uppercase;
-    line-height: 120%;
-    letter-spacing: 0.02;
-    font-family: var(--font-Manrope);
-    color: #06631b;
-    font-size: 19px;
-    font-weight: 400;
-    text-align: left;
-    @media screen and (min-width: 768px) {
-        font-size: 28px;
-    }
-    @media screen and (min-width: 1200px) {
-        max-width: 620px;
-        margin: 0 0 0 70px;
-        font-size: 30px;
-    }
-    @media screen and (min-width: 1440px) {
-        max-width: 830px;
-        margin: 0 0 0 96px;
-        font-size: 40px;
-    }
-    @media screen and (min-width: 1920px) {
-        max-width: 1126px;
-        margin: 0 0 0 55px;
-        font-size: 43px;
-    }
+  text-transform: uppercase;
+  line-height: 120%;
+  letter-spacing: 0.02;
+  font-family: var(--font-Manrope);
+  color: #06631b;
+  font-size: 19px;
+  font-weight: 400;
+  text-align: left;
+  @media screen and (min-width: 768px) {
+    font-size: 28px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 620px;
+    margin: 0 0 0 70px;
+    font-size: 30px;
+  }
+  @media screen and (min-width: 1440px) {
+    max-width: 830px;
+    margin: 0 0 0 96px;
+    font-size: 40px;
+  }
+  @media screen and (min-width: 1920px) {
+    max-width: 1126px;
+    margin: 0 0 0 55px;
+    font-size: 43px;
+  }
 }
 
 .descr_pharmacy span {
-    color: #04a427;
+  color: #04a427;
 }
 
 .descr_pharmacy span:nth-child(1) {
-    font-family: var(--font-Cormorant-Unicase);
-    font-weight: 600;
-    font-size: 22px;
-    @media screen and (min-width: 768px) {
-        font-size: 31px;
-    }
-    @media screen and (min-width: 1200px) {
-        font-size: 34px;
-    }
-    @media screen and (min-width: 1440px) {
-        font-size: 45px;
-    }
+  font-family: var(--font-Cormorant-Unicase);
+  font-weight: 600;
+  font-size: 22px;
+  @media screen and (min-width: 768px) {
+    font-size: 31px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 34px;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 45px;
+  }
 }
 
 .wrapper_text_img_gradient_pharmacy {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 132px;
-    position: relative;
-    @media screen and (min-width: 768px) {
-        width: 348px;
-    }
-    @media screen and (min-width: 1200px) {
-        width: 388px;
-    }
-    @media screen and (min-width: 1440px) {
-        width: 430px;
-    }
-    @media screen and (min-width: 1920px) {
-        width: 850px;
-    }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 132px;
+  position: relative;
+  @media screen and (min-width: 768px) {
+    width: 348px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 388px;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 430px;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 850px;
+  }
 }
 
 .postion_text_img_pharmacy {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    // align-items: center;
-    // width: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  // align-items: center;
+  // width: auto;
 }
 
 .pharmacy_thumb_img_cats_tablet {
-    width: 45px;
-    height: 45px;
-    border-radius: 8px;
-    overflow: hidden;
-    margin: 0 auto;
-    @media screen and (min-width: 768px) {
-        width: 88px;
-        height: 92px;
-    }
-    @media screen and (min-width: 1200px) {
-        display: none;
-    }
+  width: 45px;
+  height: 45px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 0 auto;
+  @media screen and (min-width: 768px) {
+    width: 88px;
+    height: 92px;
+  }
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
 }
 
 .pharmacy_background_img_cats_tablet img {
-    display: block;
-    width: 100%;
-    height: 100%;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .position_thumb_cats_descr {
-    margin-top: 20px;
-    @media screen and (min-width: 1200px) {
-        margin-top: 0;
-        display: flex;
-        align-items: center;
-    }
+  margin-top: 20px;
+  @media screen and (min-width: 1200px) {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+  }
 }
 
 .pharmacy_thumb_img_cats_desktop {
-    display: none;
-    @media screen and (min-width: 1200px) {
-        display: block;
-        width: 170px;
-        height: 180px;
-        object-fit: cover;
-        border-radius: 12px;
-        overflow: hidden;
-        margin: 0 auto;
-    }
-    @media screen and (min-width: 1440px) {
-        border-radius: 16px;
-        width: 204px;
-        height: 230px;
-    }
-    @media screen and (min-width: 1920px) {
-        border-radius: 20px;
-        width: 198px;
-        height: 198px;
-    }
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: block;
+    width: 170px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  @media screen and (min-width: 1440px) {
+    border-radius: 16px;
+    width: 204px;
+    height: 230px;
+  }
+  @media screen and (min-width: 1920px) {
+    border-radius: 20px;
+    width: 198px;
+    height: 198px;
+  }
 }
 
 .pharmacy_thumb_img_cats_desktop img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .text_pharmacy_license {
-    font-family: var(--font-Cormorant-Unicase);
-    line-height: 110%;
-    color: #06631b;
-    text-transform: uppercase;
-    display: flex;
-    flex-direction: column;
-    row-gap: 6px;
-    @media screen and (min-width: 768px) {
-        row-gap: 10px;
-    }
-    @media screen and (min-width: 1200px) {
-        margin-top: auto;
-        margin-bottom: 40px;
-    }
-    @media screen and (min-width: 1440px) {
-        margin-bottom: 50px;
-        max-width: 480px;
-    }
-    @media screen and (min-width: 1920px) {
-        margin-bottom: 56px;
-    }
+  font-family: var(--font-Cormorant-Unicase);
+  line-height: 110%;
+  color: #06631b;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+  @media screen and (min-width: 768px) {
+    row-gap: 10px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-top: auto;
+    margin-bottom: 40px;
+  }
+  @media screen and (min-width: 1440px) {
+    margin-bottom: 50px;
+    max-width: 480px;
+  }
+  @media screen and (min-width: 1920px) {
+    margin-bottom: 56px;
+  }
 }
 
 .text_pharmacy_license span {
-    display: block;
+  display: block;
 }
 
 .text_pharmacy_license span:nth-child(1) {
-    font-size: 20px;
-    font-weight: 300;
-    letter-spacing: -0.07;
-    @media screen and (min-width: 768px) {
-        font-size: 52px;
-        line-height: 70%;
-        // line-height: 100%;
-    }
-    @media screen and (min-width: 1200px) {
-        font-size: 56px;
-    }
-    @media screen and (min-width: 1440px) {
-        font-size: 64px;
-    }
-    @media screen and (min-width: 1920px) {
-        font-size: 84px;
-    }
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: -0.07;
+  @media screen and (min-width: 768px) {
+    font-size: 52px;
+    line-height: 70%;
+    // line-height: 100%;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 56px;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 64px;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 84px;
+  }
 }
 
 .text_pharmacy_license span:nth-child(2) {
-    // position: absolute;
-    z-index: 3;
-    font-size: 41px;
-    font-weight: 300;
-    color: #04a427;
-    letter-spacing: 0;
-    @media screen and (min-width: 768px) {
-        margin-left: 40px;
-        font-size: 103px;
-        line-height: 70%;
-    }
-    @media screen and (min-width: 1200px) {
-        font-size: 110px;
-    }
-    @media screen and (min-width: 1440px) {
-        font-size: 133px;
-        margin-left: 30px;
-    }
-    @media screen and (min-width: 1920px) {
-        font-size: 164px;
-        margin-left: 60px;
-    }
+  // position: absolute;
+  z-index: 3;
+  font-size: 41px;
+  font-weight: 300;
+  color: #04a427;
+  letter-spacing: 0;
+  @media screen and (min-width: 768px) {
+    margin-left: 40px;
+    font-size: 103px;
+    line-height: 70%;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 110px;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 133px;
+    margin-left: 30px;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 164px;
+    margin-left: 60px;
+  }
 }
 
 .text_pharmacy_license span:nth-child(3) {
-    font-size: 18px;
-    font-weight: 400;
-    letter-spacing: -0.05;
-    @media screen and (min-width: 768px) {
-        font-size: 40px;
-        line-height: 70%;
-        margin-left: 40px;
-        // line-height: 110%;
-    }
-    @media screen and (min-width: 1200px) {
-        font-size: 42px;
-    }
-    @media screen and (min-width: 1440px) {
-        font-size: 50px;
-        margin-left: 30px;
-    }
-    @media screen and (min-width: 1920px) {
-        font-size: 64px;
-        margin-left: 60px;
-    }
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.05;
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+    line-height: 70%;
+    margin-left: 40px;
+    // line-height: 110%;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 42px;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 50px;
+    margin-left: 30px;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 64px;
+    margin-left: 60px;
+  }
 }
 
 .pharmacy_thumb_img_dog {
-    width: 45px;
-    height: 45px;
-    border-radius: 7px;
-    overflow: hidden;
-    z-index: 2;
-    @media screen and (min-width: 768px) {
-        border-radius: 10px;
-        width: 80px;
-        height: 100px;
-    }
-    @media screen and (min-width: 1440px) {
-        border-radius: 12px;
-        width: 100px;
-        height: 126px;
-    }
-    @media screen and (min-width: 1920px) {
-        border-radius: 15px;
-        width: 126px;
-        height: 156px;
-    }
+  width: 45px;
+  height: 45px;
+  border-radius: 7px;
+  overflow: hidden;
+  z-index: 2;
+  @media screen and (min-width: 768px) {
+    border-radius: 10px;
+    width: 80px;
+    height: 100px;
+  }
+  @media screen and (min-width: 1440px) {
+    border-radius: 12px;
+    width: 100px;
+    height: 126px;
+  }
+  @media screen and (min-width: 1920px) {
+    border-radius: 15px;
+    width: 126px;
+    height: 156px;
+  }
 }
 
 .pharmacy_thumb_img_dog img {
-    display: block;
-    width: 100%;
-    height: 100%;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .postion_thumb_img_seo_descr {
-    display: flex;
-    justify-content: space-between;
-    @media screen and (min-width: 1200px) {
-        width: 100%;
-    }
+  display: flex;
+  justify-content: space-between;
+  @media screen and (min-width: 1200px) {
+    width: 100%;
+  }
 }
 
 .pharmacy_thumb_img_seo {
-    width: 160px;
-    height: 174px;
-    border-radius: 15px;
-    z-index: 2;
-    overflow: hidden;
-    @media screen and (min-width: 768px) {
-        border-radius: 25px;
-        width: 390px;
-        height: 420px;
-        position: relative;
-    }
-    @media screen and (min-width: 1200px) {
-        border-radius: 25px;
-        width: 417px;
-        height: 450px;
-    }
-    @media screen and (min-width: 1440px) {
-        border-radius: 32px;
-        width: 500px;
-        height: 540px;
-    }
-    @media screen and (min-width: 1920px) {
-        border-radius: 40px;
-        width: 620px;
-        height: 670px;
-    }
+  width: 160px;
+  height: 174px;
+  border-radius: 15px;
+  z-index: 2;
+  overflow: hidden;
+  @media screen and (min-width: 768px) {
+    border-radius: 25px;
+    width: 390px;
+    height: 420px;
+    position: relative;
+  }
+  @media screen and (min-width: 1200px) {
+    border-radius: 25px;
+    width: 417px;
+    height: 450px;
+  }
+  @media screen and (min-width: 1440px) {
+    border-radius: 32px;
+    width: 500px;
+    height: 540px;
+  }
+  @media screen and (min-width: 1920px) {
+    border-radius: 40px;
+    width: 620px;
+    height: 670px;
+  }
 }
 
 .pharmacy_thumb_img_seo img {
-    display: block;
-    width: 100%;
-    height: 100%;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .wrapper_descr_drugs_pharmacy_tablet {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgba(4, 164, 39, 0.4);
+    border-bottom: 1px solid rgba(4, 164, 39, 0.4);
+    border-radius: 26px;
+    background-color: rgba(243, 255, 246, 0.8);
+    position: absolute;
+    width: 329px;
+    height: 110px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(-14px, -14px);
+  }
+  @media screen and (min-width: 1200px) {
     display: none;
-    @media screen and (min-width: 768px) {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-top: 1px solid rgba(4, 164, 39, 0.4);
-        border-bottom: 1px solid rgba(4, 164, 39, 0.4);
-        border-radius: 26px;
-        background-color: rgba(243, 255, 246, 0.8);
-        position: absolute;
-        width: 329px;
-        height: 110px;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        transform: translate(-14px, -14px);
-    }
-    @media screen and (min-width: 1200px) {
-        display: none;
-    }
+  }
 }
 
 .wrapper_descr_drugs_pharmacy_desktop {
-    display: none;
-    @media screen and (min-width: 1200px) {
-        margin: auto 0 auto 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 329px;
-        height: 249px;
-        border-top: 1px solid rgba(4, 164, 39, 0.4);
-        border-bottom: 1px solid rgba(4, 164, 39, 0.4);
-        border-radius: 26px;
-        background-color: rgba(243, 255, 246, 0.8);
-    }
-    @media screen and (min-width: 1440px) {
-        width: 395px;
-        height: 300px;
-        border-radius: 32px;
-        // margin-left: 50px;
-    }
-    @media screen and (min-width: 1920px) {
-        width: 490px;
-        height: 370px;
-        border-radius: 40px;
-        // margin-left: 60px;
-    }
+  display: none;
+  @media screen and (min-width: 1200px) {
+    margin: auto 0 auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 329px;
+    height: 249px;
+    border-top: 1px solid rgba(4, 164, 39, 0.4);
+    border-bottom: 1px solid rgba(4, 164, 39, 0.4);
+    border-radius: 26px;
+    background-color: rgba(243, 255, 246, 0.8);
+  }
+  @media screen and (min-width: 1440px) {
+    width: 395px;
+    height: 300px;
+    border-radius: 32px;
+    // margin-left: 50px;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 490px;
+    height: 370px;
+    border-radius: 40px;
+    // margin-left: 60px;
+  }
 }
 
 .descr_drugs_pharmacy {
-    text-align: center;
-    font-family: var(--font-Manrope);
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 130%;
-    color: #04a427;
-    text-transform: uppercase;
-    max-width: 240px;
-    @media screen and (min-width: 1200px) {
-        max-width: 300px;
-        font-size: 17px;
-    }
-    @media screen and (min-width: 1440px) {
-        // max-width: 395px;
-        font-size: 20px;
-    }
-    @media screen and (min-width: 1920px) {
-        max-width: 343px;
-    }
+  text-align: center;
+  font-family: var(--font-Manrope);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 130%;
+  color: #04a427;
+  text-transform: uppercase;
+  max-width: 240px;
+  @media screen and (min-width: 1200px) {
+    max-width: 300px;
+    font-size: 17px;
+  }
+  @media screen and (min-width: 1440px) {
+    // max-width: 395px;
+    font-size: 20px;
+  }
+  @media screen and (min-width: 1920px) {
+    max-width: 343px;
+  }
 }
 
 .radial_gradient_pharmacy {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    transform: translateY(28px);
-    width: 232px;
-    height: 232px;
-    border-radius: 50%;
-    background-position: bottom left;
-    background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  transform: translateY(28px);
+  width: 232px;
+  height: 232px;
+  border-radius: 50%;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-image: radial-gradient(
+    circle at center,
+    rgba(20, 114, 12, 0.04),
+    rgba(20, 114, 12, 0.04) 76.5px,
+    rgba(20, 114, 12, 0.03) 76.5px,
+    rgba(20, 114, 12, 0.03) 98px,
+    rgba(20, 114, 12, 0.02) 98px,
+    rgba(20, 114, 12, 0.02) 116px
+  );
+  @media screen and (min-width: 768px) {
+    width: 562px;
+    height: 562px;
+    transform: translate(22px, 34px);
+
     background-image: radial-gradient(
-        circle at center,
-        rgba(20, 114, 12, 0.04),
-        rgba(20, 114, 12, 0.04) 76.5px,
-        rgba(20, 114, 12, 0.03) 76.5px,
-        rgba(20, 114, 12, 0.03) 98px,
-        rgba(20, 114, 12, 0.02) 98px,
-        rgba(20, 114, 12, 0.02) 116px
+      circle at center,
+      rgba(20, 114, 12, 0.04),
+      rgba(20, 114, 12, 0.04) 185px,
+      rgba(20, 114, 12, 0.03) 185px,
+      rgba(20, 114, 12, 0.03) 237px,
+      rgba(20, 114, 12, 0.02) 237px,
+      rgba(20, 114, 12, 0.02) 282px
     );
-    @media screen and (min-width: 768px) {
-        width: 562px;
-        height: 562px;
-        transform: translate(22px, 34px);
+  }
+  @media screen and (min-width: 1200px) {
+    width: 602px;
+    height: 602px;
+    transform: translate(22px, 100px);
+    background-image: radial-gradient(
+      circle at center,
+      rgba(20, 114, 12, 0.04),
+      rgba(20, 114, 12, 0.04) 197px,
+      rgba(20, 114, 12, 0.03) 197px,
+      rgba(20, 114, 12, 0.03) 252px,
+      rgba(20, 114, 12, 0.02) 252px,
+      rgba(20, 114, 12, 0.02) 300px
+    );
+  }
+  @media screen and (min-width: 1440px) {
+    width: 722px;
+    height: 722px;
+    transform: translate(26px, 103px);
+    background-image: radial-gradient(
+      circle at center,
+      rgba(20, 114, 12, 0.04),
+      rgba(20, 114, 12, 0.04) 237px,
+      rgba(20, 114, 12, 0.03) 237px,
+      rgba(20, 114, 12, 0.03) 303px,
+      rgba(20, 114, 12, 0.02) 303px,
+      rgba(20, 114, 12, 0.02) 360px
+    );
+  }
 
-        background-image: radial-gradient(
-            circle at center,
-            rgba(20, 114, 12, 0.04),
-            rgba(20, 114, 12, 0.04) 185px,
-            rgba(20, 114, 12, 0.03) 185px,
-            rgba(20, 114, 12, 0.03) 237px,
-            rgba(20, 114, 12, 0.02) 237px,
-            rgba(20, 114, 12, 0.02) 282px
-        );
-    }
-    @media screen and (min-width: 1200px) {
-        width: 602px;
-        height: 602px;
-        transform: translate(22px, 100px);
-        background-image: radial-gradient(
-            circle at center,
-            rgba(20, 114, 12, 0.04),
-            rgba(20, 114, 12, 0.04) 197px,
-            rgba(20, 114, 12, 0.03) 197px,
-            rgba(20, 114, 12, 0.03) 252px,
-            rgba(20, 114, 12, 0.02) 252px,
-            rgba(20, 114, 12, 0.02) 300px
-        );
-    }
-    @media screen and (min-width: 1440px) {
-        width: 722px;
-        height: 722px;
-        transform: translate(26px, 103px);
-        background-image: radial-gradient(
-            circle at center,
-            rgba(20, 114, 12, 0.04),
-            rgba(20, 114, 12, 0.04) 237px,
-            rgba(20, 114, 12, 0.03) 237px,
-            rgba(20, 114, 12, 0.03) 303px,
-            rgba(20, 114, 12, 0.02) 303px,
-            rgba(20, 114, 12, 0.02) 360px
-        );
-    }
-
-    @media screen and (min-width: 1920px) {
-        width: 894px;
-        height: 894px;
-        transform: translate(34px, 215px);
-        background-image: radial-gradient(
-            circle at center,
-            rgba(20, 114, 12, 0.04),
-            rgba(20, 114, 12, 0.04) 293px,
-            rgba(20, 114, 12, 0.03) 293px,
-            rgba(20, 114, 12, 0.03) 373px,
-            rgba(20, 114, 12, 0.02) 373px,
-            rgba(20, 114, 12, 0.02) 445px
-        );
-    }
+  @media screen and (min-width: 1920px) {
+    width: 894px;
+    height: 894px;
+    transform: translate(34px, 215px);
+    background-image: radial-gradient(
+      circle at center,
+      rgba(20, 114, 12, 0.04),
+      rgba(20, 114, 12, 0.04) 293px,
+      rgba(20, 114, 12, 0.03) 293px,
+      rgba(20, 114, 12, 0.03) 373px,
+      rgba(20, 114, 12, 0.02) 373px,
+      rgba(20, 114, 12, 0.02) 445px
+    );
+  }
 }
 
 .postion_block_pet_shop {
-    display: flex;
-    justify-content: center;
-    margin-top: 24px;
-    margin-bottom: 15px;
-    @media screen and (min-width: 1200px) {
-        margin-bottom: 25px;
-    }
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  margin-bottom: 15px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 25px;
+  }
 }
 
 .block_pet-shop {
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 290px;
-    height: 568px;
-    border-radius: 24px;
-    padding: 8px;
-    background-image: linear-gradient(to left, #042917 0%, #195b0a 100%);
-    @media screen and (min-width: 768px) {
-        background-image: linear-gradient(
-            to left top,
-            #042917 0%,
-            #195b0a 100%
-        );
-        width: 740px;
-        height: 287px;
-        flex-direction: row;
-    }
-    @media screen and (min-width: 1200px) {
-        width: 1158px;
-        height: 454px;
-    }
-    @media screen and (min-width: 1440px) {
-        width: 1390px;
-        height: 545px;
-    }
-    @media screen and (min-width: 1920px) {
-        width: 1720px;
-        height: 675px;
-    }
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 568px;
+  border-radius: 24px;
+  padding: 8px;
+  background-image: linear-gradient(to left, #042917 0%, #195b0a 100%);
+  @media screen and (min-width: 768px) {
+    background-image: linear-gradient(to left top, #042917 0%, #195b0a 100%);
+    width: 740px;
+    height: 287px;
+    flex-direction: row;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1158px;
+    height: 454px;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 1390px;
+    height: 545px;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 1720px;
+    height: 675px;
+  }
 }
 
 .thumb_img_seo_with_medical_institute {
-    width: 270px;
-    height: 232px;
-    border-radius: 18px;
-    overflow: hidden;
-    @media screen and (min-width: 768px) {
-        width: 342px;
-        height: 270px;
-    }
-    @media screen and (min-width: 1200px) {
-        width: 562px;
-        height: 440px;
-    }
-    @media screen and (min-width: 1440px) {
-        width: 674px;
-        // height: 532px;
-        height: 100%;
-    }
-    @media screen and (min-width: 1920px) {
-        width: 835px;
-        height: 659px;
-    }
+  width: 100%;
+  height: 232px;
+  border-radius: 18px;
+  overflow: hidden;
+  @media screen and (min-width: 768px) {
+    width: 342px;
+    height: 270px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 562px;
+    height: 440px;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 674px;
+    // height: 532px;
+    height: 100%;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 835px;
+    height: 659px;
+  }
 }
 
 .thumb_img_seo_with_medical_institute img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: 50% 50%;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
 }
 
 .descr_pet-shop {
-    color: #fff;
-    text-transform: uppercase;
-    font-family: var(--font-Manrope);
-    font-size: 19px;
-    line-height: 120%;
-    letter-spacing: 2%;
-    max-width: 250px;
-    text-align: center;
-    font-weight: 400;
-    margin: 0 auto 24px auto;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: var(--font-Manrope);
+  font-size: 19px;
+  line-height: 120%;
+  letter-spacing: 2%;
+  max-width: 250px;
+  text-align: center;
+  font-weight: 400;
+  margin: 0 auto 24px auto;
 
-    @media screen and (min-width: 768px) {
-        margin: 0 auto;
-        max-width: 320px;
-        font-size: 20px;
-    }
-    @media screen and (min-width: 1200px) {
-        text-align: center;
-        max-width: 500px;
-        font-size: 30px;
-    }
-    @media screen and (min-width: 1440px) {
-        font-size: 36px;
-    }
-    @media screen and (min-width: 1920px) {
-        margin-top: 60px;
-        max-width: 757px;
-        font-size: 42px;
-    }
+  @media screen and (min-width: 768px) {
+    margin: 0 auto;
+    max-width: 320px;
+    font-size: 20px;
+  }
+  @media screen and (min-width: 1200px) {
+    text-align: center;
+    max-width: 500px;
+    font-size: 30px;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 36px;
+  }
+  @media screen and (min-width: 1920px) {
+    margin-top: 60px;
+    max-width: 757px;
+    font-size: 42px;
+  }
 }
 
 .positon_descr_pet_shop_img {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    @media screen and (min-width: 768px) {
-        justify-content: space-around;
-        flex-grow: 1;
-    }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @media screen and (min-width: 768px) {
+    justify-content: space-around;
+    flex-grow: 1;
+  }
 }
 
 .descr_foto_animals {
-    color: #fff;
-    font-size: 14px;
-    line-height: 120%;
-    letter-spacing: 0%;
-    font-family: var(--font-Manrope);
-    font-weight: 400;
-    text-align: center;
-    margin-bottom: 10px;
-    @media screen and (min-width: 1200px) {
-        font-size: 15px;
-        letter-spacing: 2%;
-    }
-    @media screen and (min-width: 1440px) {
-        font-size: 16px;
-    }
-    @media screen and (min-width: 1920px) {
-        font-size: 18px;
-    }
+  color: #fff;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  font-family: var(--font-Manrope);
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 10px;
+  @media screen and (min-width: 1200px) {
+    font-size: 15px;
+    letter-spacing: 2%;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 16px;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 18px;
+  }
 }
 
 .thumb_snake {
-    width: 137px;
-    height: 126px;
-    border-radius: 20px;
-    overflow: hidden;
-    @media screen and (min-width: 768px) {
-        width: 166px;
-        border-radius: 26px;
-    }
-    @media screen and (min-width: 1200px) {
-        width: 240px;
-        height: 180px;
-    }
-    @media screen and (min-width: 1440px) {
-        width: 290px;
-        height: 220px;
-        border-radius: 24px;
-    }
-    @media screen and (min-width: 1920px) {
-        width: 358px;
-        height: 270px;
-        border-radius: 30px;
-    }
+  width: 137px;
+  height: 126px;
+  border-radius: 20px;
+  overflow: hidden;
+  @media screen and (min-width: 768px) {
+    width: 166px;
+    border-radius: 26px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 240px;
+    height: 180px;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 290px;
+    height: 220px;
+    border-radius: 24px;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 358px;
+    height: 270px;
+    border-radius: 30px;
+  }
 }
 
 .thumb_snake img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    // object-position: -1px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  // object-position: -1px;
 }
 
 .thumb_fish {
-    width: 126px;
-    height: 91px;
-    border-radius: 20px;
-    overflow: hidden;
-    @media screen and (min-width: 1440px) {
-        width: 153px;
-        height: 110px;
-        border-radius: 16px;
-    }
-    @media screen and (min-width: 1920px) {
-        width: 180px;
-        height: 130px;
-        border-radius: 16px;
-    }
+  width: 126px;
+  height: 91px;
+  border-radius: 20px;
+  overflow: hidden;
+  @media screen and (min-width: 1440px) {
+    width: 153px;
+    height: 110px;
+    border-radius: 16px;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 180px;
+    height: 130px;
+    border-radius: 16px;
+  }
 }
 
 .thumb_fish img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .postion_img_animals {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
 }
