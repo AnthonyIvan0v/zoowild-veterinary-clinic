@@ -11,11 +11,11 @@
         Зоовайлд - Турбота про вашого улюбленця
     </title>
     <link rel="shortcut icon" href="./static/favicon/favicon.ico" type="image/ico">
-    <link rel="stylesheet" href="./css/main.min.css?_v=20250312232305">
+    <link rel="stylesheet" href="./css/main.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Manrope:wght@200..800&display=swap&_v=20250312232305" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js?_v=20250312232305" integrity="sha512-aNMyYYxdIxIaot0Y1/PLuEu3eipGCmsEUBrUq+7aVyPGMFH8z0eTP0tkqAvv34fzN6z+201d3T8HPb1svWSKHQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js" integrity="sha512-aNMyYYxdIxIaot0Y1/PLuEu3eipGCmsEUBrUq+7aVyPGMFH8z0eTP0tkqAvv34fzN6z+201d3T8HPb1svWSKHQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
@@ -370,7 +370,7 @@
             </svg>
         </button>
         <div class="thumb_img_modal_licenses" data-thumb-foto>
-            <picture><source srcset="./images/content-images/licenses/diploma.webp" type="image/webp"><img src="./images/content-images/licenses/diploma.jpg" data-img-modal-lisenses alt="Диплом"></picture>
+            <img src="./images/content-images/licenses/diploma.jpg" data-img-modal-lisenses alt="Диплом">
         </div>
     </div>
 
@@ -683,7 +683,10 @@
 
                 <div class="thumb_img_ceo_form second">
                     <picture>
-                        
+                        <!-- <source media="(min-width:1200px)"
+                                                srcset="./images/content-images/contacts/cat_block_contact_communication_1920.jpg 1x, ./images/content-images/contacts/cat_block_contact_communication_1920@2x.jpg 2x">
+                                            <source media="(min-width:768px)"
+                                                srcset="./images/content-images/contacts/cat_block_contact_communication_768.jpg 1x,./images/content-images/contacts/cat_block_contact_communication_768@2x.jpg 2x"> -->
                         <source media="(min-width:320px)" srcset="./images/content-images/footer/ceo@2x.jpg 2x">
                         <img src="./images/content-images/footer/ceo.jpg" alt="Фото засновниці ветеренарної клініки">
                     </picture>
@@ -794,7 +797,7 @@
                 <a href="/" class="link link_nav">Iнтернет-магазин</a>
                 <a href="./about.html" class="link link_nav">Про компанію</a>
                 <a href="./services.html" class="link link_nav">Послуги</a>
-                
+                <!-- <a href="" class="link link_nav" data-scroll-contacts>Контакти</a> -->
                 <a href="./veterinary-courses.html" class="link link_nav" data-scroll-contacts>Ветеринарна освіта</a>
 
 
@@ -914,7 +917,7 @@
     <div class="container">
         <div class="border hidden-blockLeft"></div>
         <div class="wrapper_training_program">
-            <p class="section_title">( I ) -- Програма навчання</p>
+            <p class="section_title">( I ) - Програма навчання</p>
             <p class="text_descr modified"><span>Ви мрієте стати ветеринаром?</span>
                 Ми надамо фундаментальні знання з нуля і допоможемо підвищити кваліфікацію, надамо покроковий план від
                 ветеринара у
@@ -979,7 +982,7 @@
     <div class="container">
         <div class="border"></div>
         <div class="wrapper_why_our_courses">
-            <p class="hidden-text section_title">( II ) -- Чому наші курси?</p>
+            <p class="hidden-text section_title">( II ) - Чому наші курси?</p>
             <p class="hidden-text text_descr modified"><span>Навчання в Zoowild</span>
                 — повноцінне навчання і стажування в клініці</p>
         </div>
@@ -1037,7 +1040,7 @@
                         </p>
                         <span>Анна, випускниця курсу</span>
                     </div>
-                    <button type="button" class="btn_fouth_card">Записатися</button>
+                    <button type="button" class="btn_fouth_card" data-open-modal-form>Записатися</button>
                 </div>
             </div>
         </div>
@@ -1048,7 +1051,7 @@
     <div class="container">
         <div class="border"></div>
         <div class="wrapper_training_program">
-            <p class="section_title">( III ) -- Декілька фактів</p>
+            <p class="section_title">( III ) - Декілька фактів</p>
         </div>
         <ul class="list_facts_about_us">
             <li class="item_list_facts_about_us">
@@ -1078,7 +1081,7 @@
     <div class="container">
         <div class="border hidden-blockLeft"></div>
         <div>
-            <p class="section_title">( IV ) -- Програма курсу</p>
+            <p class="section_title">( IV ) - Програма курсу</p>
         </div>
         <div class="wrapper_sticky">
             <div class="inner_wrapper">
@@ -1222,7 +1225,7 @@
         <div class="cards_course_cost">
             <div class="item_card_course_cost">
                 <div class="wrapper__img">
-                    <picture><source srcset="./images/content-images/veterinary_courses_page/course-cost/cat.webp" type="image/webp"><img src="./images/content-images/veterinary_courses_page/course-cost/cat.png" alt></picture>
+                    <img src="./images/content-images/veterinary_courses_page/course-cost/cat.png" alt>
                 </div>
                 <div class="wrapper_text_content_card">
                     <div class="text_content_card">
@@ -1270,7 +1273,7 @@
 
 
                     <div class="box_img_rodents">
-                        <picture><source srcset="./images/content-images/veterinary_courses_page/course-cost/rodents.webp" type="image/webp"><img src="./images/content-images/veterinary_courses_page/course-cost/rodents.png" alt=""></picture>
+                        <img src="./images/content-images/veterinary_courses_page/course-cost/rodents.png" alt="">
                     </div>
                 </div>
             </div>
@@ -1738,7 +1741,7 @@
         </div>
     </div>
 </section>
-    <script defer="defer" src="./js/main.js?_v=20250312232305"></script>
+    <script defer="defer" src="./js/main.js"></script>
 
 </body>
 
