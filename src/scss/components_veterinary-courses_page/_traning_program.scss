@@ -1,0 +1,121 @@
+.section_training_program {
+  background-color: #f3fff6;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  @media screen and (min-width: 1200px) {
+    // padding-top: 70px;
+  }
+}
+
+.wrapper_training_program {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.list_suitable_for {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-top: 50px;
+
+    column-gap: 30px;
+    row-gap: 0;
+  }
+}
+.item_suitable_for {
+  padding: 40px;
+  height: 470px;
+  width: 100%;
+  border-radius: 35px;
+  background-color: #d4e2b9;
+  background-position: center center;
+  box-shadow: 0px 0px 20px 0px rgba(91, 97, 83, 0.1);
+  display: flex;
+  flex-direction: column;
+  @media screen and (min-width: 768px) {
+    flex-basis: calc((100% - 20px) / 2);
+  }
+  @media screen and (min-width: 1200px) {
+    flex-basis: calc((100% - 90px) / 4);
+  }
+}
+
+.wrapp_text_item_suitable_for {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  @media screen and (min-width: 768px) {
+    row-gap: 30px;
+  }
+}
+.wrapp_text_item_suitable_for span {
+  color: #fcfff4;
+  font-size: 18px;
+}
+.wrapp_text_item_suitable_for p {
+  color: #5b6153;
+  font-size: 23px;
+}
+
+.map_elements {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.map_elements .circle {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fcfff4;
+  @media screen and (min-width: 1440px) {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+.item_suitable_for:nth-child(1) .map_elements .circle:nth-child(n + 2) {
+  background-color: #edf5e1;
+}
+.item_suitable_for:nth-child(2) .map_elements .circle:nth-child(n + 3) {
+  background-color: #edf5e1;
+}
+.item_suitable_for:nth-child(3) .map_elements .circle:nth-child(n + 4) {
+  background-color: #edf5e1;
+}
+
+.item_suitable_for {
+  background-size: 260px 150px;
+  background-repeat: no-repeat;
+  background-position: bottom 90px center;
+}
+
+.item_suitable_for:nth-child(1) {
+  background-image: url(../images/background-images/veterinary_courses_page/cards-img/first-card-img.png);
+}
+
+.item_suitable_for:nth-child(2) {
+  background-image: url(../images/background-images/veterinary_courses_page/cards-img/second-card-img.png);
+}
+
+.item_suitable_for:nth-child(3) {
+  background-image: url(../images/background-images/veterinary_courses_page/cards-img/third-card-img.png);
+}
+
+.item_suitable_for:nth-child(4) {
+  background-image: url(../images/background-images/veterinary_courses_page/cards-img/fourth-card-img.png);
+}
