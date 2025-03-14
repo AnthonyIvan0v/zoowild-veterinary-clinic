@@ -99,3 +99,25 @@
 .start-animation-blockRight {
     animation: 0.8s animate-blockRight;
 }
+
+
+// @keyframes animate-timer {
+//     0% {
+//         // opacity: 0.4;
+//         // filter: blur(1px);
+//         transform: perspective(800px) rotateX(0deg);
+//     }
+
+//     50% {
+//         opacity: 1;
+//         // filter: blur(0);
+//         transform: perspective(800px) rotateX(30deg);
+
+//     }
+//     100% {
+//         opacity: 1;
+//         // filter: blur(0);
+//         transform: perspective(800px) rotateX(100deg);
+
+//     }
+// }
