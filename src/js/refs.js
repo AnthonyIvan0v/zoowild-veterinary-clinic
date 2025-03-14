@@ -105,4 +105,6 @@ export const refs = {
     '[data-scroll-contacts]'
   ),
   sectionContacts: document.querySelector('[data-section-contacts]'),
+  itemScrollToSectionPriceCourse : document.querySelector('[data-scroll-price]'),
+  cardsCostCourse: document.querySelector('[data-cards-cost]')
 };
