@@ -2,22 +2,22 @@
     <div class="container">
         <div class="border"></div>
         <div class="wrapper_textcontent_descr_course_cost">
-            <p class="section_title ">( VI ) - Вартість курсу</p>
-            <p class="text_descr"><span>Більше ніж просто курс!</span> повний посібник та керівництво, як рятувати життя
+            <p class="section_title hidden-text">( VI ) - Вартість курсу</p>
+            <p class="text_descr hidden-text"><span>Більше ніж просто курс!</span> повний посібник та керівництво, як рятувати життя
                 домашніх
                 улюбленців і бути одним з
                 найзатребуваніших фахівців у галузі ветеринарії</p>
         </div>
 
-        <div class="cards_course_cost">
+        <div class="cards_course_cost" data-cards-cost id="cards-cost-course">
             <div class="item_card_course_cost">
                 <div class="wrapper__img">
                     <img src="./images/content-images/veterinary_courses_page/course-cost/cat.png" alt />
                 </div>
                 <div class="wrapper_text_content_card">
                     <div class="text_content_card">
-                        <p class="title_card">Шлях ветеринара</p>
-                        <p class="descr_card">Даний курс розрахований для тих освоїти затребувану та важливу професію,
+                        <p class="title_card hidden-text">Шлях ветеринара</p>
+                        <p class="descr_card hidden-text">Даний курс розрахований для тих освоїти затребувану та важливу професію,
                             хто хоче збільшити
                             свій
                             дохід у клініці,
@@ -25,37 +25,48 @@
                     </div>
                     <div class="wrapper_postion_price_btn">
                         <div class="wrapper_price_course">
-                            <span>$659</span>
-                            <span class="base_price">$1520</span>
+                            <span class="discount_price hidden-text">$659</span>
+                            <span class="base_price hidden-text">$1520</span>
                         </div>
-                        <button type="button" class="btn_details_course">Записатися</button>
+                        <!-- <button type="button" class="btn_details_course" data-open-modal-form>Записатися</button> -->
+                        <div class="wrapper_timer">
+                            <p class="text_timer ">До кінця акції залишилось:</p>
+                            <div id="countdown" class="countdown">
+                                <span class="hours countdown-time"></span>
+                                <span class="timer_divide">:</span>
+                                <span class="minutes countdown-time"></span>
+                                <span class="timer_divide">:</span>
+                                <span class="seconds countdown-time"></span>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
             <div class="item_card_course_cost">
                 <div class="wrapper">
                     <div class="">
-                        <p class="__title">Медицина лікує людину,
+                        <p class="__title hidden-text">Медицина лікує людину,
                             а ветеринарія рятує людство</p>
                     </div>
                     <div class="wrapper_bounses">
                         <div>
-                            <p class="bonuses">Бонуси під час запису!</p>
+                            <p class="bonuses hidden-text">Бонуси під час запису!</p>
                         </div>
                         <ul class="list_bonuses">
                             <li>
-                                <p>🎁 Гайд "Як відкрити свою ветклініку"</p>
+                                <p class="hidden-text">🎁 Гайд "Як відкрити свою ветклініку"</p>
                             </li>
                             <li>
-                                <p>🎁 Доступ до закритого чату з наставниками</p>
+                                <p class="hidden-text">🎁 Доступ до закритого чату з наставниками</p>
                             </li>
                             <li>
-                                <p>🎁 Безкоштовний розбір ваших перших пацієнтів</p>
+                                <p class="hidden-text">🎁 Безкоштовний розбір ваших перших пацієнтів</p>
                             </li>
                         </ul>
                     </div>
                     <div class="wrapper_slogan">
-                        <p class="text_slogan">Місця обмежені! Наступний потік стартує, дата невідома</p>
+                        <p class="text_slogan hidden-text">Місця обмежені! Наступний потік стартує, дата невідома</p>
                     </div>
 
 
@@ -66,7 +77,7 @@
             </div>
         </div>
         <div>
-            <button type="button" class="btn_sign_course">Записатися</button>
+            <button type="button" class="btn_sign_course" data-open-modal-form>Записатися</button>
         </div>
     </div>
 </div>
