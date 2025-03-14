@@ -49,36 +49,38 @@
 
 .wrapper_price_course {
   display: flex;
+  align-items: center;
+  //   flex-direction: column;
+  row-gap: 10px;
   column-gap: 10px;
   font-size: 17px;
   font-weight: 400;
   @media screen and (min-width: 768px) {
     font-size: 20px;
-    column-gap: 20px;
+    column-gap: 10px;
+    // row-gap: 20px;
+  }
+}
+.discount_price {
+  font-size: 26px;
+  font-weight: 900;
+  @media screen and (min-width: 768px) {
+    font-size: 32px;
   }
 }
 
 .base_price {
+  opacity: 0.8;
   text-decoration: line-through;
 }
 .wrapper_postion_price_btn {
   display: flex;
+  flex-direction: column;
+  row-gap: 10px;
   justify-content: space-between;
   align-items: center;
-}
-
-.btn_details_course {
-  padding: 4px 14px;
-  color: #a5bb7d;
-  font-size: 18px;
-  font-weight: 500;
-  border-radius: 30px;
-  background-color: transparent;
-  border: 1px solid #5b6153;
-  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
-    border-color 0.2s ease-in-out;
   @media screen and (min-width: 768px) {
-    padding: 8px 20px;
+    flex-direction: row;
   }
 }
 
@@ -249,6 +251,7 @@
 }
 
 .btn_sign_course {
+    text-transform: uppercase;  
   font-size: 16px;
   margin-top: 20px;
   color: #ffffff;
@@ -263,11 +266,88 @@
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
     border-color 0.2s ease-in-out;
   width: 100%;
+  @include animation;
+  transition-property: background-color;
+
   @media screen and (min-width: 768px) {
     font-size: 18px;
   }
   @media screen and (min-width: 1200px) {
     font-size: 20px;
-    padding: 20px 0;
+    padding: 14px 0;
   }
+  &:hover,
+  &:focus {
+    background-color: #5b6153;
+    @include animation;
+    transition-property: background-color;
+
+  }
+}
+
+.wrapper_timer {
+  //   width: 80%;
+  display: flex;
+  //   flex-direction: column;
+  //   row-gap: 10px;
+  // margin-left: auto;
+  align-items: center;
+  column-gap: 8px;
+  //   padding-left: 20px;
+  //   border-left: 1px solid gray;
+}
+
+.wrapper_timer p {
+  // text-align: center;
+  // max-width: 60%;
+  // flex-grow: 0;
+  //   width: 90%;
+}
+
+.countdown {
+  min-width: 120px;
+  display: flex;
+  align-items: center;
+  //   justify-content: center;
+  // justify-content: space-between;
+  border-radius: 14px;
+  background-color: #5b6153;
+  padding: 10px 12px;
+  color: #fff;
+  column-gap: 4px;
+  font-size: 18px;
+  font-weight: 700;
+}
+// .countdown span:not(:first-child){
+//     margin-left: 4px;
+// }
+
+// .countdown-number {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+
+// //   border-right: 1px solid gray;
+// //   padding: 8px;
+// }
+
+.timer_divide {
+  color: #fff;
+  font-weight: 800;
+  font-size: 20px;
+  // margin: 0 4px;
+}
+
+.countdown-number span {
+  font-weight: 500;
+  font-size: 18px;
+  //   animation-name: animate-timer;
+  //   animation-duration: 1000ms;
+  //   animation-timing-function: linear;
+  //   animation-iteration-count: infinite;
+}
+
+.text_timer {
+  text-align: right;
+  font-size: 12px;
 }
