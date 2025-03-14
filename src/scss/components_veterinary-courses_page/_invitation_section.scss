@@ -84,4 +84,13 @@
   border-style: solid;
   transition: background-color 0.2sease-in-out, color 0.2sease-in-out,
     border-color 0.2sease-in-out;
+    @include animation;
+  transition-property: background-color;
+  &:hover,
+  &:focus {
+    background-color: #5b6153;
+    @include animation;
+    transition-property: background-color;
+
+  }
 }
