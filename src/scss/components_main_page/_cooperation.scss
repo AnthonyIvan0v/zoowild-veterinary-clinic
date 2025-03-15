@@ -488,6 +488,7 @@
 }
 
 .icon_plus_btn_view_job {
+    transform: scale(1);
     fill: currentColor;
     // color: #04a427;
     @include animation;
