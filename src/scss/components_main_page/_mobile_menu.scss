@@ -76,6 +76,7 @@
     border: none;
     box-shadow: 0 0 9 0 rgba(37, 39, 34, 0.08);
     background-color: #fff;
+    color: #04a427;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,6 +89,7 @@
 .btn_close_menu svg {
     width: 15px;
     height: 15px;
+    fill: currentColor;
     // @media screen and (min-width: 768px) {
     //     width: 18px;
     //     height: 18px;
@@ -283,6 +285,9 @@
 .btn_toggle_lang.modified_btn_toggle_lang span {
     display: block;
     font-size: 13px;
+    color: #095119;
+    // margin-left: 4px;
+
 }
 
 .switch_lang.modified_btn_toggle_lang {
