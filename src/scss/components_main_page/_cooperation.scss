@@ -471,11 +471,11 @@
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    border: 0.7px solid rgba(4, 164, 39, 0.15);
-    background-color: #f3fff6;
-    box-shadow: 0 0 4.04 0 rgba(4, 164, 39, 0.13);
     position: relative;
     color: #04a427;
+    border: 0.7px solid rgba(4, 164, 39, 0.15);
+    background-color: #f3fff6;
+    box-shadow: 0 0 4.04px 0 rgba(4, 164, 39, 0.13);
 
     @media screen and (min-width: 1440px) {
         width: 34px;
