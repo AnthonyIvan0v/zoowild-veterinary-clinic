@@ -475,6 +475,8 @@
     background-color: #f3fff6;
     box-shadow: 0 0 4.04 0 rgba(4, 164, 39, 0.13);
     position: relative;
+    color: #04a427;
+
     @media screen and (min-width: 1440px) {
         width: 34px;
         height: 34px;
@@ -486,6 +488,8 @@
 }
 
 .icon_plus_btn_view_job {
+    fill: currentColor;
+    // color: #04a427;
     @include animation;
     transition-property: opacity, visibility, transform;
 }
@@ -496,6 +500,7 @@
 }
 
 .icon_minus_btn_view_job {
+    fill: currentColor;
     position: absolute;
     opacity: 0;
     @include animation;
