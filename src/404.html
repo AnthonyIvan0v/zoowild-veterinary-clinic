@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
+    <!-- <link rel="stylesheet" href="./css/main.css" /> -->
+    <title>404</title>
+
+
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Manrope:wght@200..800&display=swap"
+        rel="stylesheet">
+  </head>
+  <body>
+    @@include('html/header_inner_page.html')
+    <main>
+      <section class="error-page">
+        <div class="container error-container">
+          <h1 class="error-title">
+            Упс, щось пішло не так, ця сторінка недоступна
+          </h1>
+          <p class="error-number">404</p>
+
+          <div class="error-page_links-wrapper">
+            <a
+              href="#"
+              class="hero__button catalog-link"
+              aria-label="Перейти до каталогу"
+            >
+              <img
+                class="hero__button__icon--catalog"
+                src="./images/svg/snake.svg"
+                alt="Іконка"
+              />
+              <p class="hero__button__text--catalog">До каталогу</p>
+            </a>
+
+            <a class="error-page_home-link" href="/">
+              <p class="error-page_home-link__text">До головної</p>
+              <svg
+                width="30"
+                height="29"
+                viewBox="0 0 30 29"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  x="1.18975"
+                  y="0.60967"
+                  width="27.8827"
+                  height="27.3776"
+                  rx="13.6888"
+                  stroke="#A5BB7D"
+                  stroke-width="0.559185"
+                />
+                <path
+                  d="M10.6548 18.21C10.4988 18.366 10.4988 18.6189 10.6548 18.7749C10.8108 18.9308 11.0637 18.9308 11.2197 18.7749L10.6548 18.21ZM19.7245 10.1046C19.7245 9.88399 19.5457 9.70517 19.3251 9.70517L15.7303 9.70517C15.5098 9.70517 15.3309 9.88399 15.3309 10.1046C15.3309 10.3252 15.5098 10.504 15.7303 10.504H18.9257V13.6993C18.9257 13.9199 19.1045 14.0988 19.3251 14.0988C19.5457 14.0988 19.7245 13.9199 19.7245 13.6993L19.7245 10.1046ZM11.2197 18.7749L19.6075 10.387L19.0427 9.82215L10.6548 18.21L11.2197 18.7749Z"
+                  fill="#A5BB7D"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <img class="page-cat-404" src="./images/404/404-cat.webp" alt="Кіт" />
+        <img
+          class="error-page__paw-1"
+          src="./images/svg/paw.svg"
+          alt="Лапа"
+          aria-hidden="true"
+        />
+        <img
+          class="error-page__paw-2"
+          src="./images/svg/paw.svg"
+          alt="Лапа"
+          aria-hidden="true"
+        />
+        <img
+          class="error-page__paw-3"
+          src="./images/svg/paw.svg"
+          alt="Лапа"
+          aria-hidden="true"
+        />
+      </section>
+    </main>
+  </body>
+</html>
