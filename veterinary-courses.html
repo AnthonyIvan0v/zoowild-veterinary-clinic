@@ -11,11 +11,11 @@
         Зоовайлд - Турбота про вашого улюбленця
     </title>
     <link rel="shortcut icon" href="./static/favicon/favicon.ico" type="image/ico">
-    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css/main.min.css?_v=20250315140300">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js" integrity="sha512-aNMyYYxdIxIaot0Y1/PLuEu3eipGCmsEUBrUq+7aVyPGMFH8z0eTP0tkqAvv34fzN6z+201d3T8HPb1svWSKHQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Manrope:wght@200..800&display=swap&_v=20250315140300" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js?_v=20250315140300" integrity="sha512-aNMyYYxdIxIaot0Y1/PLuEu3eipGCmsEUBrUq+7aVyPGMFH8z0eTP0tkqAvv34fzN6z+201d3T8HPb1svWSKHQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
@@ -370,7 +370,7 @@
             </svg>
         </button>
         <div class="thumb_img_modal_licenses" data-thumb-foto>
-            <img src="./images/content-images/licenses/diploma.jpg" data-img-modal-lisenses alt="Диплом">
+            <picture><source srcset="./images/content-images/licenses/diploma.webp" type="image/webp"><img src="./images/content-images/licenses/diploma.jpg" data-img-modal-lisenses alt="Диплом"></picture>
         </div>
     </div>
 
@@ -683,10 +683,7 @@
 
                 <div class="thumb_img_ceo_form second">
                     <picture>
-                        <!-- <source media="(min-width:1200px)"
-                                                srcset="./images/content-images/contacts/cat_block_contact_communication_1920.jpg 1x, ./images/content-images/contacts/cat_block_contact_communication_1920@2x.jpg 2x">
-                                            <source media="(min-width:768px)"
-                                                srcset="./images/content-images/contacts/cat_block_contact_communication_768.jpg 1x,./images/content-images/contacts/cat_block_contact_communication_768@2x.jpg 2x"> -->
+                        
                         <source media="(min-width:320px)" srcset="./images/content-images/footer/ceo@2x.jpg 2x">
                         <img src="./images/content-images/footer/ceo.jpg" alt="Фото засновниці ветеренарної клініки">
                     </picture>
@@ -718,7 +715,7 @@
                     <a href="/" class="link link_mobile_menu" data-link-mobile-menu>Інтернет магазин</a>
                     <a href="./about.html" class="link link_mobile_menu" data-link-mobile-menu>Про компанiю</a>
                     <a href="./services.html" class="link link_mobile_menu" data-link-mobile-menu>Послуги</a>
-                    <a class="link link_mobile_menu" data-link-mobile-menu data-scroll-contacts>Контакти</a>
+                    <a href="./veterinary-courses.html" class="link link_mobile_menu" data-link-mobile-menu>Контакти</a>
                 </div>
                 <a href="./index.html" class="link btn_toggle_lang modified_btn_toggle_lang" data-toggle-lang>
                     <span class="inactive lang_ua">UA</span>
@@ -797,8 +794,7 @@
                 <a href="/" class="link link_nav">Iнтернет-магазин</a>
                 <a href="./about.html" class="link link_nav">Про компанію</a>
                 <a href="./services.html" class="link link_nav">Послуги</a>
-                <!-- <a href="" class="link link_nav" data-scroll-contacts>Контакти</a> -->
-                <a href="./veterinary-courses.html" class="link link_nav" data-scroll-contacts>Ветеринарна освіта</a>
+                <a href="./veterinary-courses.html" class="link link_nav">Ветеринарна освіта</a>
 
 
             </div>
@@ -909,7 +905,9 @@
                     клініки в країні 🐾
                 </span>
             </p>
-            <button type="button" class="btn_learn_more_courses">Дізнатися більше</button>
+            <button type="button" class="btn_learn_more_courses" data-scroll-price>Записатися</button>
+            
+
         </div>
     </div>
 </div>
@@ -917,8 +915,8 @@
     <div class="container">
         <div class="border hidden-blockLeft"></div>
         <div class="wrapper_training_program">
-            <p class="section_title">( I ) - Програма навчання</p>
-            <p class="text_descr modified"><span>Ви мрієте стати ветеринаром?</span>
+            <p class="hidden-text section_title">( I ) - Програма навчання</p>
+            <p class="hidden-text text_descr modified"><span>Ви мрієте стати ветеринаром?</span>
                 Ми надамо фундаментальні знання з нуля і допоможемо підвищити кваліфікацію, надамо покроковий план від
                 ветеринара у
                 топ-5
@@ -927,7 +925,7 @@
 
         <ul class="list_suitable_for">
             <li class="item_suitable_for">
-                <div class="wrapp_text_item_suitable_for">
+                <div class="hidden-text wrapp_text_item_suitable_for">
                     <span>01</span>
                     <p>Ви мрієте стати ветеринаром</p>
                 </div>
@@ -939,7 +937,7 @@
                 </div>
             </li>
             <li class="item_suitable_for">
-                <div class="wrapp_text_item_suitable_for">
+                <div class="hidden-text wrapp_text_item_suitable_for">
                     <span>02</span>
                     <p>Ви вже у професії, але хочете заробляти більше</p>
                 </div>
@@ -952,7 +950,7 @@
                 </div>
             </li>
             <li class="item_suitable_for">
-                <div class="wrapp_text_item_suitable_for">
+                <div class="hidden-text wrapp_text_item_suitable_for">
                     <span>03</span>
                     <p>Бажаєте працювати в найкращих клініках або відкрити свою</p>
                 </div>
@@ -964,7 +962,7 @@
                 </div>
             </li>
             <li class="item_suitable_for">
-                <div class="wrapp_text_item_suitable_for">
+                <div class="hidden-text wrapp_text_item_suitable_for">
                     <span>04</span>
                     <p>90% наших випускників вже працюють у топових клініках чи запустили свій бізнес!</p>
                 </div>
@@ -1035,10 +1033,10 @@
             <div class="box-4">
                 <div class="fourth_card_why_our_courses">
                     <div class="wrapper_text_content_fourth_card">
-                        <p>
+                        <p class="hidden-text">
                             «Найкращий курс для ветеринарів! Після нього мене одразу запросили працювати до клініки»
                         </p>
-                        <span>Анна, випускниця курсу</span>
+                        <span class="hidden-text">Анна, випускниця курсу</span>
                     </div>
                     <button type="button" class="btn_fouth_card" data-open-modal-form>Записатися</button>
                 </div>
@@ -1051,28 +1049,28 @@
     <div class="container">
         <div class="border"></div>
         <div class="wrapper_training_program">
-            <p class="section_title">( III ) - Декілька фактів</p>
+            <p class="hidden-text section_title">( III ) - Декілька фактів</p>
         </div>
         <ul class="list_facts_about_us">
             <li class="item_list_facts_about_us">
-                <span class="statistics__number" data-target="16">0</span>
+                <span class="hidden-text statistics__number" data-target="16">0</span>
                 <div></div>
-                <p>Років досвіду у ветеринарії</p>
+                <p class="hidden-text">Років досвіду у ветеринарії</p>
             </li>
             <li class="item_list_facts_about_us">
-                <span class="statistics__number" data-target="32000">0</span>
+                <span class="hidden-text statistics__number" data-target="32000">0</span>
                 <div></div>
-                <p>Проведено успішних операції у тварин</p>
+                <p class="hidden-text">Проведено успішних операції у тварин</p>
             </li>
             <li class="item_list_facts_about_us">
-                <span class="statistics__number" data-target="142500">0</span>
+                <span class="hidden-text statistics__number" data-target="142500">0</span>
                 <div></div>
-                <p>Здійснено прийомів, консультації, діагностик та інших спеціалізованих дій з тваринами</p>
+                <p class="hidden-text">Здійснено прийомів, консультації, діагностик та інших спеціалізованих дій з тваринами</p>
             </li>
             <li class="item_list_facts_about_us">
-                <span class="statistics__number" data-target="98">0</span>
+                <span class="hidden-text statistics__number" data-target="98">0</span>
                 <div></div>
-                <p>Тих, хто пройшов наші курси, підвищили кваліфікацію і здобули нову професію з працевлаштуванням.</p>
+                <p class="hidden-text">Тих, хто пройшов наші курси, підвищили кваліфікацію і здобули нову професію з працевлаштуванням.</p>
             </li>
         </ul>
     </div>
@@ -1081,15 +1079,15 @@
     <div class="container">
         <div class="border hidden-blockLeft"></div>
         <div>
-            <p class="section_title">( IV ) - Програма курсу</p>
+            <p class="hidden-text section_title">( IV ) - Програма курсу</p>
         </div>
         <div class="wrapper_sticky">
             <div class="inner_wrapper">
                 <p class="hidden-text text_descr">Що ви <span>отримаєте?</span></p>
 
-                <div class="hidden-text short_descr">
-                    <p>⏳ <span>Тривалість:</span> 3 місяці</p>
-                    <p>📚 <span>Формат:</span> Офлайн та відео - лекції + практика + наставники + реальні операції та
+                <div class="short_descr">
+                    <p class="hidden-text">⏳ <span>Тривалість:</span> 3 місяці</p>
+                    <p class="hidden-text">📚 <span>Формат:</span> Офлайн та відео - лекції + практика + наставники + реальні операції та
                         ситуації у клініці
                     </p>
                 </div>
@@ -1097,63 +1095,63 @@
 
             <ul class="courses_program_steps_list">
                 <li class="item_steps_list">
-                    <span>01</span>
+                    <span class="hidden-text">01</span>
                     <div>
-                        <p class="title_step">Введення у професію ветеринара</p>
-                        <p class="descr_step">Роль ветеринара в сучасному світі, основні напрямки роботи та перспективи
+                        <p class="hidden-text title_step">Введення у професію ветеринара</p>
+                        <p class="hidden-text descr_step">Роль ветеринара в сучасному світі, основні напрямки роботи та перспективи
                             розвитку</p>
                     </div>
                 </li>
-                <li class="item_steps_list"><span>02</span>
+                <li class="item_steps_list"><span class="hidden-text">02</span>
                     <div>
-                        <p class="title_step">Анатомія та фізіологія тварин</p>
-                        <p class="descr_step">Будова організму, основні системи (кровоносна, дихальна, нервова) та їх
+                        <p class="hidden-text title_step">Анатомія та фізіологія тварин</p>
+                        <p class="hidden-text descr_step">Будова організму, основні системи (кровоносна, дихальна, нервова) та їх
                             функції</p>
                     </div>
                 </li>
-                <li class="item_steps_list"><span>03</span>
+                <li class="item_steps_list"><span class="hidden-text">03</span>
                     <div>
-                        <p class="title_step">Діагностика захворювань</p>
-                        <p class="descr_step">Методи обстеження, аналізи, сучасні технології у діагностиці</p>
+                        <p class="hidden-text title_step">Діагностика захворювань</p>
+                        <p class="hidden-text descr_step">Методи обстеження, аналізи, сучасні технології у діагностиці</p>
                     </div>
                 </li>
-                <li class="item_steps_list"><span>04</span>
+                <li class="item_steps_list"><span class="hidden-text">04</span>
                     <div>
-                        <p class="title_step">Лікування та терапія</p>
-                        <p class="descr_step">Основні принципи лікування, застосування ліків, ін'єкційна та краплинна
+                        <p class="hidden-text title_step">Лікування та терапія</p>
+                        <p class="hidden-text descr_step">Основні принципи лікування, застосування ліків, ін'єкційна та краплинна
                             терапія</p>
                     </div>
                 </li>
-                <li class="item_steps_list"><span>05</span>
+                <li class="item_steps_list"><span class="hidden-text">05</span>
                     <div>
-                        <p class="title_step">Хірургічні навички та екстрена допомога</p>
-                        <p class="descr_step">Надання невідкладної допомоги, основи хірургії, асептика та антисептика
+                        <p class="hidden-text title_step">Хірургічні навички та екстрена допомога</p>
+                        <p class="hidden-text descr_step">Надання невідкладної допомоги, основи хірургії, асептика та антисептика
                         </p>
                     </div>
                 </li>
-                <li class="item_steps_list"><span>06</span>
+                <li class="item_steps_list"><span class="hidden-text">06</span>
                     <div>
-                        <p class="title_step">Вакцинація та профілактика</p>
-                        <p class="descr_step">Календар вакцинації, поширені хвороби, як запобігти їх розвитку</p>
+                        <p class="hidden-text title_step">Вакцинація та профілактика</p>
+                        <p class="hidden-text descr_step">Календар вакцинації, поширені хвороби, як запобігти їх розвитку</p>
                     </div>
                 </li>
-                <li class="item_steps_list"><span>07</span>
+                <li class="item_steps_list"><span class="hidden-text">07</span>
                     <div>
-                        <p class="title_step">Ведення складних клінічних випадків</p>
-                        <p class="descr_step">Реальні кейси з практики, розбір складних ситуацій, прийняття рішень</p>
+                        <p class="hidden-text title_step">Ведення складних клінічних випадків</p>
+                        <p class="hidden-text descr_step">Реальні кейси з практики, розбір складних ситуацій, прийняття рішень</p>
                     </div>
                 </li>
-                <li class="item_steps_list"><span>08</span>
+                <li class="item_steps_list"><span class="hidden-text">08</span>
                     <div>
-                        <p class="title_step">Робота з власниками тварин</p>
-                        <p class="descr_step">Психологія спілкування з клієнтами, роз'яснення діагнозу, рекомендації
+                        <p class="hidden-text title_step">Робота з власниками тварин</p>
+                        <p class="hidden-text descr_step">Психологія спілкування з клієнтами, роз'яснення діагнозу, рекомендації
                             щодо догляду</p>
                     </div>
                 </li>
-                <li class="item_steps_list"><span>09</span>
+                <li class="item_steps_list"><span class="hidden-text">09</span>
                     <div>
-                        <p class="title_step">Відкриття своєї ветеринарної клініки</p>
-                        <p class="descr_step">Бізнес-аспекти, ліцензування, маркетинг ветеринарних послуг</p>
+                        <p class="hidden-text title_step">Відкриття своєї ветеринарної клініки</p>
+                        <p class="hidden-text descr_step">Бізнес-аспекти, ліцензування, маркетинг ветеринарних послуг</p>
                     </div>
                 </li>
             </ul>
@@ -1164,46 +1162,46 @@
     <div class="container">
         <div class="border"></div>
         <div>
-            <p class="section_title">( V ) - Кейси випускників</p>
+            <p class="hidden-text section_title">( V ) - Кейси випускників</p>
         </div>
         <div class="wrapper_text_descr">
-            <p class="text_descr">Що люди <span>кажуть?</span></p>
+            <p class="hidden-text text_descr">Що люди <span>кажуть?</span></p>
         </div>
 
         <ul class="list_reviews_courses">
             <li class="item_list_reviews_courses">
-                <span>10.02.2025</span>
+                <span class="hidden-text">10.02.2025</span>
                 <div class="position_box_img_descr">
                     <div class="box_img">
                         <img src="./images/content-images/veterinary_courses_page/reviews-courses/first-client.png" alt="">
                     </div>
                     <div class="wrapper_review_descr">
-                        <p class="review_name_client">Сергій</p>
-                        <p>Підвищив кваліфікацію та збільшив дохід у 2 рази</p>
+                        <p class="hidden-text review_name_client">Сергій</p>
+                        <p class="hidden-text">Підвищив кваліфікацію та збільшив дохід у 2 рази</p>
                     </div>
                 </div>
             </li>
             <li class="item_list_reviews_courses">
-                <span>10.02.2025</span>
+                <span class="hidden-text">10.02.2025</span>
                 <div class="position_box_img_descr">
                     <div class="box_img">
                         <img src="./images/content-images/veterinary_courses_page/reviews-courses/second-client.png" alt="">
                     </div>
                     <div class="wrapper_review_descr">
-                        <p class="review_name_client">Іван</p>
-                        <p>Влаштувався у велику клініку із зарплатою від $2000/міс. після курсів у ZooWild. Дякую!</p>
+                        <p class="hidden-text review_name_client">Іван</p>
+                        <p class="hidden-text">Влаштувався у велику клініку із зарплатою від $2000/міс. після курсів у ZooWild. Дякую!</p>
                     </div>
                 </div>
             </li>
             <li class="item_list_reviews_courses">
-                <span>28.01.2025</span>
+                <span class="hidden-text">28.01.2025</span>
                 <div class="position_box_img_descr">
                     <div class="box_img">
                         <img src="./images/content-images/veterinary_courses_page/reviews-courses/third-client.png" alt="">
                     </div>
                     <div class="wrapper_review_descr">
-                        <p class="review_name_client">Анна</p>
-                        <p>Відкрила свою ветклініку через 6 місяців після курсу, моя мрія збулася, ура. Дуже дякую!</p>
+                        <p class="hidden-text review_name_client">Анна</p>
+                        <p class="hidden-text">Відкрила свою ветклініку через 6 місяців після курсу, моя мрія збулася, ура. Дуже дякую!</p>
                     </div>
                 </div>
             </li>
@@ -1215,22 +1213,22 @@
     <div class="container">
         <div class="border"></div>
         <div class="wrapper_textcontent_descr_course_cost">
-            <p class="section_title">( VI ) - Вартість курсу</p>
-            <p class="text_descr"><span>Більше ніж просто курс!</span> повний посібник та керівництво, як рятувати життя
+            <p class="hidden-text section_title">( VI ) - Вартість курсу</p>
+            <p class="hidden-text text_descr"><span>Більше ніж просто курс!</span> повний посібник та керівництво, як рятувати життя
                 домашніх
                 улюбленців і бути одним з
                 найзатребуваніших фахівців у галузі ветеринарії</p>
         </div>
 
-        <div class="cards_course_cost">
+        <div class="cards_course_cost" data-cards-cost id="cards-cost-course">
             <div class="item_card_course_cost">
                 <div class="wrapper__img">
-                    <img src="./images/content-images/veterinary_courses_page/course-cost/cat.png" alt>
+                    <picture><source srcset="./images/content-images/veterinary_courses_page/course-cost/cat.webp" type="image/webp"><img src="./images/content-images/veterinary_courses_page/course-cost/cat.png" alt></picture>
                 </div>
                 <div class="wrapper_text_content_card">
                     <div class="text_content_card">
-                        <p class="title_card">Шлях ветеринара</p>
-                        <p class="descr_card">Даний курс розрахований для тих освоїти затребувану та важливу професію,
+                        <p class="hidden-text title_card">Шлях ветеринара</p>
+                        <p class="hidden-text descr_card">Даний курс розрахований для тих освоїти затребувану та важливу професію,
                             хто хоче збільшити
                             свій
                             дохід у клініці,
@@ -1238,48 +1236,59 @@
                     </div>
                     <div class="wrapper_postion_price_btn">
                         <div class="wrapper_price_course">
-                            <span>$659</span>
-                            <span class="base_price">$1520</span>
+                            <span class="hidden-text discount_price">$659</span>
+                            <span class="hidden-text base_price">$1520</span>
                         </div>
-                        <button type="button" class="btn_details_course">Записатися</button>
+                        
+                        <div class="wrapper_timer">
+                            <p class="text_timer">До кінця акції залишилось:</p>
+                            <div id="countdown" class="countdown">
+                                <span class="countdown-time hours"></span>
+                                <span class="timer_divide">:</span>
+                                <span class="countdown-time minutes"></span>
+                                <span class="timer_divide">:</span>
+                                <span class="countdown-time seconds"></span>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
             <div class="item_card_course_cost">
                 <div class="wrapper">
                     <div class="">
-                        <p class="__title">Медицина лікує людину,
+                        <p class="hidden-text __title">Медицина лікує людину,
                             а ветеринарія рятує людство</p>
                     </div>
                     <div class="wrapper_bounses">
                         <div>
-                            <p class="bonuses">Бонуси під час запису!</p>
+                            <p class="hidden-text bonuses">Бонуси під час запису!</p>
                         </div>
                         <ul class="list_bonuses">
                             <li>
-                                <p>🎁 Гайд "Як відкрити свою ветклініку"</p>
+                                <p class="hidden-text">🎁 Гайд "Як відкрити свою ветклініку"</p>
                             </li>
                             <li>
-                                <p>🎁 Доступ до закритого чату з наставниками</p>
+                                <p class="hidden-text">🎁 Доступ до закритого чату з наставниками</p>
                             </li>
                             <li>
-                                <p>🎁 Безкоштовний розбір ваших перших пацієнтів</p>
+                                <p class="hidden-text">🎁 Безкоштовний розбір ваших перших пацієнтів</p>
                             </li>
                         </ul>
                     </div>
                     <div class="wrapper_slogan">
-                        <p class="text_slogan">Місця обмежені! Наступний потік стартує, дата невідома</p>
+                        <p class="hidden-text text_slogan">Місця обмежені! Наступний потік стартує, дата невідома</p>
                     </div>
 
 
                     <div class="box_img_rodents">
-                        <img src="./images/content-images/veterinary_courses_page/course-cost/rodents.png" alt="">
+                        <picture><source srcset="./images/content-images/veterinary_courses_page/course-cost/rodents.webp" type="image/webp"><img src="./images/content-images/veterinary_courses_page/course-cost/rodents.png" alt=""></picture>
                     </div>
                 </div>
             </div>
         </div>
         <div>
-            <button type="button" class="btn_sign_course">Записатися</button>
+            <button type="button" class="btn_sign_course" data-open-modal-form>Записатися</button>
         </div>
     </div>
 </div>
@@ -1741,7 +1750,7 @@
         </div>
     </div>
 </section>
-    <script defer="defer" src="./js/main.js"></script>
+    <script defer="defer" src="./js/main.js?_v=20250315140300"></script>
 
 </body>
 
