@@ -1,105 +1,108 @@
 @keyframes changeSize {
-    0% {
-        transform: scale(1);
-        opacity: 1;
-    }
-    30% {
-        transform: scale(1.1);
-        opacity: 0.7;
-    }
-    100% {
-        transform: scale(1);
-        opacity: 1;
-    }
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  30% {
+    transform: scale(1.1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 @keyframes changeSizeRotateBTN {
-    0% {
-        transform: rotate(-30deg) scale(1);
-    }
-    50% {
-        transform: rotate(30deg) scale(1.04);
-    }
-    100% {
-        transform: rotate(-30deg) scale(1);
-    }
+  0% {
+    transform: rotate(-30deg) scale(1);
+  }
+  50% {
+    transform: rotate(30deg) scale(1.04);
+  }
+  100% {
+    transform: rotate(-30deg) scale(1);
+  }
 }
 
 @keyframes rotateSnakeTongueBTN {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.04);
-    }
-    100% {
-        transform: scale(1);
-    }
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.04);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 @keyframes animate-text {
-    from {
-        opacity: 0;
-        filter: blur(1px);
-        transform: translateY(40px);
-    }
+  from {
+    opacity: 0;
+    filter: blur(1px);
+    transform: translateY(40px);
+  }
 
-    to {
-        opacity: 1;
-        filter: blur(0);
-        transform: translateY(0px);
-    }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0px);
+  }
 }
 
 .hidden-text {
 }
 
 .start-animation-text {
-    animation: 0.8s animate-text;
+  animation: 0.8s animate-text;
 }
 
 @keyframes animate-blockLeft {
-    from {
-        opacity: 0.4;
-        filter: blur(1px);
-        transform: translateX(-100px);
-    }
+  from {
+    opacity: 0.4;
+    filter: blur(1px);
+    transform: translateX(-100px);
+  }
 
-    to {
-        opacity: 1;
-        filter: blur(0);
-        transform: translateX(0px);
-    }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0px);
+  }
 }
 
 .hidden-blockLeft {
 }
 
-.start-animation-blockLeft {
+@media screen and (min-width: 768px) {
+  .start-animation-blockLeft {
     animation: 0.8s animate-blockLeft;
+  }
 }
 
 @keyframes animate-blockRight {
-    from {
-        opacity: 0.4;
-        filter: blur(1px);
-        transform: translateX(100px);
-    }
+  from {
+    opacity: 0.4;
+    filter: blur(1px);
+    transform: translateX(100px);
+  }
 
-    to {
-        opacity: 1;
-        filter: blur(0);
-        transform: translateX(0px);
-    }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0px);
+  }
 }
 
 .hidden-blockRight {
 }
 
-.start-animation-blockRight {
+@media screen and (min-width: 768px) {
+  .start-animation-blockRight {
     animation: 0.8s animate-blockRight;
+  }
 }
-
 
 // @keyframes animate-timer {
 //     0% {
