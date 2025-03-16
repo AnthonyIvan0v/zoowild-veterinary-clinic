@@ -63,7 +63,7 @@
 }
 .discount_price {
   font-size: 26px;
-  font-weight: 900;
+  font-weight: 400;
   @media screen and (min-width: 768px) {
     font-size: 32px;
   }
@@ -274,7 +274,7 @@
   }
   @media screen and (min-width: 1200px) {
     font-size: 20px;
-    padding: 14px 0;
+    padding: 18px 0;
   }
   &:hover,
   &:focus {
