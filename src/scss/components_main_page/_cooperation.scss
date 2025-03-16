@@ -503,7 +503,7 @@
 .icon_minus_btn_view_job {
     fill: currentColor;
     position: absolute;
-    opacity: 0;
+    // opacity: 0;
     @include animation;
     transition-property: opacity, visibility;
 }
