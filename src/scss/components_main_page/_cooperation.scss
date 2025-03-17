@@ -329,7 +329,7 @@
     z-index: 50;
     background-color: #fff;
     padding: 14px 32px;
-
+    color: #04a427;
     @media screen and (min-width: 1440px) {
         border-radius: 32px;
         padding: 14px 32px;
@@ -420,6 +420,7 @@
 }
 
 .icon_paw_item_vacancy {
+    // fill: #04a427;
     width: 26px;
     height: 26px;
     @media screen and (min-width: 1920px) {
