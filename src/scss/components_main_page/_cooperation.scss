@@ -488,15 +488,17 @@
 }
 
 .icon_plus_btn_view_job {
-    transform: scale(1);
+    // transform: scale(1);
+    opacity: 1;
     fill: currentColor;
-    // color: #04a427;
+    color: #04a427;
     @include animation;
     transition-property: opacity, visibility, transform;
 }
 
 .is-scale {
-    transform: scale(0);
+    // transform: scale(0);
+    opacity: 0;
     @include animation;
 }
 
