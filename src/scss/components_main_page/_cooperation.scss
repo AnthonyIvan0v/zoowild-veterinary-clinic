@@ -503,14 +503,13 @@
 .icon_minus_btn_view_job {
     fill: currentColor;
     position: absolute;
-    // opacity: 0;
+    opacity: 0;
     @include animation;
     transition-property: opacity, visibility;
 }
 
 .is-show {
     opacity: 1;
-    visibility: 1;
 }
 
 .wrapper_descr_job_vacancy {
