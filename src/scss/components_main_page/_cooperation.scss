@@ -465,6 +465,7 @@
 }
 
 .btn_view_job_vacancy {
+    padding: 0;
     margin-left: auto;
     width: 28px;
     height: 28px;
@@ -477,7 +478,6 @@
     border: 0.7px solid rgba(4, 164, 39, 0.15);
     background-color: #f3fff6;
     box-shadow: 0 0 4.04px 0 rgba(4, 164, 39, 0.13);
-
     @media screen and (min-width: 1440px) {
         width: 34px;
         height: 34px;
@@ -489,12 +489,14 @@
 }
 
 .icon_plus_btn_view_job {
+    width: 14px;
+    height: 14px;
     // transform: scale(1);
     opacity: 1;
-    fill: currentColor;
-    color: #04a427;
-    @include animation;
-    transition-property: opacity, visibility, transform;
+    // fill: currentColor;
+    // color: #04a427;
+    // @include animation;
+    // transition-property: opacity, visibility, transform;
 }
 
 .is-scale {
